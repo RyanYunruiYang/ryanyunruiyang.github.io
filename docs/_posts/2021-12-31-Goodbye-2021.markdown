@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Goodbye 2021"
-date:   2023-12-31 23:50:32 -0400
+date:   2021-12-31 23:50:32 -0400
 categories: jekyll update
 ---
 2020 was quite frankly a terrible year. Everything was cancelled, and our lives took a sharp turn for the worse. 
