@@ -1,0 +1,133 @@
+---
+layout: post
+title:  "Goodbye 2021"
+date:   2023-12-31 23:50:32 -0400
+categories: jekyll update
+---
+2020 was quite frankly a terrible year. Everything was cancelled, and our lives took a sharp turn for the worse. 
+
+However, beginning in 2021, I turned things around and this year has been one of the best years of my life. A few of the highlights include getting a 14 on AIME, making MOP, and co-authoring and submitting two Distributed Machine Learning papers with a pair of professors. This was a major improvement from my end-of-freshman-year self who had done nothing notable in high school.
+
+Many of these benefits can be credited to a Google Doc I have titled "The Story of Tonight". It is (as of 12/31/2021) a 457 page, 54309 word, 225389 character document in which I keep track of what I do every day. An example day (last Wednesday) can be found at this dropbox link. This document has made me much more productive and aware of how I spend time.  Even though 99% of the pages in the document have never been seen by another human being (with my consent), I still subconsciously try to make the way that I spend my time look good for the doc. 
+
+This document is also the reason I am able to make such a detailed year review. The individual month-reviews were made by reading through my daily logs.
+
+## December 2020
+- Average Hours: 7.4
+
+This was the beginning of my comeback from a bad freshman year and sophomore fall. I had tried to turn things around in the Fall, but I lived in a triple and that was not conducive to getting back onto the grind. I even wrote a full 1 page reflection on why I wasted Thanksgiving Break. The one nice thing about Sophomore Fall was that on November 14th I earned a Varsity letter in XC by being top 7 on the team. December 2020 was better than the previous months, but my average work-hours were still far lower than the ones I would achieve in 2021.
+
+Still, in December I turned things around. This was the first month of my winter term where I opted into online classes. The most notable thing that happened was a 1000 on USACO Bronze which insta promoted me to USACO Silver where I got a 717. After this contest though, I stopped caring about USACO and never beat that score.
+
+## January
+- Average Hours: 9.89
+
+This was the beginning of the math contest grind that would pay massive dividends in March/April. In the first half, I did a bunch of OTIS units and began doing well on Foxtrots, and in the second half I began my AIME grind and got through 2000-2005. 
+
+## February
+- Average Hours: 10.68
+
+AMCs were disappointing. On the 4th and 8th, I got a 135 on the 10A and 126 on the 10B. I had only begun grinding around 1.5 months before, so looking back now it makes sense that I didn't do phenomenally. I also submitted my SRP application and did my interview on the 16th. I took F=ma on the 18th, and I would go on thinking that I got a 14 until April.  I also got through to 2011 in my AIME grind.
+
+## March
+- Average Hours: 9.34
+
+I got through every AIME set that I had not taken in-contest, and on the 18th I took the AIME. I got a 14! On the 22nd, I learned that I got into SRP. On the 27th, I took PUMaC and did the best I've ever done on a college comp. I accidentally took the div A subject tests, but they were nice and allowed me to take Div B individual finals and I got 7/6/7 on individual finals and 3rd overall (div B). The awards ceremony was majorly delayed because they had to transfer my correct answers on the div A subject tests into the overlapping questions from div B subject tests.
+
+## April
+- Average Hours: 9.97
+
+This months was defined by JMO. I took them on the 13th and 14th, and I will forever remember the k-pop playlist I listened to while stressing before and after the contest. Those songs still remind me of JMO. On the 29th at 2:01pm, I learned that I made MOP. An excerpt from my logs:
+> 2:00 - 3:30 I MADE MOP HOLY FCKING SHT (uncensored in original document)
+
+## May
+- Average Hours: 9.11
+
+This month was spent getting my grades up, but nothing could faze me because I was really happy that I had made MOP. By this time I had switched rooms, and my new roommate is a good friend and we did random stuff like playing gagaball in our room at 10:30pm and calculating how far away the minecraft moon is from the minecraft earth. School ended on the 26th, and I looked forward to MOP.
+
+## June
+- Average Hours: 9.87
+
+MOP was from the 7th-25th. It was one of the best 3 weeks of my life. I only really knew JC and SW beforehand, but through MOP I got to know RW (red 2^2), LR(greenish), ML(coffee), AW(pre-mop), EL(post-mop), RZ(me randomly dm-ing him), RF(coffee), and ES(post-mop). 
+
+ELMO was quite funny. I got 12th and Bronze. I first met ES when he handled the angry emails that I sent about getting ELSMO instead of ELMO, which was the worse troll that I had ever been the victim of. I also added the "Competitions at MOP" section of the MO(S)P wikipedia page.
+
+I was also the one who thought of the idea of using the 6 hour slow-mode channel as a reaper game :) . However, I am much less proud of the fact that during a panel I mentioned that you could play reaper anywhere, and nowadays the MOP discord's activity largely consists of people posting "reap" in every channel.
+
+I should probably have a written a more in-depth reflection on MOP right afterwards. Although online MOP was worse than an in-person MOP, greenish made it a lot better. (greenish was "green does isl", but so many red, blue, and black moppers ended up joining that it had choice but to be renamed greenish)
+
+## July
+- Average Hours: 9.37
+
+I got my learners permit on the 16th. I spent a lot of time in New Haven at A.K. Watson Hall, and worked through Nonlinear Programming by Bazaraa. I also read a bunch of papers and did research with a pair of professors, and we submitted a paper to Infocom on July 31st.
+
+I also tried to watch the Olympics which took place from July 23th to August 8th, but I never ended up watching much because 1. time zones and 2. It could never live up to the nostalgia I feel for the London 2012 games.
+
+## August
+- Average Hours: 8.5
+
+As a break after submitting the Infocom paper, we went to Acadia from the 4th-7th. We also took the chance to visit Harvard, MIT, and Brown. I also took the SAT on the 28th, but all in all this was a hot month where nothing really happened.
+
+## September
+- Average Hours: 9.57
+
+We submitted a paper to AAAI on the 9th. It was an extremely proud moment because I felt that we had created something really cool. (oh my god September feels like it was years ago).
+
+The start of the school year was really stressful. This is because we had to figure out whether we should rent an apartment in New Haven or a house that was right next to Choate. (We ended up renting in New Haven, and I love living in New Haven.) Also, the first day of XC preseason was on the 9th, and we had morning and afternoon practices, which was really hard as a day student who was still operating out of Easton.
+
+When the school year began on the 13th, I decided to switch from Chinese 550 into US History, which meant that I had to speedrun the summer reading book. I started off the year wanting a break, but instead I had to do homework (SRP = hard). After Infocom, which I put less effort into than AAAI, I needed a break, so not getting a break after AAAI and going straight into the school year was rough.
+
+## October
+- Average Hours: 9.31
+
+XC was a blast. On the 2nd, I ran a PR of 18:51 on our home course (which is the 2nd hardest one in the league except for the Northfield Mount Hermon course, and a school with a name like that obviously has a really hilly XC course). Also, on the 10th I spent my Sunday morning biking biked from New Haven to Wallingford.
+
+However, by the second half of the month, things began turning towards the worse. I got injured and then sick for the rest of the month and didn't run well. I also took USEMO on the 30th/31st and did mediocrely (7/0/0-7/0/0), but got distinction for getting 14+.
+
+## September
+- Average Hours: 9.57
+
+We submitted a paper to AAAI on the 9th. It was an extremely proud moment because I felt that we had created something really cool. (oh my god September feels like it was years ago).
+
+The start of the school year was really stressful. This is because we had to figure out whether we should rent an apartment in New Haven or a house that was right next to Choate. (We ended up renting in New Haven, and I love living in New Haven.) Also, the first day of XC preseason was on the 9th, and we had morning and afternoon practices, which was really hard as a day student who was still operating out of Easton.
+
+When the school year began on the 13th, I decided to switch from Chinese 550 into US History, which meant that I had to speedrun the summer reading book. I started off the year wanting a break, but instead I had to do homework (SRP = hard). After Infocom, which I put less effort into than AAAI, I needed a break, so not getting a break after AAAI and going straight into the school year was rough.
+
+## October
+- Average Hours: 9.31
+
+XC was a blast. On the 2nd, I ran a PR of 18:51 on our home course (which is the 2nd hardest one in the league except for the Northfield Mount Hermon course, and a school with a name like that obviously has a really hilly XC course). Also, on the 10th I spent my Sunday morning biking biked from New Haven to Wallingford.
+
+However, by the second half of the month, things began turning towards the worse. I got injured and then sick for the rest of the month and didn't run well. I also took USEMO on the 30th/31st and did mediocrely (7/0/0-7/0/0), but got distinction for getting 14+.
+
+## November
+- Average Hours: 9.5
+
+This was a bad month. On the 4th, I failed TST Day 1 and got 1/0/0. Problem 1 was geo, and I sank all of my time into solving P1, which is kinda sad because P2 was far more doable for a geometrically-incompetent person like myself. 
+
+I also took AMC 12 and got a 130.5 on the B.
+
+Also, our AAAI paper didn't end up getting accepted. After rebuttal, our reviewer scores dropped from (7,7,6,6) to (7,7,6,4). I think it was because I had not properly proven convergence to equality, so I spent a lot of time trying to rectify this in the second half of November. This was heartbreaking because we had all thought that it would get accepted. 
+
+The Fall term ended on the 19th, and amusingly I incorrectly predicted 3 out of 5 of my grades. (I almost always predict all of my grades correctly, the letter scale is fairly constricted).
+
+Finally, two other things (that I am not going to write about) made this month tough.
+
+## December
+- Average Hours: 9.63
+
+TST Day 2 was on the 9th, and I did much better and got 6/7/0! I also managed to be the person who posted the problems to day 2 on AoPS, which is always a treat (I'm AwesomeYRY).
+
+My last day of classes was on the 16th, and at Choate we refer to the time between Thanksgiving Break to Winter Break as "winterlude". We all hate winterlude because in this 3 week period, teachers feel the need to assign at least one major assignment, and they always end up being in the last week of winterlude. I have fought to keep a good sleep schedule throughout 2021, but in order to get my work done in the last week of winterlude I stayed up past 1am for the first time in months.
+
+My winter break has been very different from previous ones. I managed to consistently wake up at ~8:20am and I managed to say productive and vice-free unlike younger versions of myself. I fulfilled my dream of having my own website (ryanyang.us), and brainstormed a bunch of nontrivial ideas for a blog. There were also some obligations and essays that I handled. In my off time, I did a bunch of olympiad math and talked with friends in Coffee.
+
+I also met twice with a brilliant Yale Professor who helped me make a big breakthrough in my distributed ML research. I have exciting new progress in our fascinating topic, and hopefully 2022 will bring a full solution to our research problem.
+
+## Final Thoughts
+
+An amusing tidbit from my log of how many hours I worked each day is this list of averages based on the day of the week: (0=sunday, 1=monday, ...)
+
+![image](img1.png)
+
+This was genuinely quite surprising, although upon reflection this makes sense (I have forced my mental image to confirm the data). Weekends(F,S,U) have less work hours because I don't have classes, and Saturdays are especially low because races take place on Saturdays and drain a lot of time. Friday and Sunday are also lower than  weekdays because Friday nights usually aren't very productive, and Sunday mornings aren't that productive.
