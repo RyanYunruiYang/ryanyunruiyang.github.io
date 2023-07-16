@@ -30,6 +30,7 @@ twitter_username: RyanYunrui
 github_username:  RyanYunruiYang
 
 # Build settings
+# remote_theme: https://github.com/poole/hyde
 theme: minima
 plugins:
   - jekyll-feed

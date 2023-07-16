@@ -4,7 +4,7 @@ title:  "Goodbye 2021"
 date:   2021-12-31 23:50:32 -0400
 categories: jekyll update
 ---
-2020 was quite frankly a terrible year. Everything was cancelled, and our lives took a sharp turn for the worse. 
+2020 was quite frankly a terrible year. Everything was cancelled, and the pandemic shuttered everyone's worlds.
 
 However, beginning in 2021, I turned things around and this year has been one of the best years of my life. A few of the highlights include getting a 14 on AIME, making MOP, and co-authoring and submitting two Distributed Machine Learning papers with a pair of professors. This was a major improvement from my end-of-freshman-year self who had done nothing notable in high school.
 
