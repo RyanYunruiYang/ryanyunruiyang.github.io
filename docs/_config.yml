@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Minister of Bandits
+title: Ryan Yang's Website
 email: y.ryan.yang@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the personal website of Ryan Yang, MIT '27.
+  This is the personal website of Ryan Yang.
 
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,6 +34,8 @@ github_username:  RyanYunruiYang
 theme: minima
 plugins:
   - jekyll-feed
+
+# markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
