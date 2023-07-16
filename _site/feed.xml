@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-17T00:20:59+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang’s Website</title><subtitle>This is the personal website of Ryan Yang.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/06/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-06-19T05:50:32+02:00</published><updated>2023-06-19T05:50:32+02:00</updated><id>http://localhost:4000/jekyll/update/2023/06/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/06/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">The Double Counting Trick, but IRL</title><link href="http://localhost:4000/jekyll/update/2022/01/24/Double-Counting.html" rel="alternate" type="text/html" title="The Double Counting Trick, but IRL" /><published>2022-01-24T01:50:32+01:00</published><updated>2022-01-24T01:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/01/24/Double-Counting</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/01/24/Double-Counting.html">&lt;p&gt;This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the &lt;a href=&quot;https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf&quot;&gt;OTIS Excerpts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Firstly a note on definitions. This general trick is referred to in a number of ways:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Double Counting&lt;/li&gt;
+  &lt;li&gt;Counting in two ways&lt;/li&gt;
+  &lt;li&gt;Considering global ideas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And the following mathematical ideas are special cases of the more general principle:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Swapping the order of summation&lt;/li&gt;
+  &lt;li&gt;Linearity of Expectation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;two-canonical-math-examples&quot;&gt;Two Canonical Math Examples&lt;/h2&gt;
+&lt;p&gt;I’d like to start with the example that first exposed me to this idea&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In a barn, 100 chicks sit peacefully in a circle. Suddenly, each chick randomly pecks the chick immediately to its left or right. What is the expected number of unpecked chicks? (&lt;a href=&quot;https://www.nytimes.com/2017/05/15/us/math-counts-national-competition.html&quot;&gt;MATHCOUNTS 2017&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The direct solution is to apply the “Linearity of Expectation.” The argument there would be that the probability that any individual chick is pecked is 1/4, so each pick is expected to contribute “1/4” to the number of unpecked chicks. This is true for all 100 chicks, for a total expectation of 25 unpecked chicks.&lt;/p&gt;
+
+&lt;p&gt;But there’s something deeper happening here. There is a very deep and fundamental idea which is that objects exist and have permanence.&lt;/p&gt;
+
+&lt;p&gt;For this problem, consider all $2^100$ different multiverses, where each chick pecks left or right. Then, consider the number of (unpecked chick, multiverse) pairs. Let $X$ be the number of such pairs.&lt;/p&gt;
+
+&lt;p&gt;This is a degenerate case so this first method is weirder than normal. Nevertheless, let $Y$ be the expected number of unpecked chicks in some universe. Then, $2^{100}\cdot Y$ should be the total number of (unpecked chicks, multiverse) pairs.&lt;/p&gt;
+
+&lt;p&gt;So now let’s count it in a second way. Consider a specific chick A. How many multiverses are there in which chick A is unpecked? It ends up being $2^{98}$. The two neighboring chicks must peck away, and the other 98 can peck either way. Thus, for chick A, there are $2^{98}$ multiverses for which the (unpicked chick where that chick is A, multiverse) pair exists. But the unpicked chick can be any of the 100 chicks, and each of them are a chosen chick in \(2^{98}\) multiverses, so $X= 100 \cdot 2^{98}$.&lt;/p&gt;
+
+&lt;p&gt;Put together,
+$2^{100}\cdot Y = X = 100 \cdot 2^{98}$
+Which gives \(Y = 100\cdot \frac{2^{98}}{2^{100}} = 100\cdot \frac14=25\).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Another canonical example is the following, with the flavor text slightly altered.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the [OTIS Excerpts][otis-excerpts].</summary></entry><entry><title type="html">(ignore) Life Update 1</title><link href="http://localhost:4000/jekyll/update/2022/01/18/Life-Update-1.html" rel="alternate" type="text/html" title="(ignore) Life Update 1" /><published>2022-01-18T01:50:32+01:00</published><updated>2022-01-18T01:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/01/18/Life-Update-1</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/01/18/Life-Update-1.html">&lt;p&gt;Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.&lt;/p&gt;
+
+&lt;p&gt;Of course extenuating circumstances arise, and I’m not going to hold myself too tightly to the Friday night deadline but I will hold myself to a hard cap of a “do it before Monday” deadline. I have no idea if can get through 2022 while maintaining weekly posts, but we’ll see.&lt;/p&gt;
+
+&lt;h2 id=&quot;week-1--sun-12---sat-18&quot;&gt;Week 1 : Sun 1/2 - Sat 1/8&lt;/h2&gt;
+
+&lt;p&gt;The first day of classes were Tuesday, and the first week was remote. Remote classes were expected because of Omicron, and online classes didn’t feel as weird as those two days of remote classes we had right before Winter break. To be honest, this week felt like an extension of winter break. That was fine because I love winter break, and my work hours were a reasonable 8:00 (S), 9:00(U), 8:30(M), 10:40(T), 10:05(W), 9:30(R), 10:30(F). I also began recording how I felt on a scale from 1-10 each day, which would give me more data to analyze at the end of the year (Inspired by KZ).&lt;/p&gt;
+
+&lt;h2 id=&quot;week-2-sun-19---sat-115&quot;&gt;Week 2: Sun 1/9 - Sat 1/15&lt;/h2&gt;
+&lt;p&gt;This week was brutal. Weeks ahead, I knew it would be tough because of:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;IMO TST Day 3 on Thursday&lt;/li&gt;
+  &lt;li&gt;Program Application Deadline on Friday&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To start out with, the weather was terrible. The last day before Winter break, it was actually pleasant walking around outside in just a hoodie and jeans. During break, it was also fine because I only went outside for runs, and running in the cold is bearable with the right gear. However, I now actually had to go outside outside of runs, and walking to and from classes in this weather is terrible.&lt;/p&gt;
+
+&lt;p&gt;It seems that whenever a lot of important stuff coalesces together into a short time window, everything that can go wrong does go wrong. A bunch of unpleasant stuff came together in a not fun way. I got sick. Tuesday was an exhausting and stressful day anyways, 2 days away from the doomsday deadlines, and I was rushing to handle stuff like missing class for TST, sending rec letters a copy of my essays, and doing the HW that I would usually have spent the weekend getting ahead on but had instead ignored to do TST prep instead.&lt;/p&gt;
+
+&lt;p&gt;I don’t know what exactly happened, but a candidate list of causes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;cold weather and I accidentally wore thin pants on Tuesday&lt;/li&gt;
+  &lt;li&gt;13 hour work day on Tuesday&lt;/li&gt;
+  &lt;li&gt;sleep deprivation - I got 7 hours of sleep on Sunday, Monday, and Tuesday night, which is normal during the school year, but also really crappy coming off of my very comfortable 12:00 - 8:30 sleep schedule from break.&lt;/li&gt;
+  &lt;li&gt;not being able to shower after winter erging because I had to go straight to a driver’s ed class (still salty)&lt;/li&gt;
+  &lt;li&gt;Sage food being takeout, which always makes it worse for some reason&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some combination of these factors resulted in me throwing up on Wednesday morning. I then struggled through Wednesday, and thankfully went home at 1pm after my last class, and slept the rest of the day. And then I still had the TST on the next day.&lt;/p&gt;
+
+&lt;h2 id=&quot;thursday---tst-day-3&quot;&gt;Thursday - TST Day 3&lt;/h2&gt;
+
+&lt;p&gt;I don’t have a lot to say, and I am also not allowed to say anything until Monday at noon. I might come back to edit my thoughts in later, but my two goals were to either “1. solve two problems to get a shot at TST group, which would let me take APMO and kinda-technically represent the US at an international competition! “, and “2. solve at least one, so that I don’t wish that I had slept instead”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I might edit commentary into this box later. However, I’ll probably just save it for a future blog post where I’ll recap all 3 days.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I was absolutely exhausted after TST Days 1 and 2, and taking TST Day 3 while sick without any medication with 90% of my calories being from apple juice was one of the hardest things I’ve ever done. For the first time, I considered not chanting the “90% of solves happen in the last 20 minutes” mantra to myself in the last hour and just going to sleep, but I did it anyways and the entire olympiad was a fever dream. Afterwards, my mom drove me across campus to the Health Center because I had a decently high fever at the time and could barely walk.&lt;/p&gt;
+
+&lt;p&gt;There, I got tested, first for Covid and that came back negative. Then, they gave me a more accurate Covid test and a flu test, both of which came back negative. I think it’s just a normal stomach bug.&lt;/p&gt;
+
+&lt;h2 id=&quot;rest-of-the-week&quot;&gt;Rest of the week&lt;/h2&gt;
+
+&lt;p&gt;I took the day off from classes on Friday, and slept till 5pm, at which point I edited some essays until the deadline to make them presentable, and then submitted.  On Saturday, I woke up at around 10:00am and worked until 5:30pm on a SRP (Science Research Program) Lab Report on Fluid dynamics. I used Latex to compile the entire report and made my own diagram from scratch at chemix.org, and I’m really proud of how clean the final product looks. Afterwards, I rested and had dinner until 8pm, and then did some homework until I went to sleep at 11. Today (Sunday), I’ve just been doing homework, and also worked on writing from scratch the code necessary to encrypt messages with RSA. It would be really cool to be able to send messages to a friend, and have it not be accessible years down the line. (Not that I have anything to hide, it would probably all be random stuff anyways).&lt;/p&gt;
+
+&lt;h2 id=&quot;what-ive-learned&quot;&gt;What I’ve learned&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;I need to enjoy the good times when I’m healthy.&lt;/li&gt;
+  &lt;li&gt;I never want to drink alcohol. Vomiting sucks too much.&lt;/li&gt;
+  &lt;li&gt;Have stuff polished and camera-ready well before the deadline, you never know when something can go wrong.&lt;/li&gt;
+  &lt;li&gt;Essays should still have a story. Some prompt’s were kinda asking for lists, but I accidentally made them into literal lists in the first draft, which necesitated a full rewrite later.&lt;/li&gt;
+  &lt;li&gt;Emails are hard. I’ve been pretty good about rapidly sending out emails: quick responses and early notifications. However, this “notifying people early” backfired twice this week, and I’m not sure if I’m going to keep this mantra of giving other people as much information as possible.&lt;/li&gt;
+  &lt;li&gt;Winter sucks. There are no good leisure activities. In the spring, you can walk or run outside and easily recharge. But in the winter, there’s nothing. I am looking forward to the Spring so much. I even looked up “how to adapt to NE winters as a Californian” despite the fact that I’ve lived in CT my entire life.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Somehow, this “quick life update” blog post took 2.5 hours. After writing a recap of a period of time, I feel like I’ve relived the past two weeks. The writing quality could probably be edited more, but I have homework to do. Thanks for reading, and stay safe out there and try not to get sick!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/img2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I’ve run by a billboard that says “Lavate las manos” in New Haven quite a few times, and I’m kinda sad that I can’t find a photo of that billboard.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.</summary></entry><entry><title type="html">How Newton Actually Came Up With Gravity, and Other Examples of Mind Reading</title><link href="http://localhost:4000/jekyll/update/2022/01/09/Newton-Mind-Reading.html" rel="alternate" type="text/html" title="How Newton Actually Came Up With Gravity, and Other Examples of Mind Reading" /><published>2022-01-09T04:50:32+01:00</published><updated>2022-01-09T04:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/01/09/Newton-Mind-Reading</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/01/09/Newton-Mind-Reading.html">&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;When people say random things, they’re never truly random. There is always some invisible thought process that was carried out behind the scenes. In the following passage, Sherlock has followed the invisible thread and pipes in knowing exactly what Watson has been thinking about:&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:quote {&quot;className&quot;:&quot;is-style-default&quot;} --&gt;
+&lt;blockquote class=&quot;wp-block-quote is-style-default&quot;&gt;&lt;p&gt;Holmes had been seated for some hours in silence with his long, thin back curved over a chemical vessel in which he was brewing a particularly malodorous product. His head was sunk upon his breast, and he looked from my point of view like a strange, lank bird, with dull grey plumage and a black top-knot.&lt;br /&gt;&lt;br /&gt;“So, Watson,” said he, suddenly, “you do not propose to invest in South African securities?”&lt;br /&gt;&lt;br /&gt;I gave a start of astonishment. Accustomed as I was to Holmes&apos;s curious faculties, this sudden intrusion into my most intimate thoughts was utterly inexplicable.&lt;br /&gt;&lt;br /&gt;“How on earth do you know that?” I asked.&lt;br /&gt;&lt;br /&gt;He wheeled round upon his stool, with a steaming test-tube in his hand and a gleam of amusement in his deep-set eyes.&lt;br /&gt;&lt;br /&gt;“Now, Watson, confess yourself utterly taken aback,” said he.&lt;br /&gt;&lt;br /&gt;“I am.”&lt;br /&gt;&lt;br /&gt;“I ought to make you sign a paper to that effect.”&lt;br /&gt;&lt;br /&gt;“Why?”&lt;br /&gt;&lt;br /&gt;“Because in five minutes you will say that it is all so absurdly simple.”&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;cite&gt;The Adventure of the Dancing Men&quot;, from the collection&amp;nbsp;&lt;em&gt;The Return of Sherlock Holmes&lt;/em&gt;&amp;nbsp;(1905)&lt;/cite&gt;&lt;/blockquote&gt;
+&lt;!-- /wp:quote --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Now, I have three theories that I find intriguing. Two of them are highly dubious, but one of them was done in a contest setting and correctly guessing the author’s thought process was exceedingly helpful.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:heading --&gt;
+&lt;h2 id=&quot;how-newton-really-came-up-with-gravity&quot;&gt;How Newton Really Came Up With Gravity&lt;/h2&gt;
+&lt;!-- /wp:heading --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;The first theory is about how Newton came up with gravity. Everyone knows the story of Newton sitting under an apple tree when the apple falls and bonks his head, and “Eureka!” he figures out that gravity pulls the apple. There’s another, more credible account found in Newton&apos;s biography, &quot;Memoirs of Sir Isaac Newton’s Life&quot; by William Stukeley, which says that&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:quote --&gt;
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;“After dinner, the weather being warm, we went into the garden and drank tea, under the shade of some apple trees…he told me, he was just in the same situation, as when formerly, the notion of gravitation came into his mind. It was occasion’d by the fall of an apple, as he sat in contemplative mood. Why should that apple always descend perpendicularly to the ground, thought to himself…”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;!-- /wp:quote --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;However, I have another theory. Imagine this: &lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:quote --&gt;
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;Newton is lying down under an apple tree, staring up at a juicy red apple. He wants to get the apple, but doesn’t want to climb up the tree to pick it himself. So he pretends to pull it, somehow applying Force through the medium of the air. Suddenly, the apple falls! Newton has a brief moment where he thinks that he magically pulled the apple down, but this is clearly impossible. Still, he knows that some force must have acted on the apple, and while lying on his back he turns around to see what else could have applied the force. And what was the only thing behind him at the time? The Earth. Thus, the only logical conclusion was that the Earth pulled the apple, and the theory of gravity was born.&lt;/p&gt;&lt;cite&gt;My theory of how Newton actually came up with the theory of gravity.&lt;/cite&gt;&lt;/blockquote&gt;
+&lt;!-- /wp:quote --&gt;
+
+&lt;!-- wp:heading --&gt;
+&lt;h2 id=&quot;usa-tstst-5&quot;&gt;USA TSTST/5&lt;/h2&gt;
+&lt;!-- /wp:heading --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Now, you may think that this is ridiculous and a waste of time, but it came in clutch in TSTST 2021. On Day 2, the second problem stated:&amp;nbsp;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:quote --&gt;
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;Let T be a tree on n vertices with exactly k leaves. Suppose that there exists a subset of at least (n+k-1)/2 vertices of T, no two of which are adjacent. Show that the longest path in T contains an even number of edges. (A tree is a connected graph with no cycles. A leaf is a vertex of degree 1.)&lt;/p&gt;&lt;cite&gt;https://artofproblemsolving.com/community/c2582544_2021_usa_tstst&lt;/cite&gt;&lt;/blockquote&gt;
+&lt;!-- /wp:quote --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;This problem ended up being very philosophical, and I managed to solve it based on a few meta observations. The first was that (n+k-1)/2 was likely an upper bound, because if it weren’t, then it would not play well with the parity-based conditions. Then, as I tried to prove that this was an upper bound, I noticed that describing the equality case was incredibly weird, and so 1 hour into the problem I had found the morally correct characterisation. This reformulated problem was &quot;Find the equality case of the inequality f(T)&amp;lt;=(n+k-1)/2, where f(T) is the size of the maximum subset of T which contains no edges”. Then, as a side effect, we will hopefully find that the distance between each pair of edges is even. Importantly though, this is not what we are actually trying to show, the more important thing is to first fully characterize the equality case.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;You can read my full solution in &lt;a href=&quot;https://artofproblemsolving.com/community/c6h2737024p23864222&quot;&gt;post #4 of the thread.&lt;/a&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:heading --&gt;
+&lt;h2 id=&quot;the-three-body-problem-trisolaris-is-china&quot;&gt;The Three Body Problem - Trisolaris is China&lt;/h2&gt;
+&lt;!-- /wp:heading --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;This sections contains mild spoilers about The Three Body Problem, obviously.&amp;nbsp;This theory will also not be particularly interesting if you have not read the book.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Finally, I have a theory that in the Three Body Problem (TBP), Trisolaris represents China. It would be amazing if Liu Cixin actually wrote TBP as political commentary, and the true message was so well concealed that it went over the heads of both the censors and a majority of the audience. &lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;I like to imagine that he wrote TBP while having Humanity represent the West and Trisolarans represent China. Even if he did not, assuming that it is true adds another layer of rich political commentary to this already amazing novel.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Trisolaris’ origin story of a civilization constantly stuck in a cycle of death and rebirth too closely resembles Chinese dynastic cycles to be a coincidence. For that reason, I believe that Liu Cixin set out to create an alien civilization that emulated Chinese civilization. One of the biggest ideas in TBP, mentioned in the very title, is the three body system representing the three stars of the Alpha Centauri system which Trisolaris’ home world orbits. I reckon that he chose this chaotic system as a way to create a cyclic civilization that would turn Trisolaris into an unmistakable symbol of China.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Nathan N. also mentions that the political systems line up. Earth is portrayed as being inefficient, materialistic, yet politically free, just like the West. On the other hand, Trisolaris is organized, efficient, and irreverent towards human rights, just like China.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:heading --&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;!-- /wp:heading --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;This kind of thinking, guessing what the author is thinking, is a useful exercise that brings forth fascinating insights. Each of these examples individually brought me great joy when I discovered them: the Newton example is funny, the TSTST example gave me an extra 7 points towards making TST group, and the Three Body Problem example is highly dubious but absolutely fascinating. This blog post also hopefully points out that when people rapidly switch topics, if you&apos;re keen enough you can find the underlying connection. Still, this has really just been a collection of three theory stories that I made up and find interesting, and I hope you enjoyed reading them.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">When people say random things, they’re never truly random. There is always some invisible thought process that was carried out behind the scenes. In the following passage, Sherlock has followed the invisible thread and pipes in knowing exactly what Watson has been thinking about:</summary></entry><entry><title type="html">(ignore) Goodbye 2021</title><link href="http://localhost:4000/jekyll/update/2022/01/01/Goodbye-2021.html" rel="alternate" type="text/html" title="(ignore) Goodbye 2021" /><published>2022-01-01T04:50:32+01:00</published><updated>2022-01-01T04:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/01/01/Goodbye-2021</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/01/01/Goodbye-2021.html">&lt;p&gt;2020 was quite frankly a terrible year. Everything was cancelled, and the pandemic shuttered everyone’s worlds.&lt;/p&gt;
+
+&lt;p&gt;However, beginning in 2021, I turned things around and this year has been one of the best years of my life. A few of the highlights include getting a 14 on AIME, making MOP, and co-authoring and submitting two Distributed Machine Learning papers with a pair of professors. This was a major improvement from my end-of-freshman-year self who had done nothing notable in high school.&lt;/p&gt;
+
+&lt;p&gt;Many of these benefits can be credited to a Google Doc I have titled “The Story of Tonight”. It is (as of 12/31/2021) a 457 page, 54309 word, 225389 character document in which I keep track of what I do every day. An example day (last Wednesday) can be found at this dropbox link. This document has made me much more productive and aware of how I spend time.  Even though 99% of the pages in the document have never been seen by another human being (with my consent), I still subconsciously try to make the way that I spend my time look good for the doc.&lt;/p&gt;
+
+&lt;p&gt;This document is also the reason I am able to make such a detailed year review. The individual month-reviews were made by reading through my daily logs.&lt;/p&gt;
+
+&lt;h2 id=&quot;december-2020&quot;&gt;December 2020&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 7.4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This was the beginning of my comeback from a bad freshman year and sophomore fall. I had tried to turn things around in the Fall, but I lived in a triple and that was not conducive to getting back onto the grind. I even wrote a full 1 page reflection on why I wasted Thanksgiving Break. The one nice thing about Sophomore Fall was that on November 14th I earned a Varsity letter in XC by being top 7 on the team. December 2020 was better than the previous months, but my average work-hours were still far lower than the ones I would achieve in 2021.&lt;/p&gt;
+
+&lt;p&gt;Still, in December I turned things around. This was the first month of my winter term where I opted into online classes. The most notable thing that happened was a 1000 on USACO Bronze which insta promoted me to USACO Silver where I got a 717. After this contest though, I stopped caring about USACO and never beat that score.&lt;/p&gt;
+
+&lt;h2 id=&quot;january&quot;&gt;January&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.89&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This was the beginning of the math contest grind that would pay massive dividends in March/April. In the first half, I did a bunch of OTIS units and began doing well on Foxtrots, and in the second half I began my AIME grind and got through 2000-2005.&lt;/p&gt;
+
+&lt;h2 id=&quot;february&quot;&gt;February&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 10.68&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;AMCs were disappointing. On the 4th and 8th, I got a 135 on the 10A and 126 on the 10B. I had only begun grinding around 1.5 months before, so looking back now it makes sense that I didn’t do phenomenally. I also submitted my SRP application and did my interview on the 16th. I took F=ma on the 18th, and I would go on thinking that I got a 14 until April.  I also got through to 2011 in my AIME grind.&lt;/p&gt;
+
+&lt;h2 id=&quot;march&quot;&gt;March&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.34&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I got through every AIME set that I had not taken in-contest, and on the 18th I took the AIME. I got a 14! On the 22nd, I learned that I got into SRP. On the 27th, I took PUMaC and did the best I’ve ever done on a college comp. I accidentally took the div A subject tests, but they were nice and allowed me to take Div B individual finals and I got 7/6/7 on individual finals and 3rd overall (div B). The awards ceremony was majorly delayed because they had to transfer my correct answers on the div A subject tests into the overlapping questions from div B subject tests.&lt;/p&gt;
+
+&lt;h2 id=&quot;april&quot;&gt;April&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.97&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This months was defined by JMO. I took them on the 13th and 14th, and I will forever remember the k-pop playlist I listened to while stressing before and after the contest. Those songs still remind me of JMO. On the 29th at 2:01pm, I learned that I made MOP. An excerpt from my logs:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2:00 - 3:30 I MADE MOP HOLY FCKING SHT (uncensored in original document)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;may&quot;&gt;May&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.11&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This month was spent getting my grades up, but nothing could faze me because I was really happy that I had made MOP. By this time I had switched rooms, and my new roommate is a good friend and we did random stuff like playing gagaball in our room at 10:30pm and calculating how far away the minecraft moon is from the minecraft earth. School ended on the 26th, and I looked forward to MOP.&lt;/p&gt;
+
+&lt;h2 id=&quot;june&quot;&gt;June&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.87&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;MOP was from the 7th-25th. It was one of the best 3 weeks of my life. I only really knew JC and SW beforehand, but through MOP I got to know RW (red 2^2), LR(greenish), ML(coffee), AW(pre-mop), EL(post-mop), RZ(me randomly dm-ing him), RF(coffee), and ES(post-mop).&lt;/p&gt;
+
+&lt;p&gt;ELMO was quite funny. I got 12th and Bronze. I first met ES when he handled the angry emails that I sent about getting ELSMO instead of ELMO, which was the worse troll that I had ever been the victim of. I also added the “Competitions at MOP” section of the MO(S)P wikipedia page.&lt;/p&gt;
+
+&lt;p&gt;I was also the one who thought of the idea of using the 6 hour slow-mode channel as a reaper game :) . However, I am much less proud of the fact that during a panel I mentioned that you could play reaper anywhere, and nowadays the MOP discord’s activity largely consists of people posting “reap” in every channel.&lt;/p&gt;
+
+&lt;p&gt;I should probably have a written a more in-depth reflection on MOP right afterwards. Although online MOP was worse than an in-person MOP, greenish made it a lot better. (greenish was “green does isl”, but so many red, blue, and black moppers ended up joining that it had choice but to be renamed greenish)&lt;/p&gt;
+
+&lt;h2 id=&quot;july&quot;&gt;July&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.37&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I got my learners permit on the 16th. I spent a lot of time in New Haven at A.K. Watson Hall, and worked through Nonlinear Programming by Bazaraa. I also read a bunch of papers and did research with a pair of professors, and we submitted a paper to Infocom on July 31st.&lt;/p&gt;
+
+&lt;p&gt;I also tried to watch the Olympics which took place from July 23th to August 8th, but I never ended up watching much because 1. time zones and 2. It could never live up to the nostalgia I feel for the London 2012 games.&lt;/p&gt;
+
+&lt;h2 id=&quot;august&quot;&gt;August&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 8.5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a break after submitting the Infocom paper, we went to Acadia from the 4th-7th. We also took the chance to visit Harvard, MIT, and Brown. I also took the SAT on the 28th, but all in all this was a hot month where nothing really happened.&lt;/p&gt;
+
+&lt;h2 id=&quot;september&quot;&gt;September&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.57&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We submitted a paper to AAAI on the 9th. It was an extremely proud moment because I felt that we had created something really cool. (oh my god September feels like it was years ago).&lt;/p&gt;
+
+&lt;p&gt;The start of the school year was really stressful. This is because we had to figure out whether we should rent an apartment in New Haven or a house that was right next to Choate. (We ended up renting in New Haven, and I love living in New Haven.) Also, the first day of XC preseason was on the 9th, and we had morning and afternoon practices, which was really hard as a day student who was still operating out of Easton.&lt;/p&gt;
+
+&lt;p&gt;When the school year began on the 13th, I decided to switch from Chinese 550 into US History, which meant that I had to speedrun the summer reading book. I started off the year wanting a break, but instead I had to do homework (SRP = hard). After Infocom, which I put less effort into than AAAI, I needed a break, so not getting a break after AAAI and going straight into the school year was rough.&lt;/p&gt;
+
+&lt;h2 id=&quot;october&quot;&gt;October&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.31&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;XC was a blast. On the 2nd, I ran a PR of 18:51 on our home course (which is the 2nd hardest one in the league except for the Northfield Mount Hermon course, and a school with a name like that obviously has a really hilly XC course). Also, on the 10th I spent my Sunday morning biking biked from New Haven to Wallingford.&lt;/p&gt;
+
+&lt;p&gt;However, by the second half of the month, things began turning towards the worse. I got injured and then sick for the rest of the month and didn’t run well. I also took USEMO on the 30th/31st and did mediocrely (7/0/0-7/0/0), but got distinction for getting 14+.&lt;/p&gt;
+
+&lt;h2 id=&quot;september-1&quot;&gt;September&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.57&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We submitted a paper to AAAI on the 9th. It was an extremely proud moment because I felt that we had created something really cool. (oh my god September feels like it was years ago).&lt;/p&gt;
+
+&lt;p&gt;The start of the school year was really stressful. This is because we had to figure out whether we should rent an apartment in New Haven or a house that was right next to Choate. (We ended up renting in New Haven, and I love living in New Haven.) Also, the first day of XC preseason was on the 9th, and we had morning and afternoon practices, which was really hard as a day student who was still operating out of Easton.&lt;/p&gt;
+
+&lt;p&gt;When the school year began on the 13th, I decided to switch from Chinese 550 into US History, which meant that I had to speedrun the summer reading book. I started off the year wanting a break, but instead I had to do homework (SRP = hard). After Infocom, which I put less effort into than AAAI, I needed a break, so not getting a break after AAAI and going straight into the school year was rough.&lt;/p&gt;
+
+&lt;h2 id=&quot;october-1&quot;&gt;October&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.31&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;XC was a blast. On the 2nd, I ran a PR of 18:51 on our home course (which is the 2nd hardest one in the league except for the Northfield Mount Hermon course, and a school with a name like that obviously has a really hilly XC course). Also, on the 10th I spent my Sunday morning biking biked from New Haven to Wallingford.&lt;/p&gt;
+
+&lt;p&gt;However, by the second half of the month, things began turning towards the worse. I got injured and then sick for the rest of the month and didn’t run well. I also took USEMO on the 30th/31st and did mediocrely (7/0/0-7/0/0), but got distinction for getting 14+.&lt;/p&gt;
+
+&lt;h2 id=&quot;november&quot;&gt;November&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This was a bad month. On the 4th, I failed TST Day 1 and got 1/0/0. Problem 1 was geo, and I sank all of my time into solving P1, which is kinda sad because P2 was far more doable for a geometrically-incompetent person like myself.&lt;/p&gt;
+
+&lt;p&gt;I also took AMC 12 and got a 130.5 on the B.&lt;/p&gt;
+
+&lt;p&gt;Also, our AAAI paper didn’t end up getting accepted. After rebuttal, our reviewer scores dropped from (7,7,6,6) to (7,7,6,4). I think it was because I had not properly proven convergence to equality, so I spent a lot of time trying to rectify this in the second half of November. This was heartbreaking because we had all thought that it would get accepted.&lt;/p&gt;
+
+&lt;p&gt;The Fall term ended on the 19th, and amusingly I incorrectly predicted 3 out of 5 of my grades. (I almost always predict all of my grades correctly, the letter scale is fairly constricted).&lt;/p&gt;
+
+&lt;p&gt;Finally, two other things (that I am not going to write about) made this month tough.&lt;/p&gt;
+
+&lt;h2 id=&quot;december&quot;&gt;December&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Average Hours: 9.63&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;TST Day 2 was on the 9th, and I did much better and got 6/7/0! I also managed to be the person who posted the problems to day 2 on AoPS, which is always a treat (I’m AwesomeYRY).&lt;/p&gt;
+
+&lt;p&gt;My last day of classes was on the 16th, and at Choate we refer to the time between Thanksgiving Break to Winter Break as “winterlude”. We all hate winterlude because in this 3 week period, teachers feel the need to assign at least one major assignment, and they always end up being in the last week of winterlude. I have fought to keep a good sleep schedule throughout 2021, but in order to get my work done in the last week of winterlude I stayed up past 1am for the first time in months.&lt;/p&gt;
+
+&lt;p&gt;My winter break has been very different from previous ones. I managed to consistently wake up at ~8:20am and I managed to say productive and vice-free unlike younger versions of myself. I fulfilled my dream of having my own website (ryanyang.us), and brainstormed a bunch of nontrivial ideas for a blog. There were also some obligations and essays that I handled. In my off time, I did a bunch of olympiad math and talked with friends in Coffee.&lt;/p&gt;
+
+&lt;p&gt;I also met twice with a brilliant Yale Professor who helped me make a big breakthrough in my distributed ML research. I have exciting new progress in our fascinating topic, and hopefully 2022 will bring a full solution to our research problem.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;An amusing tidbit from my log of how many hours I worked each day is this list of averages based on the day of the week: (0=sunday, 1=monday, …)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/img1.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was genuinely quite surprising, although upon reflection this makes sense (I have forced my mental image to confirm the data). Weekends(F,S,U) have less work hours because I don’t have classes, and Saturdays are especially low because races take place on Saturdays and drain a lot of time. Friday and Sunday are also lower than  weekdays because Friday nights usually aren’t very productive, and Sunday mornings aren’t that productive.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">2020 was quite frankly a terrible year. Everything was cancelled, and the pandemic shuttered everyone’s worlds.</summary></entry></feed>
