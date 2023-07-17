@@ -8,7 +8,4 @@
 layout: home
 ---
 
-Welcome! This is a temporary home for my blog as I build a new template.
-
-
-## Most Recent Posts
+Welcome! Feel free to check out the About Me or Blog.
