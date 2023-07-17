@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-17T00:20:59+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang’s Website</title><subtitle>This is the personal website of Ryan Yang.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/06/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-06-19T05:50:32+02:00</published><updated>2023-06-19T05:50:32+02:00</updated><id>http://localhost:4000/jekyll/update/2023/06/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/06/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-17T09:44:30+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang’s Website</title><subtitle>This is the personal website of Ryan Yang.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/06/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-06-19T05:50:32+02:00</published><updated>2023-06-19T05:50:32+02:00</updated><id>http://localhost:4000/jekyll/update/2023/06/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/06/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -14,7 +14,91 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">The Double Counting Trick, but IRL</title><link href="http://localhost:4000/jekyll/update/2022/01/24/Double-Counting.html" rel="alternate" type="text/html" title="The Double Counting Trick, but IRL" /><published>2022-01-24T01:50:32+01:00</published><updated>2022-01-24T01:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/01/24/Double-Counting</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/01/24/Double-Counting.html">&lt;p&gt;This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the &lt;a href=&quot;https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf&quot;&gt;OTIS Excerpts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">(ignore) Long Weekend</title><link href="http://localhost:4000/jekyll/update/2022/02/09/Long-Weekend.html" rel="alternate" type="text/html" title="(ignore) Long Weekend" /><published>2022-02-09T01:50:32+01:00</published><updated>2022-02-09T01:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/02/09/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/02/09/Long-Weekend.html">&lt;p&gt;I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;I’ve been trying to put together a reference document, tentatively named “Practical Convex Optimization,” that can act as a bit of prologue and/or reference document for work I’ve done in optimization theory. This has turned out to be a far larger endeavor than I expected, but here’s a draft: 
+&lt;img src=&quot;https://www.overleaf.com/read/hxvvjwbmsvgw&quot; alt=&quot;https://www.overleaf.com/read/hxvvjwbmsvgw&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;upcoming-week&quot;&gt;Upcoming Week&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;assets/214216meme&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For some reason, my to-do list has a massive bulge in the 2/14-216 period. It’s some sort of weird magnet for things to handle that defies logic – @RogerPenrose you might want to take a look at this, could inspire a new physics or something.&lt;/p&gt;
+
+&lt;p&gt;There’s some human things&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A couple of election statements&lt;/li&gt;
+  &lt;li&gt;A prefect application&lt;/li&gt;
+  &lt;li&gt;A school meeting announcement for a Wordle Tournament (!)&lt;/li&gt;
+  &lt;li&gt;Valentine’s Day&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But then there’s also the F=ma and AIME. By some unlucky coincidence, Choate is doing both the F=ma B and AIME 2, which means that they’re on back to back days.&lt;/p&gt;
+
+&lt;p&gt;This is technically pretty likely – both {A &amp;amp; 1} and {B &amp;amp; 2} cause this to happen – but I feel like most schools are doing {B &amp;amp; 1} which is significantly nicer.&lt;/p&gt;
+
+&lt;h2 id=&quot;aime-and-how-the-imo-tst-process-works&quot;&gt;AIME and how the IMO TST Process Works&lt;/h2&gt;
+&lt;p&gt;AIME is terrifying because it’s the first of two make-or-break contests, the second being USAMO 2022, for entering the TST process for IMO 2023.&lt;/p&gt;
+
+&lt;p&gt;The IMO TST process is complicated, see &lt;a href=&quot;https://blog.evanchen.cc/2020/11/10/usa-special-team-selection-test-series-for-imo-2021/&quot;&gt;Evan Chen’s Explanation of the 2021 IMO TST&lt;/a&gt;. This year it’s also slightly different because of Covid, so perhaps there is some value in me writing an explanation of this year’s process too because the only people who understand it seem to be the people who have qualified for the process and learn it by doing it.&lt;/p&gt;
+
+&lt;p&gt;Regardless, the AIME is pretty damn important if I want to make the IMO. I need a 11 out of 15 to be safe (which would give a 240.5 USAMO index). This should be fine since I got a 14 last year – but I also spent a large chunk of my winter last year vibing to music and math.&lt;/p&gt;
+
+&lt;h2 id=&quot;fma&quot;&gt;F=ma&lt;/h2&gt;
+&lt;p&gt;As for F=ma, I probably won’t prep too much, maybe one or two practice sets. I qualified last year by the slimmest of margins, getting exactly the cutoff score only after they accepted a second answer for a broken problem. I don’t have high hopes for F=ma, but I’ll probably try to make time because a second USAPhO qualification would be pretty cool. Still, I care &lt;em&gt;much&lt;/em&gt; more about qualifying for USAMO because I can actually do well on USAMO, not so much for USAPhO.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;I’m going to try to be more punctual about next week’s blog post, I think it’ll be on treating school like a day job (which \(\neq\) slacking).&lt;/p&gt;
+
+&lt;p&gt;Logistically, I’ll also mention that I’m going to add the date to the titles of all of my blog posts, as well as these nice “previous” and “next” buttons that let you move through posts on Wordpress.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.</summary></entry><entry><title type="html">(ignore) Long Weekend</title><link href="http://localhost:4000/jekyll/update/2022/02/09/Long-Weekend.html" rel="alternate" type="text/html" title="(ignore) Long Weekend" /><published>2022-02-09T01:50:32+01:00</published><updated>2022-02-09T01:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/02/09/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/02/09/Long-Weekend.html"></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">(ignore) Life Update 2</title><link href="http://localhost:4000/jekyll/update/2022/01/31/Life-Update-2.html" rel="alternate" type="text/html" title="(ignore) Life Update 2" /><published>2022-01-31T01:50:32+01:00</published><updated>2022-01-31T01:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/01/31/Life-Update-2</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/01/31/Life-Update-2.html">&lt;p&gt;I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.&lt;/p&gt;
+
+&lt;p&gt;More importantly though, Wordpress doesn’t have LaTeX functionality, which makes any attempt at explaining math beyond arithmetic an extremely painful endeavor…&lt;/p&gt;
+
+&lt;p&gt;Instead, I’m going to write a Life Update, the second half of which will kinda be about the paper because it was &lt;em&gt;the&lt;/em&gt; thing that I worked on and thought about in the week before the Jan 27 (AOE midnight) deadline.&lt;/p&gt;
+
+&lt;p&gt;I’ve also set up a mailing list, so if you enter your email into the “subscribe to our newsletter” form on the main page I’ll email you each time I post.&lt;/p&gt;
+
+&lt;h2 id=&quot;week-3-sun-116---sat-122&quot;&gt;Week 3: Sun 1/16 - Sat 1/22&lt;/h2&gt;
+&lt;p&gt;Hours: 9:40 (U), 10:00 (M), 9:30 (T), 12:35 (W), 10:00 (R), 13:00 (F), 10:10 (S)&lt;/p&gt;
+
+&lt;p&gt;For the first half of the week, I was still somewhat recovering from getting sick (which you can read about it in my previous life update). The period from Monday to Thursday was a delightful return to normal. After being sick for a week, and suffering through the accompanied decrease in quality of life, it was amazing being back to normal. I promised myself that I would appreciate my regained health, and I did. All in all, I lost ten pounds (mostly water) through the process. However, getting sick was a net positive on my mental health (?). It was a forced break where I didn’t think about complicated things – I thought a lot about god and pain.&lt;/p&gt;
+
+&lt;p&gt;Beginning on Friday though, the ICML paper grind began. It’s amazing how the days can be filled up; that day, I went to my Friday classes, winter rowing, ran physics club, made an amazing poster w/ Deven Huang, and then spent the rest of the night trying to solve the fact that I did not have a full convergence proof for our ICML submission.&lt;/p&gt;
+
+&lt;p&gt;On Saturday, the only thing I did was work on the paper, and this mainly took the form of me rereading papers. Throughout the entire process, I mainly referenced three papers, and I’ll reveal them in my full post about the paper. :)&lt;/p&gt;
+
+&lt;h2 id=&quot;week-4-sun-123---sat-129&quot;&gt;Week 4: Sun 1/23 - Sat 1/29&lt;/h2&gt;
+&lt;p&gt;Hours: 10:00 (U), 14:20 (M), 12:00 (T), 13:30 (W), 13:35 (R), 9:10 (F), 8:30 (S)&lt;/p&gt;
+
+&lt;p&gt;There are very few times in my logs when I was not-resting for more than 14 hours. Those were:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2/18/2021 (14:30): Making my first ever podcast&lt;/li&gt;
+  &lt;li&gt;3/1/2020 (14:00): Doing a USACO on a Monday&lt;/li&gt;
+  &lt;li&gt;6/17/2021 (14:40): Taking AP CSA and then an official MOP Mock IMO, with Greenish in the afternoon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hitting 14 hours is a momentous occasion. After all, 14 hours + 8 hours of sleep + 3 hours of life essentials requires 100% efficiency plus a little extra.&lt;/p&gt;
+
+&lt;p&gt;The period from Monday to Thursday when I made the most progress on the paper. I made an observation that put me in the right direction on Thursday at 10:30am while in Physics class, and then made the crucial observation at around 11:30am while in a SAC study room with DH. Thankfully, by some miracle, I didn’t have too much homework this week. Or maybe since I was sleeping less and had on average 13 hours of working time on my hands each day the homework load seemed really light.&lt;/p&gt;
+
+&lt;p&gt;I also think that I’ve mastered the art of handling midnight AOE times as an East coast person. Thursday at 11:59pm in AOE time is equal to Friday at 7am in EST time, so the technique I’ve used in my past two paper deadlines is to sleep from ~2:30 AM - ~5:00 AM. This is the perfect timing because you get a long block of time until 2:30 AM, and then wake up with a fresh mind, sync up with your collaborators, and then do a final 1.5 hours of grammar checking and higher quality edits since you’re slightly less sleep-deprived.&lt;/p&gt;
+
+&lt;p&gt;On Friday after submitting at 7am, I slept from 7:00-8:30 since I didn’t have classes until 9:20 AM. I got through classes and sports with only one person, HD, remarking about me looking tired, which I think is a great endorsement of the 2:45am - 5:15am nap as opposed to a full all-nighter. I took Friday night off, watched movies with C, went to the Lunar Banquet, and got home to Easton around 10pm, where I worked on the Arxiv version until 12:30am and then went to sleep. I slept in until noon on Saturday.&lt;/p&gt;
+
+&lt;h2 id=&quot;looking-forward&quot;&gt;Looking Forward&lt;/h2&gt;
+&lt;p&gt;While I lucked out and there wasn’t too much homework last week, God’s compensating for that this week.&lt;/p&gt;
+
+&lt;p&gt;I have&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a presentation on the Froude number&lt;/li&gt;
+  &lt;li&gt;a history essay&lt;/li&gt;
+  &lt;li&gt;an English essay&lt;/li&gt;
+  &lt;li&gt;a personal narrative for my college counselor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m pretty excited though, if I can stay as efficient as I was in the week before the ICML deadline, I should be able to handle everything. Contestwise, I skipped USACO this weekend because I just didn’t have enough time, and AIME is terrifyingly only two weeks away.&lt;/p&gt;
+
+&lt;p&gt;Remarkably, this post only took 1 hour, and I really should get back to homework.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.</summary></entry><entry><title type="html">(unfinished) The Double Counting Trick, but IRL</title><link href="http://localhost:4000/jekyll/update/2022/01/24/Double-Counting.html" rel="alternate" type="text/html" title="(unfinished) The Double Counting Trick, but IRL" /><published>2022-01-24T01:50:32+01:00</published><updated>2022-01-24T01:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/01/24/Double-Counting</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/01/24/Double-Counting.html">&lt;p&gt;This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the &lt;a href=&quot;https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf&quot;&gt;OTIS Excerpts&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Firstly a note on definitions. This general trick is referred to in a number of ways:&lt;/p&gt;
 &lt;ul&gt;
@@ -30,7 +114,7 @@
   &lt;li&gt;Linearity of Expectation&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;two-canonical-math-examples&quot;&gt;Two Canonical Math Examples&lt;/h2&gt;
+&lt;h2 id=&quot;canonical-math-example-1-of-2-pecking-decks&quot;&gt;Canonical Math Example (1 of 2): Pecking Decks&lt;/h2&gt;
 &lt;p&gt;I’d like to start with the example that first exposed me to this idea&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;In a barn, 100 chicks sit peacefully in a circle. Suddenly, each chick randomly pecks the chick immediately to its left or right. What is the expected number of unpecked chicks? (&lt;a href=&quot;https://www.nytimes.com/2017/05/15/us/math-counts-national-competition.html&quot;&gt;MATHCOUNTS 2017&lt;/a&gt;)&lt;/p&gt;
@@ -47,12 +131,27 @@
 &lt;p&gt;So now let’s count it in a second way. Consider a specific chick A. How many multiverses are there in which chick A is unpecked? It ends up being $2^{98}$. The two neighboring chicks must peck away, and the other 98 can peck either way. Thus, for chick A, there are $2^{98}$ multiverses for which the (unpicked chick where that chick is A, multiverse) pair exists. But the unpicked chick can be any of the 100 chicks, and each of them are a chosen chick in \(2^{98}\) multiverses, so $X= 100 \cdot 2^{98}$.&lt;/p&gt;
 
 &lt;p&gt;Put together,
-$2^{100}\cdot Y = X = 100 \cdot 2^{98}$
+\(2^{100}\cdot Y = X = 100 \cdot 2^{98}\)
 Which gives \(Y = 100\cdot \frac{2^{98}}{2^{100}} = 100\cdot \frac14=25\).&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h2 id=&quot;canonical-math-example-2-of-2-handshake-lemma&quot;&gt;Canonical Math Example (2 of 2): Handshake Lemma&lt;/h2&gt;
+&lt;p&gt;Another canonical example is the following, given first abstractly and then more concretely, with the real life example making the proof seemingly obvious.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Abstract: Let G be a simple graph (a set of vertices where each pair of vertices either has an edge between or not). Then the sum of all the degrees of vertices (number of edges into the vertex) of G is twice the number of edges.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Another canonical example is the following, with the flavor text slightly altered.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the [OTIS Excerpts][otis-excerpts].</summary></entry><entry><title type="html">(ignore) Life Update 1</title><link href="http://localhost:4000/jekyll/update/2022/01/18/Life-Update-1.html" rel="alternate" type="text/html" title="(ignore) Life Update 1" /><published>2022-01-18T01:50:32+01:00</published><updated>2022-01-18T01:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/01/18/Life-Update-1</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/01/18/Life-Update-1.html">&lt;p&gt;Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.&lt;/p&gt;
+&lt;p&gt;But when you phrase it like this&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Handshake: A group of people are at a party. While there, some pairs of people shake hands. Let the degree of a person be the number of hands that person shook. Then, the sum of the degrees of all people is equal two twice the number of handshakes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A lot more obvious in the second one right? Clearly each handshake counts to two people’s degrees.&lt;/p&gt;
+
+&lt;p&gt;But the point of using “global” ideas is to measure one well-defined quantity in two ways because every well-defined quantity has a single value. Here, this would be done by counting the number of (V,E) pairs where V is a person and E is a handshake they partook in. If $X$ is the number of such pairs, then
+\(\sum deg(V) = X = 2E\)
+Since each vertex is in deg(V) such pairs, and each edge is in two such pairs.&lt;/p&gt;
+
+&lt;h2 id=&quot;lotteries&quot;&gt;Lotteries&lt;/h2&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the [OTIS Excerpts][otis-excerpts].</summary></entry><entry><title type="html">(ignore) Life Update 1</title><link href="http://localhost:4000/jekyll/update/2022/01/18/Life-Update-1.html" rel="alternate" type="text/html" title="(ignore) Life Update 1" /><published>2022-01-18T01:50:32+01:00</published><updated>2022-01-18T01:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/01/18/Life-Update-1</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/01/18/Life-Update-1.html">&lt;p&gt;Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.&lt;/p&gt;
 
 &lt;p&gt;Of course extenuating circumstances arise, and I’m not going to hold myself too tightly to the Friday night deadline but I will hold myself to a hard cap of a “do it before Monday” deadline. I have no idea if can get through 2022 while maintaining weekly posts, but we’ll see.&lt;/p&gt;
 
@@ -110,7 +209,7 @@ Which gives \(Y = 100\cdot \frac{2^{98}}{2^{100}} = 100\cdot \frac14=25\).&lt;/p
 
 &lt;p&gt;&lt;img src=&quot;assets/img2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;I’ve run by a billboard that says “Lavate las manos” in New Haven quite a few times, and I’m kinda sad that I can’t find a photo of that billboard.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.</summary></entry><entry><title type="html">How Newton Actually Came Up With Gravity, and Other Examples of Mind Reading</title><link href="http://localhost:4000/jekyll/update/2022/01/09/Newton-Mind-Reading.html" rel="alternate" type="text/html" title="How Newton Actually Came Up With Gravity, and Other Examples of Mind Reading" /><published>2022-01-09T04:50:32+01:00</published><updated>2022-01-09T04:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/01/09/Newton-Mind-Reading</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/01/09/Newton-Mind-Reading.html">&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;&lt;em&gt;I’ve run by a billboard that says “Lavate las manos” in New Haven quite a few times, and I’m kinda sad that I can’t find a photo of that billboard.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.</summary></entry><entry><title type="html">(unedited) How Newton Actually Came Up With Gravity, and Other Examples of Mind Reading</title><link href="http://localhost:4000/jekyll/update/2022/01/09/Newton-Mind-Reading.html" rel="alternate" type="text/html" title="(unedited) How Newton Actually Came Up With Gravity, and Other Examples of Mind Reading" /><published>2022-01-09T04:50:32+01:00</published><updated>2022-01-09T04:50:32+01:00</updated><id>http://localhost:4000/jekyll/update/2022/01/09/Newton-Mind-Reading</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/01/09/Newton-Mind-Reading.html">&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;When people say random things, they’re never truly random. There is always some invisible thought process that was carried out behind the scenes. In the following passage, Sherlock has followed the invisible thread and pipes in knowing exactly what Watson has been thinking about:&lt;/p&gt;
 &lt;!-- /wp:paragraph --&gt;
 
@@ -350,4 +449,20 @@ Which gives \(Y = 100\cdot \frac{2^{98}}{2^{100}} = 100\cdot \frac14=25\).&lt;/p
 
 &lt;p&gt;&lt;img src=&quot;assets/img1.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This was genuinely quite surprising, although upon reflection this makes sense (I have forced my mental image to confirm the data). Weekends(F,S,U) have less work hours because I don’t have classes, and Saturdays are especially low because races take place on Saturdays and drain a lot of time. Friday and Sunday are also lower than  weekdays because Friday nights usually aren’t very productive, and Sunday mornings aren’t that productive.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">2020 was quite frankly a terrible year. Everything was cancelled, and the pandemic shuttered everyone’s worlds.</summary></entry></feed>
+&lt;p&gt;This was genuinely quite surprising, although upon reflection this makes sense (I have forced my mental image to confirm the data). Weekends(F,S,U) have less work hours because I don’t have classes, and Saturdays are especially low because races take place on Saturdays and drain a lot of time. Friday and Sunday are also lower than  weekdays because Friday nights usually aren’t very productive, and Sunday mornings aren’t that productive.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">2020 was quite frankly a terrible year. Everything was cancelled, and the pandemic shuttered everyone’s worlds.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2021/06/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-06-19T05:50:32+02:00</published><updated>2021-06-19T05:50:32+02:00</updated><id>http://localhost:4000/jekyll/update/2021/06/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/06/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>

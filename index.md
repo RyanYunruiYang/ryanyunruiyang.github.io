@@ -10,5 +10,5 @@ layout: home
 
 Welcome! This is a temporary home for my blog as I build a new template.
 
-![image](_posts/assets/img1.png)
 
+## Most Recent Posts
