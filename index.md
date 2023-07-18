@@ -14,4 +14,4 @@ My primary intellectual backgrounds have been in mathematics, where I was ~15-20
 
 Beyond that, my passionate distraction from the above topics is compulsively buying books from used book stores, where I love reading history, sci-fi, politics, linguistics, politics, and seek to devour as many books as possible ([goodreads.com/ryanyang](goodreads.com/ryanyang)).
 
-Outside of these things, I love [crossword fencing](https://downforacross.com/), reading Buddhist theology, baseball sabermetrics, skateboarding, venturing-beyond-Jane-Street-T-shirts-into-real-fashion, the NYTimes, and Home Depot.
+Outside of these things, I love [crossword fencing](https://downforacross.com/fencing), reading Buddhist theology, baseball sabermetrics, skateboarding, venturing-beyond-Jane-Street-T-shirts-into-real-fashion, the NYTimes, and Home Depot.
