@@ -2,7 +2,7 @@
 layout: post
 title:  "(ignore) Life Update 1"
 date:   2022-01-17 20:50:32 -0400
-categories: jekyll update
+categories: jekyll update, news
 ---
 
 Now that I have proven to myself that I can write blog posts regularly, I'm going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they're posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress. 

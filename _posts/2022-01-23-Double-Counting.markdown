@@ -2,7 +2,7 @@
 layout: post
 title:  "(unfinished) The Double Counting Trick, but IRL"
 date:   2022-01-23 20:50:32 -0400
-categories: jekyll update
+categories: jekyll update, essay
 ---
 
 This is an attempt to showcase the mathematical trick of considering "global values" in real world scenarios. A good introduction can be found in Chapter 7 of the [OTIS Excerpts][otis-excerpts]. 

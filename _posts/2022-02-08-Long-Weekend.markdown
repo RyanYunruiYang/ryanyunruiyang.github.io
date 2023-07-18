@@ -2,7 +2,7 @@
 layout: post
 title:  "(ignore) Long Weekend"
 date:   2022-02-08 20:50:32 -0400
-categories: jekyll update
+categories: jekyll update, news
 ---
 I know that it's Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.
 

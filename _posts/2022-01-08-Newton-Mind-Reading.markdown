@@ -2,7 +2,7 @@
 layout: post
 title:  "How Newton Actually Came Up With Gravity, and Other Examples of Mind Reading"
 date:   2022-01-08 23:50:32 -0400
-categories: jekyll update
+categories: jekyll update, essay
 ---
 
 <blockquote class="wp-block-quote is-style-default"><p>Holmes had been seated for some hours in silence with his long, thin back curved over a chemical vessel in which he was brewing a particularly malodorous product. His head was sunk upon his breast, and he looked from my point of view like a strange, lank bird, with dull grey plumage and a black top-knot.<br><br>“So, Watson,” said he, suddenly, “you do not propose to invest in South African securities?”<br><br>

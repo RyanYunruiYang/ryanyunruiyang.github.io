@@ -2,7 +2,7 @@
 layout: post
 title:  "(ignore) Life Update 2"
 date:   2022-01-30 20:50:32 -0400
-categories: jekyll update
+categories: jekyll update, news
 ---
 I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don't have a nice arxiv link to put in the post. 
 
