@@ -37,6 +37,14 @@ plugins:
 
 # markdown: kramdown
 
+permalink: /blog/:categories/:year/:month/:day/:title:output_ext
+
+header_pages:
+  - about.md
+  - blog.html
+  - potw.md
+  - publications.md
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -57,4 +65,3 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-permalink: /blog/:categories/:year/:month/:day/:title:output_ext
