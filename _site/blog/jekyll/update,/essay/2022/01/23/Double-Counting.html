@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>(unfinished) The Double Counting Trick, but IRL | Ryan Yang’s Website</title>
+<title>The Mathematical Power of Self-Consistent Measurements (Global Combinatorics) | Ryan Yang’s Website</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="(unfinished) The Double Counting Trick, but IRL" />
+<meta property="og:title" content="The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the [OTIS Excerpts][otis-excerpts]." />
-<meta property="og:description" content="This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the [OTIS Excerpts][otis-excerpts]." />
+<meta name="description" content="sabbe saṅkhārā aniccā (All conditioned things are impermanent) - Buddha" />
+<meta property="og:description" content="sabbe saṅkhārā aniccā (All conditioned things are impermanent) - Buddha" />
 <link rel="canonical" href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html" />
 <meta property="og:url" content="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html" />
 <meta property="og:site_name" content="Ryan Yang’s Website" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-01-23T19:50:32-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="(unfinished) The Double Counting Trick, but IRL" />
+<meta property="twitter:title" content="The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-01-23T19:50:32-05:00","datePublished":"2022-01-23T19:50:32-05:00","description":"This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the [OTIS Excerpts][otis-excerpts].","headline":"(unfinished) The Double Counting Trick, but IRL","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html"},"url":"http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-01-23T19:50:32-05:00","datePublished":"2022-01-23T19:50:32-05:00","description":"sabbe saṅkhārā aniccā (All conditioned things are impermanent) - Buddha","headline":"The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html"},"url":"http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ryan Yang&apos;s Website" />
 </head>
@@ -38,27 +38,34 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">  
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">(unfinished) The Double Counting Trick, but IRL</h1>
+    <h1 class="post-title p-name" itemprop="name headline">The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)</h1>
     <p class="post-meta"><time class="dt-published" datetime="2022-01-23T19:50:32-05:00" itemprop="datePublished">
         Jan 23, 2022
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the <a href="https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf">OTIS Excerpts</a>.</p>
+    <blockquote>
+  <p>sabbe saṅkhārā aniccā 
+(All conditioned things are impermanent)
+- Buddha</p>
+</blockquote>
 
-<p>Firstly a note on definitions. This general trick is referred to in a number of ways:</p>
+<p>One of the most beautiful parts of mathematics is that once you construct an object, it is truly permanent, and self-consistent to measurement. This property of mathematics is taken advantage of by a mathematically technique called “considering global values.” [1] This post will outline the basic mathematical techniques, and then pivot to interesting non-mathematical application where the technique is still true up to approximation.</p>
+
+<h1 id="part-1">Part 1</h1>
+
+<p>This general trick is referred to in a number of ways:</p>
 <ul>
-  <li>Double Counting</li>
   <li>Counting in two ways</li>
-  <li>Considering global ideas</li>
+  <li>Global ideas</li>
 </ul>
 
 <p>And the following mathematical ideas are special cases of the more general principle:</p>
-
 <ul>
   <li>Swapping the order of summation</li>
   <li>Linearity of Expectation</li>
@@ -101,7 +108,80 @@ Which gives \(Y = 100\cdot \frac{2^{98}}{2^{100}} = 100\cdot \frac14=25\).</p>
 \(\sum deg(V) = X = 2E\)
 Since each vertex is in deg(V) such pairs, and each edge is in two such pairs.</p>
 
-<h2 id="lotteries">Lotteries</h2>
+<h2 id="part-2">Part 2</h2>
+<p>And now for a hard pivot. I don’t have <em>great</em> intuition about why this is the same as global combinatorics, but it feels similar?</p>
+
+<h2 id="lottery-math-is-overcomplicated">Lottery Math is Overcomplicated</h2>
+<p>The way that people usually claim that the lottery is a scam is by multiplying a bunch of numbers to find that the probability of winning. For examples, with a lot of calculations, the probability of winning the Mega Millions is “1 in 302,575,350”, and since the payout is less than 2$ * 302,575,350, you’d lose money on average. This is absurd though, it plays into the lottery’s abuse of human’s inability to intuitively grasp large numbers, and it’s so complicated that Khan Academy used it as a math exercise.</p>
+
+<p>There’s a far simpler way to show that lotteries are a cash grab by the state. Instead of considering cash flow on the consumers end, consider it from the side of the government. (By law, lotteries must be run by the government) Even before taxes, a simple way to see that you cannot make money on it is the following quote:</p>
+
+<p>“For Mega Millions (and Powerball) tickets, 50 percent of the sales goes to the prize pool. The remaining 50 percent is used to pay for the states’ retailer commissions, vendor fees, lottery administration, and the state beneficiaries or good causes of that state,” she told ABC News.</p>
+
+<p>https://abcnews.go.com/US/mega-millions-lottery-lottery-money-states/story?id=58661412
+Thus, on average, you will get back 50% of your ticket price. This is a lot simpler than figuring out the probabilities of each payout, and finding the expected payout that way.</p>
+
+<p>But wait there’s more! When the payout finally happens, these massive sums of money are taxed at the highest interest bracket. The lottery is especially brilliant because it takes money from people who are usually lower income, and thus have untaxable money, and then put that together into one massive pot that can be taxed at the 50% maximum tax rate (federal + state taxes).</p>
+
+<p>Somewhat expectedly, Vox says that</p>
+
+<p>You hear it a lot: The lottery is a tax on people who are bad at math.</p>
+
+<p>https://www.vox.com/identities/2016/1/13/10763268/lottery-poor-prey
+But even the people who are “good at math” and calculate the probabilities are thinking about it in the wrong way. It is far simpler to consider it from the dual questions of “why does the government bother doing this?” and “what’s their profit margin?”</p>
+
+<h2 id="economic-production-and-energy-consumption">Economic Production and Energy Consumption</h2>
+<p>A surprising example of a nonmathematician using these ideas is Li Keqiang, the current Premier of the PRC. The story goes that in order to measure economic growth, he created his own list of indicators to track because he did not trust GDP estimates. The Li Keqiang index tracks railway cargo volume, electricity consumption, and loans disbursed by banks.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>This is another example of double counting because instead of calculating GDP as the sum of all economic activities, (calculating sum_{v\in G} deg v in the first example), one can simply record some economic indicators which should go up with economic activity instead. (like counting 2*</td>
+      <td>E</td>
+      <td>).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Pyramid Schemes
+Another fun double counting example is this scam that went around on instagram awhile ago. I happened across it when I went on instagram for the first time in a week.</p>
+
+<p>From the internet. The ones that the people I follow posted were much flashier.
+I’m looking for people to participate in a huge book exchange pyramid scheme. You can be anywhere in the world. All you have to do is buy your favorite book (just one) and send it to a stranger (I’ll send their details through in a private message).</p>
+
+<p>You’ll receive roughly a maximum of 36 books back to you, to keep (we have sponsors or something). They’ll be favorite books from strangers around the world!</p>
+
+<p>If you’re interested in taking part, please send a message saying “GULLIBLE”</p>
+
+<p>My satirical version which I posted to my story. It got shoutouted/reposted by a Choate meme account 🙂
+This is absurd by double counting. Firstly, this is obviously a pyramid scheme and some people will end up with no books because it’s impossible for everyone to receive more books than they buy.</p>
+
+<p>Formally though, this violates the fact that in a directed graph, the sum of indegrees = number of edges = sum of outdegrees. (indegree is the number of arrows pointing to a graph, corresponding to buying a book for someone, and outdegree is the number of outward pointing arrows, corresponding to getting a book bought for you.)</p>
+
+<p>Fermi Problems
+Finally, this idea works pretty well in Fermi problems. Pretty much all Fermi problems where you don’t follow the most obvious thought process is a form of Double Counting. My favorite Fermi problem/solution pair is an answer to</p>
+
+<p>“ How many hairs are present on your head?”</p>
+
+<p>Instead of directly counting, we consider the balding process. Usually men lose hair and eventually go bald over the period from age 50 to age 80, so a period of 30 years. You don’t hear about balding men losing more hair than young people, and it seems reasonable to lose around 20 hairs a day. This gives</p>
+
+<p>20 hairs/day * 30 years * 365 days/year = 219,000 hairs</p>
+
+<p>The actual answer is ~100,000, which is surprisingly close to the estimate generated by considering balding men.</p>
+
+<p>Conclusion
+There’s a lot of olympiad math ideas which are extremely powerful in math, but also very useful in real life. There are people like Li Keqiang who have a decent informal grasp of ideas like counting in two ways. However, understanding the formal mathematical version makes the usage more conscious and therefore more powerful.</p>
+
+<p>There’s two other ideas that I want to talk about, sharp ness and equality[1]. These are more philosophical, but they are also very powerful.</p>
+
+<p>One thing I need to figure out is whether showing the informal examples first, and then the math, would be more accessible to a non-mathematical reader. I might try doing that in the post about sharpness or equality.</p>
+
+<p>I guess leave a comment about which structure you would prefer?</p>
+
+<p>[1] Unfortunately unaccessible if you’re not in OTIS 🙁 There doesn’t seem to be any good online source on what equality is, so this means that I’ll probably write about equality next.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<p>[1] A good formal introduction can be found in Chapter 7 of the <a href="https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf">OTIS Excerpts</a>.</p>
 
 
   </div><a class="u-url" href="/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html" hidden></a>

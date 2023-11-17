@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "(ignore) Goodbye 2021"
+title:  "Reflection on 2021"
 date:   2021-12-31 23:50:32 -0400
 categories: jekyll update, news
 ---

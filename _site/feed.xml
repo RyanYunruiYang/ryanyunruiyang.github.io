@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-06T23:46:38-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang’s Website</title><subtitle>This is the personal website of Ryan Yang.</subtitle><entry><title type="html">Superbowl</title><link href="http://localhost:4000/blog/potw/2022/02/13/superbowl.html" rel="alternate" type="text/html" title="Superbowl" /><published>2022-02-13T00:00:00-05:00</published><updated>2022-02-13T00:00:00-05:00</updated><id>http://localhost:4000/blog/potw/2022/02/13/superbowl</id><content type="html" xml:base="http://localhost:4000/blog/potw/2022/02/13/superbowl.html"></content><author><name></name></author><category term="potw" /><summary type="html"></summary></entry><entry><title type="html">(ignore) Long Weekend</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html" rel="alternate" type="text/html" title="(ignore) Long Weekend" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html">&lt;p&gt;I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-17T17:22:38-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang’s Website</title><subtitle>This is the personal website of Ryan Yang.</subtitle><entry><title type="html">Superbowl</title><link href="http://localhost:4000/blog/potw/2022/02/13/superbowl.html" rel="alternate" type="text/html" title="Superbowl" /><published>2022-02-13T00:00:00-05:00</published><updated>2022-02-13T00:00:00-05:00</updated><id>http://localhost:4000/blog/potw/2022/02/13/superbowl</id><content type="html" xml:base="http://localhost:4000/blog/potw/2022/02/13/superbowl.html"></content><author><name></name></author><category term="potw" /><summary type="html"></summary></entry><entry><title type="html">Long Weekend</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html" rel="alternate" type="text/html" title="Long Weekend" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html">&lt;p&gt;I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;I’ve been trying to put together a reference document, tentatively named “Practical Convex Optimization,” that can act as a bit of prologue and/or reference document for work I’ve done in optimization theory. This has turned out to be a far larger endeavor than I expected, but here’s a draft: 
@@ -34,7 +34,7 @@
 &lt;hr /&gt;
 &lt;p&gt;I’m going to try to be more punctual about next week’s blog post, I think it’ll be on treating school like a day job (which \(\neq\) slacking).&lt;/p&gt;
 
-&lt;p&gt;Logistically, I’ll also mention that I’m going to add the date to the titles of all of my blog posts, as well as these nice “previous” and “next” buttons that let you move through posts on Wordpress.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.</summary></entry><entry><title type="html">(ignore) Life Update 2</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2.html" rel="alternate" type="text/html" title="(ignore) Life Update 2" /><published>2022-01-30T19:50:32-05:00</published><updated>2022-01-30T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2.html">&lt;p&gt;I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.&lt;/p&gt;
+&lt;p&gt;Logistically, I’ll also mention that I’m going to add the date to the titles of all of my blog posts, as well as these nice “previous” and “next” buttons that let you move through posts on Wordpress.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.</summary></entry><entry><title type="html">Life Update 2</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2.html" rel="alternate" type="text/html" title="Life Update 2" /><published>2022-01-30T19:50:32-05:00</published><updated>2022-01-30T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2.html">&lt;p&gt;I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.&lt;/p&gt;
 
 &lt;p&gt;More importantly though, Wordpress doesn’t have LaTeX functionality, which makes any attempt at explaining math beyond arithmetic an extremely painful endeavor…&lt;/p&gt;
 
@@ -82,17 +82,23 @@
 
 &lt;p&gt;I’m pretty excited though, if I can stay as efficient as I was in the week before the ICML deadline, I should be able to handle everything. Contestwise, I skipped USACO this weekend because I just didn’t have enough time, and AIME is terrifyingly only two weeks away.&lt;/p&gt;
 
-&lt;p&gt;Remarkably, this post only took 1 hour, and I really should get back to homework.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.</summary></entry><entry><title type="html">(unfinished) The Double Counting Trick, but IRL</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html" rel="alternate" type="text/html" title="(unfinished) The Double Counting Trick, but IRL" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html">&lt;p&gt;This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the &lt;a href=&quot;https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf&quot;&gt;OTIS Excerpts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Remarkably, this post only took 1 hour, and I really should get back to homework.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.</summary></entry><entry><title type="html">The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html" rel="alternate" type="text/html" title="The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html">&lt;blockquote&gt;
+  &lt;p&gt;sabbe saṅkhārā aniccā 
+(All conditioned things are impermanent)
+- Buddha&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Firstly a note on definitions. This general trick is referred to in a number of ways:&lt;/p&gt;
+&lt;p&gt;One of the most beautiful parts of mathematics is that once you construct an object, it is truly permanent, and self-consistent to measurement. This property of mathematics is taken advantage of by a mathematically technique called “considering global values.” [1] This post will outline the basic mathematical techniques, and then pivot to interesting non-mathematical application where the technique is still true up to approximation.&lt;/p&gt;
+
+&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+
+&lt;p&gt;This general trick is referred to in a number of ways:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Double Counting&lt;/li&gt;
   &lt;li&gt;Counting in two ways&lt;/li&gt;
-  &lt;li&gt;Considering global ideas&lt;/li&gt;
+  &lt;li&gt;Global ideas&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;And the following mathematical ideas are special cases of the more general principle:&lt;/p&gt;
-
 &lt;ul&gt;
   &lt;li&gt;Swapping the order of summation&lt;/li&gt;
   &lt;li&gt;Linearity of Expectation&lt;/li&gt;
@@ -135,7 +141,80 @@ Which gives \(Y = 100\cdot \frac{2^{98}}{2^{100}} = 100\cdot \frac14=25\).&lt;/p
 \(\sum deg(V) = X = 2E\)
 Since each vertex is in deg(V) such pairs, and each edge is in two such pairs.&lt;/p&gt;
 
-&lt;h2 id=&quot;lotteries&quot;&gt;Lotteries&lt;/h2&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">This is an attempt to showcase the mathematical trick of considering “global values” in real world scenarios. A good introduction can be found in Chapter 7 of the [OTIS Excerpts][otis-excerpts].</summary></entry><entry><title type="html">(ignore) Life Update 1</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1.html" rel="alternate" type="text/html" title="(ignore) Life Update 1" /><published>2022-01-17T19:50:32-05:00</published><updated>2022-01-17T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1.html">&lt;p&gt;Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.&lt;/p&gt;
+&lt;h2 id=&quot;part-2&quot;&gt;Part 2&lt;/h2&gt;
+&lt;p&gt;And now for a hard pivot. I don’t have &lt;em&gt;great&lt;/em&gt; intuition about why this is the same as global combinatorics, but it feels similar?&lt;/p&gt;
+
+&lt;h2 id=&quot;lottery-math-is-overcomplicated&quot;&gt;Lottery Math is Overcomplicated&lt;/h2&gt;
+&lt;p&gt;The way that people usually claim that the lottery is a scam is by multiplying a bunch of numbers to find that the probability of winning. For examples, with a lot of calculations, the probability of winning the Mega Millions is “1 in 302,575,350”, and since the payout is less than 2$ * 302,575,350, you’d lose money on average. This is absurd though, it plays into the lottery’s abuse of human’s inability to intuitively grasp large numbers, and it’s so complicated that Khan Academy used it as a math exercise.&lt;/p&gt;
+
+&lt;p&gt;There’s a far simpler way to show that lotteries are a cash grab by the state. Instead of considering cash flow on the consumers end, consider it from the side of the government. (By law, lotteries must be run by the government) Even before taxes, a simple way to see that you cannot make money on it is the following quote:&lt;/p&gt;
+
+&lt;p&gt;“For Mega Millions (and Powerball) tickets, 50 percent of the sales goes to the prize pool. The remaining 50 percent is used to pay for the states’ retailer commissions, vendor fees, lottery administration, and the state beneficiaries or good causes of that state,” she told ABC News.&lt;/p&gt;
+
+&lt;p&gt;https://abcnews.go.com/US/mega-millions-lottery-lottery-money-states/story?id=58661412
+Thus, on average, you will get back 50% of your ticket price. This is a lot simpler than figuring out the probabilities of each payout, and finding the expected payout that way.&lt;/p&gt;
+
+&lt;p&gt;But wait there’s more! When the payout finally happens, these massive sums of money are taxed at the highest interest bracket. The lottery is especially brilliant because it takes money from people who are usually lower income, and thus have untaxable money, and then put that together into one massive pot that can be taxed at the 50% maximum tax rate (federal + state taxes).&lt;/p&gt;
+
+&lt;p&gt;Somewhat expectedly, Vox says that&lt;/p&gt;
+
+&lt;p&gt;You hear it a lot: The lottery is a tax on people who are bad at math.&lt;/p&gt;
+
+&lt;p&gt;https://www.vox.com/identities/2016/1/13/10763268/lottery-poor-prey
+But even the people who are “good at math” and calculate the probabilities are thinking about it in the wrong way. It is far simpler to consider it from the dual questions of “why does the government bother doing this?” and “what’s their profit margin?”&lt;/p&gt;
+
+&lt;h2 id=&quot;economic-production-and-energy-consumption&quot;&gt;Economic Production and Energy Consumption&lt;/h2&gt;
+&lt;p&gt;A surprising example of a nonmathematician using these ideas is Li Keqiang, the current Premier of the PRC. The story goes that in order to measure economic growth, he created his own list of indicators to track because he did not trust GDP estimates. The Li Keqiang index tracks railway cargo volume, electricity consumption, and loans disbursed by banks.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;This is another example of double counting because instead of calculating GDP as the sum of all economic activities, (calculating sum_{v\in G} deg v in the first example), one can simply record some economic indicators which should go up with economic activity instead. (like counting 2*&lt;/td&gt;
+      &lt;td&gt;E&lt;/td&gt;
+      &lt;td&gt;).&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Pyramid Schemes
+Another fun double counting example is this scam that went around on instagram awhile ago. I happened across it when I went on instagram for the first time in a week.&lt;/p&gt;
+
+&lt;p&gt;From the internet. The ones that the people I follow posted were much flashier.
+I’m looking for people to participate in a huge book exchange pyramid scheme. You can be anywhere in the world. All you have to do is buy your favorite book (just one) and send it to a stranger (I’ll send their details through in a private message).&lt;/p&gt;
+
+&lt;p&gt;You’ll receive roughly a maximum of 36 books back to you, to keep (we have sponsors or something). They’ll be favorite books from strangers around the world!&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in taking part, please send a message saying “GULLIBLE”&lt;/p&gt;
+
+&lt;p&gt;My satirical version which I posted to my story. It got shoutouted/reposted by a Choate meme account 🙂
+This is absurd by double counting. Firstly, this is obviously a pyramid scheme and some people will end up with no books because it’s impossible for everyone to receive more books than they buy.&lt;/p&gt;
+
+&lt;p&gt;Formally though, this violates the fact that in a directed graph, the sum of indegrees = number of edges = sum of outdegrees. (indegree is the number of arrows pointing to a graph, corresponding to buying a book for someone, and outdegree is the number of outward pointing arrows, corresponding to getting a book bought for you.)&lt;/p&gt;
+
+&lt;p&gt;Fermi Problems
+Finally, this idea works pretty well in Fermi problems. Pretty much all Fermi problems where you don’t follow the most obvious thought process is a form of Double Counting. My favorite Fermi problem/solution pair is an answer to&lt;/p&gt;
+
+&lt;p&gt;“ How many hairs are present on your head?”&lt;/p&gt;
+
+&lt;p&gt;Instead of directly counting, we consider the balding process. Usually men lose hair and eventually go bald over the period from age 50 to age 80, so a period of 30 years. You don’t hear about balding men losing more hair than young people, and it seems reasonable to lose around 20 hairs a day. This gives&lt;/p&gt;
+
+&lt;p&gt;20 hairs/day * 30 years * 365 days/year = 219,000 hairs&lt;/p&gt;
+
+&lt;p&gt;The actual answer is ~100,000, which is surprisingly close to the estimate generated by considering balding men.&lt;/p&gt;
+
+&lt;p&gt;Conclusion
+There’s a lot of olympiad math ideas which are extremely powerful in math, but also very useful in real life. There are people like Li Keqiang who have a decent informal grasp of ideas like counting in two ways. However, understanding the formal mathematical version makes the usage more conscious and therefore more powerful.&lt;/p&gt;
+
+&lt;p&gt;There’s two other ideas that I want to talk about, sharp ness and equality[1]. These are more philosophical, but they are also very powerful.&lt;/p&gt;
+
+&lt;p&gt;One thing I need to figure out is whether showing the informal examples first, and then the math, would be more accessible to a non-mathematical reader. I might try doing that in the post about sharpness or equality.&lt;/p&gt;
+
+&lt;p&gt;I guess leave a comment about which structure you would prefer?&lt;/p&gt;
+
+&lt;p&gt;[1] Unfortunately unaccessible if you’re not in OTIS 🙁 There doesn’t seem to be any good online source on what equality is, so this means that I’ll probably write about equality next.&lt;/p&gt;
+
+&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
+&lt;p&gt;[1] A good formal introduction can be found in Chapter 7 of the &lt;a href=&quot;https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf&quot;&gt;OTIS Excerpts&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">sabbe saṅkhārā aniccā (All conditioned things are impermanent) - Buddha</summary></entry><entry><title type="html">Life Update 1</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1.html" rel="alternate" type="text/html" title="Life Update 1" /><published>2022-01-17T19:50:32-05:00</published><updated>2022-01-17T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1.html">&lt;p&gt;Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.&lt;/p&gt;
 
 &lt;p&gt;Of course extenuating circumstances arise, and I’m not going to hold myself too tightly to the Friday night deadline but I will hold myself to a hard cap of a “do it before Monday” deadline. I have no idea if can get through 2022 while maintaining weekly posts, but we’ll see.&lt;/p&gt;
 
@@ -247,7 +326,7 @@ Since each vertex is in deg(V) such pairs, and each edge is in two such pairs.&l
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;Guessing what other people are thinking is an amusing hobby. It has its limits – the idea that we actually are in control of our own thoughts is an illusion – but it’s also a foundational part of the Theory of Mind. These examples are kinda silly (except the TST one which helped me make TST group). As direct mind reading becomes a real possibility, and indirect mind reading already taking on the triumphant role of “sole commerical application of AI,” looking inwards is here to stay.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">Holmes had been seated for some hours in silence with his long, thin back curved over a chemical vessel in which he was brewing a particularly malodorous product. His head was sunk upon his breast, and he looked from my point of view like a strange, lank bird, with dull grey plumage and a black top-knot.“So, Watson,” said he, suddenly, “you do not propose to invest in South African securities?” The Adventure of the Dancing Men&quot;, from the collection&amp;nbsp;The Return of Sherlock Holmes&amp;nbsp;(1905)</summary></entry><entry><title type="html">(ignore) Goodbye 2021</title><link href="http://localhost:4000/blog/jekyll/update,/news/2021/12/31/Goodbye-2021.html" rel="alternate" type="text/html" title="(ignore) Goodbye 2021" /><published>2021-12-31T22:50:32-05:00</published><updated>2021-12-31T22:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2021/12/31/Goodbye-2021</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2021/12/31/Goodbye-2021.html">&lt;p&gt;2020 was quite frankly a terrible year. Everything was cancelled, and the pandemic shuttered everyone’s worlds.&lt;/p&gt;
+&lt;p&gt;Guessing what other people are thinking is an amusing hobby. It has its limits – the idea that we actually are in control of our own thoughts is an illusion – but it’s also a foundational part of the Theory of Mind. These examples are kinda silly (except the TST one which helped me make TST group). As direct mind reading becomes a real possibility, and indirect mind reading already taking on the triumphant role of “sole commerical application of AI,” looking inwards is here to stay.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">Holmes had been seated for some hours in silence with his long, thin back curved over a chemical vessel in which he was brewing a particularly malodorous product. His head was sunk upon his breast, and he looked from my point of view like a strange, lank bird, with dull grey plumage and a black top-knot.“So, Watson,” said he, suddenly, “you do not propose to invest in South African securities?” The Adventure of the Dancing Men&quot;, from the collection&amp;nbsp;The Return of Sherlock Holmes&amp;nbsp;(1905)</summary></entry><entry><title type="html">Reflection on 2021</title><link href="http://localhost:4000/blog/jekyll/update,/news/2021/12/31/Goodbye-2021.html" rel="alternate" type="text/html" title="Reflection on 2021" /><published>2021-12-31T22:50:32-05:00</published><updated>2021-12-31T22:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2021/12/31/Goodbye-2021</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2021/12/31/Goodbye-2021.html">&lt;p&gt;2020 was quite frankly a terrible year. Everything was cancelled, and the pandemic shuttered everyone’s worlds.&lt;/p&gt;
 
 &lt;p&gt;However, beginning in 2021, I turned things around and this year has been one of the best years of my life. A few of the highlights include getting a 14 on AIME, making MOP, and co-authoring and submitting two Distributed Machine Learning papers with a pair of professors. This was a major improvement from my end-of-freshman-year self who had done nothing notable in high school.&lt;/p&gt;
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "(ignore) Life Update 2"
+title:  "Life Update 2"
 date:   2022-01-30 20:50:32 -0400
 categories: jekyll update, news
 ---
