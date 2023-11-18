@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-18T15:41:11-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang’s Website</title><subtitle>This is the personal website of Ryan Yang.</subtitle><entry><title type="html">Nauru’s At-Birth Sex Ratio</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html" rel="alternate" type="text/html" title="Nauru’s At-Birth Sex Ratio" /><published>2023-11-16T19:50:32-05:00</published><updated>2023-11-16T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html">&lt;p&gt;From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-18T16:48:26-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang-Liu’s Website</title><subtitle>Ryan Yang-Liu, MIT 2027. Physics &amp; CS.</subtitle><entry><title type="html">So Many Baby Girls: The Mystery of Nauru’s At-Birth Sex Ratio</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html" rel="alternate" type="text/html" title="So Many Baby Girls: The Mystery of Nauru’s At-Birth Sex Ratio" /><published>2023-11-16T19:50:32-05:00</published><updated>2023-11-16T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html">&lt;p&gt;From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.&lt;/p&gt;
 
 &lt;p&gt;And for some reason, I couldn’t find ANY news coverage explaining this? So, I set out to solve this mystery on my own, and here are the results of my internet sleuthing:&lt;/p&gt;
 
@@ -81,7 +81,7 @@ without massive changes in measured populations due to something like, say, a pa
 
 &lt;p&gt;[7] https://cia.gov/the-world-factbook/about/archives/2021/field/sex-ratio/&lt;/p&gt;
 
-&lt;p&gt;[8] https://cia.gov/the-world-factbook/about/archives/2022/field/sex-ratio/&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.</summary></entry><entry><title type="html">Superbowl</title><link href="http://localhost:4000/blog/potw/2022/02/13/superbowl.html" rel="alternate" type="text/html" title="Superbowl" /><published>2022-02-13T00:00:00-05:00</published><updated>2022-02-13T00:00:00-05:00</updated><id>http://localhost:4000/blog/potw/2022/02/13/superbowl</id><content type="html" xml:base="http://localhost:4000/blog/potw/2022/02/13/superbowl.html"></content><author><name></name></author><category term="potw" /><summary type="html"></summary></entry><entry><title type="html">Long Weekend</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html" rel="alternate" type="text/html" title="Long Weekend" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html">&lt;p&gt;I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.&lt;/p&gt;
+&lt;p&gt;[8] https://cia.gov/the-world-factbook/about/archives/2022/field/sex-ratio/&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.</summary></entry><entry><title type="html">Basketball</title><link href="http://localhost:4000/blog/2022/04/22/basketball.html" rel="alternate" type="text/html" title="Basketball" /><published>2022-04-22T00:00:00-04:00</published><updated>2022-04-22T00:00:00-04:00</updated><id>http://localhost:4000/blog/2022/04/22/basketball</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/22/basketball.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Superbowl</title><link href="http://localhost:4000/blog/potw/2022/02/13/superbowl.html" rel="alternate" type="text/html" title="Superbowl" /><published>2022-02-13T00:00:00-05:00</published><updated>2022-02-13T00:00:00-05:00</updated><id>http://localhost:4000/blog/potw/2022/02/13/superbowl</id><content type="html" xml:base="http://localhost:4000/blog/potw/2022/02/13/superbowl.html"></content><author><name></name></author><category term="potw" /><summary type="html"></summary></entry><entry><title type="html">Long Weekend</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html" rel="alternate" type="text/html" title="Long Weekend" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html">&lt;p&gt;I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;I’ve been trying to put together a reference document, tentatively named “Practical Convex Optimization,” that can act as a bit of prologue and/or reference document for work I’ve done in optimization theory. This has turned out to be a far larger endeavor than I expected, but here’s a draft: 
@@ -165,7 +165,139 @@ without massive changes in measured populations due to something like, say, a pa
 
 &lt;p&gt;I’m pretty excited though, if I can stay as efficient as I was in the week before the ICML deadline, I should be able to handle everything. Contestwise, I skipped USACO this weekend because I just didn’t have enough time, and AIME is terrifyingly only two weeks away.&lt;/p&gt;
 
-&lt;p&gt;Remarkably, this post only took 1 hour, and I really should get back to homework.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.</summary></entry><entry><title type="html">An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html" rel="alternate" type="text/html" title="An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html">&lt;blockquote&gt;
+&lt;p&gt;Remarkably, this post only took 1 hour, and I really should get back to homework.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.</summary></entry><entry><title type="html">The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html" rel="alternate" type="text/html" title="The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html">&lt;blockquote&gt;
+  &lt;p&gt;sabbe saṅkhārā aniccā 
+(All conditioned things are impermanent)
+- Buddha&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;One of the most beautiful parts of mathematics is that once you construct an object, it is truly permanent, and self-consistent to measurement. This property of mathematics is taken advantage of by a mathematically technique called “considering global values.” [1] This post will outline the basic mathematical techniques, and then pivot to interesting non-mathematical application where the technique is still true up to approximation.&lt;/p&gt;
+
+&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+
+&lt;p&gt;This general trick is referred to in a number of ways:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Counting in two ways&lt;/li&gt;
+  &lt;li&gt;Global ideas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And the following mathematical ideas are special cases of the more general principle:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Swapping the order of summation&lt;/li&gt;
+  &lt;li&gt;Linearity of Expectation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;canonical-math-example-1-of-2-pecking-decks&quot;&gt;Canonical Math Example (1 of 2): Pecking Decks&lt;/h2&gt;
+&lt;p&gt;I’d like to start with the example that first exposed me to this idea&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In a barn, 100 chicks sit peacefully in a circle. Suddenly, each chick randomly pecks the chick immediately to its left or right. What is the expected number of unpecked chicks? (&lt;a href=&quot;https://www.nytimes.com/2017/05/15/us/math-counts-national-competition.html&quot;&gt;MATHCOUNTS 2017&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The direct solution is to apply the “Linearity of Expectation.” The argument there would be that the probability that any individual chick is pecked is 1/4, so each pick is expected to contribute “1/4” to the number of unpecked chicks. This is true for all 100 chicks, for a total expectation of 25 unpecked chicks.&lt;/p&gt;
+
+&lt;p&gt;But there’s something deeper happening here. There is a very deep and fundamental idea which is that objects exist and have permanence.&lt;/p&gt;
+
+&lt;p&gt;For this problem, consider all $2^100$ different multiverses, where each chick pecks left or right. Then, consider the number of (unpecked chick, multiverse) pairs. Let $X$ be the number of such pairs.&lt;/p&gt;
+
+&lt;p&gt;This is a degenerate case so this first method is weirder than normal. Nevertheless, let $Y$ be the expected number of unpecked chicks in some universe. Then, $2^{100}\cdot Y$ should be the total number of (unpecked chicks, multiverse) pairs.&lt;/p&gt;
+
+&lt;p&gt;So now let’s count it in a second way. Consider a specific chick A. How many multiverses are there in which chick A is unpecked? It ends up being $2^{98}$. The two neighboring chicks must peck away, and the other 98 can peck either way. Thus, for chick A, there are $2^{98}$ multiverses for which the (unpicked chick where that chick is A, multiverse) pair exists. But the unpicked chick can be any of the 100 chicks, and each of them are a chosen chick in \(2^{98}\) multiverses, so $X= 100 \cdot 2^{98}$.&lt;/p&gt;
+
+&lt;p&gt;Put together,
+\(2^{100}\cdot Y = X = 100 \cdot 2^{98}\)
+Which gives \(Y = 100\cdot \frac{2^{98}}{2^{100}} = 100\cdot \frac14=25\).&lt;/p&gt;
+
+&lt;h2 id=&quot;canonical-math-example-2-of-2-handshake-lemma&quot;&gt;Canonical Math Example (2 of 2): Handshake Lemma&lt;/h2&gt;
+&lt;p&gt;Another canonical example is the following, given first abstractly and then more concretely, with the real life example making the proof seemingly obvious.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Abstract: Let G be a simple graph (a set of vertices where each pair of vertices either has an edge between or not). Then the sum of all the degrees of vertices (number of edges into the vertex) of G is twice the number of edges.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But when you phrase it like this&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Handshake: A group of people are at a party. While there, some pairs of people shake hands. Let the degree of a person be the number of hands that person shook. Then, the sum of the degrees of all people is equal two twice the number of handshakes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A lot more obvious in the second one right? Clearly each handshake counts to two people’s degrees.&lt;/p&gt;
+
+&lt;p&gt;But the point of using “global” ideas is to measure one well-defined quantity in two ways because every well-defined quantity has a single value. Here, this would be done by counting the number of (V,E) pairs where V is a person and E is a handshake they partook in. If $X$ is the number of such pairs, then
+\(\sum deg(V) = X = 2E\)
+Since each vertex is in deg(V) such pairs, and each edge is in two such pairs.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-2&quot;&gt;Part 2&lt;/h2&gt;
+&lt;p&gt;And now for a hard pivot. I don’t have &lt;em&gt;great&lt;/em&gt; intuition about why this is the same as global combinatorics, but it feels similar?&lt;/p&gt;
+
+&lt;h2 id=&quot;lottery-math-is-overcomplicated&quot;&gt;Lottery Math is Overcomplicated&lt;/h2&gt;
+&lt;p&gt;The way that people usually claim that the lottery is a scam is by multiplying a bunch of numbers to find that the probability of winning. For examples, with a lot of calculations, the probability of winning the Mega Millions is “1 in 302,575,350”, and since the payout is less than 2$ * 302,575,350, you’d lose money on average. This is absurd though, it plays into the lottery’s abuse of human’s inability to intuitively grasp large numbers, and it’s so complicated that Khan Academy used it as a math exercise.&lt;/p&gt;
+
+&lt;p&gt;There’s a far simpler way to show that lotteries are a cash grab by the state. Instead of considering cash flow on the consumers end, consider it from the side of the government. (By law, lotteries must be run by the government) Even before taxes, a simple way to see that you cannot make money on it is the following quote:&lt;/p&gt;
+
+&lt;p&gt;“For Mega Millions (and Powerball) tickets, 50 percent of the sales goes to the prize pool. The remaining 50 percent is used to pay for the states’ retailer commissions, vendor fees, lottery administration, and the state beneficiaries or good causes of that state,” she told ABC News.&lt;/p&gt;
+
+&lt;p&gt;https://abcnews.go.com/US/mega-millions-lottery-lottery-money-states/story?id=58661412
+Thus, on average, you will get back 50% of your ticket price. This is a lot simpler than figuring out the probabilities of each payout, and finding the expected payout that way.&lt;/p&gt;
+
+&lt;p&gt;But wait there’s more! When the payout finally happens, these massive sums of money are taxed at the highest interest bracket. The lottery is especially brilliant because it takes money from people who are usually lower income, and thus have untaxable money, and then put that together into one massive pot that can be taxed at the 50% maximum tax rate (federal + state taxes).&lt;/p&gt;
+
+&lt;p&gt;Somewhat expectedly, Vox says that&lt;/p&gt;
+
+&lt;p&gt;You hear it a lot: The lottery is a tax on people who are bad at math.&lt;/p&gt;
+
+&lt;p&gt;https://www.vox.com/identities/2016/1/13/10763268/lottery-poor-prey
+But even the people who are “good at math” and calculate the probabilities are thinking about it in the wrong way. It is far simpler to consider it from the dual questions of “why does the government bother doing this?” and “what’s their profit margin?”&lt;/p&gt;
+
+&lt;h2 id=&quot;economic-production-and-energy-consumption&quot;&gt;Economic Production and Energy Consumption&lt;/h2&gt;
+&lt;p&gt;A surprising example of a nonmathematician using these ideas is Li Keqiang, the current Premier of the PRC. The story goes that in order to measure economic growth, he created his own list of indicators to track because he did not trust GDP estimates. The Li Keqiang index tracks railway cargo volume, electricity consumption, and loans disbursed by banks.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;This is another example of double counting because instead of calculating GDP as the sum of all economic activities, (calculating sum_{v\in G} deg v in the first example), one can simply record some economic indicators which should go up with economic activity instead. (like counting 2*&lt;/td&gt;
+      &lt;td&gt;E&lt;/td&gt;
+      &lt;td&gt;).&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Pyramid Schemes
+Another fun double counting example is this scam that went around on instagram awhile ago. I happened across it when I went on instagram for the first time in a week.&lt;/p&gt;
+
+&lt;p&gt;From the internet. The ones that the people I follow posted were much flashier.
+I’m looking for people to participate in a huge book exchange pyramid scheme. You can be anywhere in the world. All you have to do is buy your favorite book (just one) and send it to a stranger (I’ll send their details through in a private message).&lt;/p&gt;
+
+&lt;p&gt;You’ll receive roughly a maximum of 36 books back to you, to keep (we have sponsors or something). They’ll be favorite books from strangers around the world!&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in taking part, please send a message saying “GULLIBLE”&lt;/p&gt;
+
+&lt;p&gt;My satirical version which I posted to my story. It got shoutouted/reposted by a Choate meme account 🙂
+This is absurd by double counting. Firstly, this is obviously a pyramid scheme and some people will end up with no books because it’s impossible for everyone to receive more books than they buy.&lt;/p&gt;
+
+&lt;p&gt;Formally though, this violates the fact that in a directed graph, the sum of indegrees = number of edges = sum of outdegrees. (indegree is the number of arrows pointing to a graph, corresponding to buying a book for someone, and outdegree is the number of outward pointing arrows, corresponding to getting a book bought for you.)&lt;/p&gt;
+
+&lt;p&gt;Fermi Problems
+Finally, this idea works pretty well in Fermi problems. Pretty much all Fermi problems where you don’t follow the most obvious thought process is a form of Double Counting. My favorite Fermi problem/solution pair is an answer to&lt;/p&gt;
+
+&lt;p&gt;“ How many hairs are present on your head?”&lt;/p&gt;
+
+&lt;p&gt;Instead of directly counting, we consider the balding process. Usually men lose hair and eventually go bald over the period from age 50 to age 80, so a period of 30 years. You don’t hear about balding men losing more hair than young people, and it seems reasonable to lose around 20 hairs a day. This gives&lt;/p&gt;
+
+&lt;p&gt;20 hairs/day * 30 years * 365 days/year = 219,000 hairs&lt;/p&gt;
+
+&lt;p&gt;The actual answer is ~100,000, which is surprisingly close to the estimate generated by considering balding men.&lt;/p&gt;
+
+&lt;p&gt;Conclusion
+There’s a lot of olympiad math ideas which are extremely powerful in math, but also very useful in real life. There are people like Li Keqiang who have a decent informal grasp of ideas like counting in two ways. However, understanding the formal mathematical version makes the usage more conscious and therefore more powerful.&lt;/p&gt;
+
+&lt;p&gt;There’s two other ideas that I want to talk about, sharp ness and equality[1]. These are more philosophical, but they are also very powerful.&lt;/p&gt;
+
+&lt;p&gt;One thing I need to figure out is whether showing the informal examples first, and then the math, would be more accessible to a non-mathematical reader. I might try doing that in the post about sharpness or equality.&lt;/p&gt;
+
+&lt;p&gt;I guess leave a comment about which structure you would prefer?&lt;/p&gt;
+
+&lt;p&gt;[1] Unfortunately unaccessible if you’re not in OTIS 🙁 There doesn’t seem to be any good online source on what equality is, so this means that I’ll probably write about equality next.&lt;/p&gt;
+
+&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
+&lt;p&gt;[1] A good formal introduction can be found in Chapter 7 of the &lt;a href=&quot;https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf&quot;&gt;OTIS Excerpts&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">sabbe saṅkhārā aniccā (All conditioned things are impermanent) - Buddha</summary></entry><entry><title type="html">An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html" rel="alternate" type="text/html" title="An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html">&lt;blockquote&gt;
   &lt;p&gt;“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -301,139 +433,7 @@ And, nearly by definition, this will get you the best possible life outcome you 
 
 &lt;p&gt;This is effectively identical to Shapley, except that the asking side swaps each round, and with a new condition for re-asking out people since getting back with an ex is now possible.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Convergence Properties:&lt;/strong&gt; I’m pretty wary about this – I think that it’s unfortunately pretty likely that this will oscillate, and there’s an inherent tradeoff that you make in Condition X between slower convergence and more time to search/find the right matching.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”</summary></entry><entry><title type="html">The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html" rel="alternate" type="text/html" title="The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html">&lt;blockquote&gt;
-  &lt;p&gt;sabbe saṅkhārā aniccā 
-(All conditioned things are impermanent)
-- Buddha&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;One of the most beautiful parts of mathematics is that once you construct an object, it is truly permanent, and self-consistent to measurement. This property of mathematics is taken advantage of by a mathematically technique called “considering global values.” [1] This post will outline the basic mathematical techniques, and then pivot to interesting non-mathematical application where the technique is still true up to approximation.&lt;/p&gt;
-
-&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
-
-&lt;p&gt;This general trick is referred to in a number of ways:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Counting in two ways&lt;/li&gt;
-  &lt;li&gt;Global ideas&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And the following mathematical ideas are special cases of the more general principle:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Swapping the order of summation&lt;/li&gt;
-  &lt;li&gt;Linearity of Expectation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;canonical-math-example-1-of-2-pecking-decks&quot;&gt;Canonical Math Example (1 of 2): Pecking Decks&lt;/h2&gt;
-&lt;p&gt;I’d like to start with the example that first exposed me to this idea&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;In a barn, 100 chicks sit peacefully in a circle. Suddenly, each chick randomly pecks the chick immediately to its left or right. What is the expected number of unpecked chicks? (&lt;a href=&quot;https://www.nytimes.com/2017/05/15/us/math-counts-national-competition.html&quot;&gt;MATHCOUNTS 2017&lt;/a&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The direct solution is to apply the “Linearity of Expectation.” The argument there would be that the probability that any individual chick is pecked is 1/4, so each pick is expected to contribute “1/4” to the number of unpecked chicks. This is true for all 100 chicks, for a total expectation of 25 unpecked chicks.&lt;/p&gt;
-
-&lt;p&gt;But there’s something deeper happening here. There is a very deep and fundamental idea which is that objects exist and have permanence.&lt;/p&gt;
-
-&lt;p&gt;For this problem, consider all $2^100$ different multiverses, where each chick pecks left or right. Then, consider the number of (unpecked chick, multiverse) pairs. Let $X$ be the number of such pairs.&lt;/p&gt;
-
-&lt;p&gt;This is a degenerate case so this first method is weirder than normal. Nevertheless, let $Y$ be the expected number of unpecked chicks in some universe. Then, $2^{100}\cdot Y$ should be the total number of (unpecked chicks, multiverse) pairs.&lt;/p&gt;
-
-&lt;p&gt;So now let’s count it in a second way. Consider a specific chick A. How many multiverses are there in which chick A is unpecked? It ends up being $2^{98}$. The two neighboring chicks must peck away, and the other 98 can peck either way. Thus, for chick A, there are $2^{98}$ multiverses for which the (unpicked chick where that chick is A, multiverse) pair exists. But the unpicked chick can be any of the 100 chicks, and each of them are a chosen chick in \(2^{98}\) multiverses, so $X= 100 \cdot 2^{98}$.&lt;/p&gt;
-
-&lt;p&gt;Put together,
-\(2^{100}\cdot Y = X = 100 \cdot 2^{98}\)
-Which gives \(Y = 100\cdot \frac{2^{98}}{2^{100}} = 100\cdot \frac14=25\).&lt;/p&gt;
-
-&lt;h2 id=&quot;canonical-math-example-2-of-2-handshake-lemma&quot;&gt;Canonical Math Example (2 of 2): Handshake Lemma&lt;/h2&gt;
-&lt;p&gt;Another canonical example is the following, given first abstractly and then more concretely, with the real life example making the proof seemingly obvious.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Abstract: Let G be a simple graph (a set of vertices where each pair of vertices either has an edge between or not). Then the sum of all the degrees of vertices (number of edges into the vertex) of G is twice the number of edges.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;But when you phrase it like this&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Handshake: A group of people are at a party. While there, some pairs of people shake hands. Let the degree of a person be the number of hands that person shook. Then, the sum of the degrees of all people is equal two twice the number of handshakes.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A lot more obvious in the second one right? Clearly each handshake counts to two people’s degrees.&lt;/p&gt;
-
-&lt;p&gt;But the point of using “global” ideas is to measure one well-defined quantity in two ways because every well-defined quantity has a single value. Here, this would be done by counting the number of (V,E) pairs where V is a person and E is a handshake they partook in. If $X$ is the number of such pairs, then
-\(\sum deg(V) = X = 2E\)
-Since each vertex is in deg(V) such pairs, and each edge is in two such pairs.&lt;/p&gt;
-
-&lt;h2 id=&quot;part-2&quot;&gt;Part 2&lt;/h2&gt;
-&lt;p&gt;And now for a hard pivot. I don’t have &lt;em&gt;great&lt;/em&gt; intuition about why this is the same as global combinatorics, but it feels similar?&lt;/p&gt;
-
-&lt;h2 id=&quot;lottery-math-is-overcomplicated&quot;&gt;Lottery Math is Overcomplicated&lt;/h2&gt;
-&lt;p&gt;The way that people usually claim that the lottery is a scam is by multiplying a bunch of numbers to find that the probability of winning. For examples, with a lot of calculations, the probability of winning the Mega Millions is “1 in 302,575,350”, and since the payout is less than 2$ * 302,575,350, you’d lose money on average. This is absurd though, it plays into the lottery’s abuse of human’s inability to intuitively grasp large numbers, and it’s so complicated that Khan Academy used it as a math exercise.&lt;/p&gt;
-
-&lt;p&gt;There’s a far simpler way to show that lotteries are a cash grab by the state. Instead of considering cash flow on the consumers end, consider it from the side of the government. (By law, lotteries must be run by the government) Even before taxes, a simple way to see that you cannot make money on it is the following quote:&lt;/p&gt;
-
-&lt;p&gt;“For Mega Millions (and Powerball) tickets, 50 percent of the sales goes to the prize pool. The remaining 50 percent is used to pay for the states’ retailer commissions, vendor fees, lottery administration, and the state beneficiaries or good causes of that state,” she told ABC News.&lt;/p&gt;
-
-&lt;p&gt;https://abcnews.go.com/US/mega-millions-lottery-lottery-money-states/story?id=58661412
-Thus, on average, you will get back 50% of your ticket price. This is a lot simpler than figuring out the probabilities of each payout, and finding the expected payout that way.&lt;/p&gt;
-
-&lt;p&gt;But wait there’s more! When the payout finally happens, these massive sums of money are taxed at the highest interest bracket. The lottery is especially brilliant because it takes money from people who are usually lower income, and thus have untaxable money, and then put that together into one massive pot that can be taxed at the 50% maximum tax rate (federal + state taxes).&lt;/p&gt;
-
-&lt;p&gt;Somewhat expectedly, Vox says that&lt;/p&gt;
-
-&lt;p&gt;You hear it a lot: The lottery is a tax on people who are bad at math.&lt;/p&gt;
-
-&lt;p&gt;https://www.vox.com/identities/2016/1/13/10763268/lottery-poor-prey
-But even the people who are “good at math” and calculate the probabilities are thinking about it in the wrong way. It is far simpler to consider it from the dual questions of “why does the government bother doing this?” and “what’s their profit margin?”&lt;/p&gt;
-
-&lt;h2 id=&quot;economic-production-and-energy-consumption&quot;&gt;Economic Production and Energy Consumption&lt;/h2&gt;
-&lt;p&gt;A surprising example of a nonmathematician using these ideas is Li Keqiang, the current Premier of the PRC. The story goes that in order to measure economic growth, he created his own list of indicators to track because he did not trust GDP estimates. The Li Keqiang index tracks railway cargo volume, electricity consumption, and loans disbursed by banks.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;This is another example of double counting because instead of calculating GDP as the sum of all economic activities, (calculating sum_{v\in G} deg v in the first example), one can simply record some economic indicators which should go up with economic activity instead. (like counting 2*&lt;/td&gt;
-      &lt;td&gt;E&lt;/td&gt;
-      &lt;td&gt;).&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Pyramid Schemes
-Another fun double counting example is this scam that went around on instagram awhile ago. I happened across it when I went on instagram for the first time in a week.&lt;/p&gt;
-
-&lt;p&gt;From the internet. The ones that the people I follow posted were much flashier.
-I’m looking for people to participate in a huge book exchange pyramid scheme. You can be anywhere in the world. All you have to do is buy your favorite book (just one) and send it to a stranger (I’ll send their details through in a private message).&lt;/p&gt;
-
-&lt;p&gt;You’ll receive roughly a maximum of 36 books back to you, to keep (we have sponsors or something). They’ll be favorite books from strangers around the world!&lt;/p&gt;
-
-&lt;p&gt;If you’re interested in taking part, please send a message saying “GULLIBLE”&lt;/p&gt;
-
-&lt;p&gt;My satirical version which I posted to my story. It got shoutouted/reposted by a Choate meme account 🙂
-This is absurd by double counting. Firstly, this is obviously a pyramid scheme and some people will end up with no books because it’s impossible for everyone to receive more books than they buy.&lt;/p&gt;
-
-&lt;p&gt;Formally though, this violates the fact that in a directed graph, the sum of indegrees = number of edges = sum of outdegrees. (indegree is the number of arrows pointing to a graph, corresponding to buying a book for someone, and outdegree is the number of outward pointing arrows, corresponding to getting a book bought for you.)&lt;/p&gt;
-
-&lt;p&gt;Fermi Problems
-Finally, this idea works pretty well in Fermi problems. Pretty much all Fermi problems where you don’t follow the most obvious thought process is a form of Double Counting. My favorite Fermi problem/solution pair is an answer to&lt;/p&gt;
-
-&lt;p&gt;“ How many hairs are present on your head?”&lt;/p&gt;
-
-&lt;p&gt;Instead of directly counting, we consider the balding process. Usually men lose hair and eventually go bald over the period from age 50 to age 80, so a period of 30 years. You don’t hear about balding men losing more hair than young people, and it seems reasonable to lose around 20 hairs a day. This gives&lt;/p&gt;
-
-&lt;p&gt;20 hairs/day * 30 years * 365 days/year = 219,000 hairs&lt;/p&gt;
-
-&lt;p&gt;The actual answer is ~100,000, which is surprisingly close to the estimate generated by considering balding men.&lt;/p&gt;
-
-&lt;p&gt;Conclusion
-There’s a lot of olympiad math ideas which are extremely powerful in math, but also very useful in real life. There are people like Li Keqiang who have a decent informal grasp of ideas like counting in two ways. However, understanding the formal mathematical version makes the usage more conscious and therefore more powerful.&lt;/p&gt;
-
-&lt;p&gt;There’s two other ideas that I want to talk about, sharp ness and equality[1]. These are more philosophical, but they are also very powerful.&lt;/p&gt;
-
-&lt;p&gt;One thing I need to figure out is whether showing the informal examples first, and then the math, would be more accessible to a non-mathematical reader. I might try doing that in the post about sharpness or equality.&lt;/p&gt;
-
-&lt;p&gt;I guess leave a comment about which structure you would prefer?&lt;/p&gt;
-
-&lt;p&gt;[1] Unfortunately unaccessible if you’re not in OTIS 🙁 There doesn’t seem to be any good online source on what equality is, so this means that I’ll probably write about equality next.&lt;/p&gt;
-
-&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
-&lt;p&gt;[1] A good formal introduction can be found in Chapter 7 of the &lt;a href=&quot;https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf&quot;&gt;OTIS Excerpts&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">sabbe saṅkhārā aniccā (All conditioned things are impermanent) - Buddha</summary></entry><entry><title type="html">Life Update 1</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1.html" rel="alternate" type="text/html" title="Life Update 1" /><published>2022-01-17T19:50:32-05:00</published><updated>2022-01-17T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1.html">&lt;p&gt;Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Convergence Properties:&lt;/strong&gt; I’m pretty wary about this – I think that it’s unfortunately pretty likely that this will oscillate, and there’s an inherent tradeoff that you make in Condition X between slower convergence and more time to search/find the right matching.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”</summary></entry><entry><title type="html">Life Update 1</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1.html" rel="alternate" type="text/html" title="Life Update 1" /><published>2022-01-17T19:50:32-05:00</published><updated>2022-01-17T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1.html">&lt;p&gt;Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.&lt;/p&gt;
 
 &lt;p&gt;Of course extenuating circumstances arise, and I’m not going to hold myself too tightly to the Friday night deadline but I will hold myself to a hard cap of a “do it before Monday” deadline. I have no idea if can get through 2022 while maintaining weekly posts, but we’ll see.&lt;/p&gt;
 
@@ -491,7 +491,7 @@ There’s a lot of olympiad math ideas which are extremely powerful in math, but
 
 &lt;p&gt;&lt;img src=&quot;assets/img2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;I’ve run by a billboard that says “Lavate las manos” in New Haven quite a few times, and I’m kinda sad that I can’t find a photo of that billboard.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.</summary></entry><entry><title type="html">How Newton Actually Came Up With Gravity, and Other Examples of Mind Reading</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/08/Newton-Mind-Reading.html" rel="alternate" type="text/html" title="How Newton Actually Came Up With Gravity, and Other Examples of Mind Reading" /><published>2022-01-08T22:50:32-05:00</published><updated>2022-01-08T22:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/08/Newton-Mind-Reading</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/08/Newton-Mind-Reading.html">&lt;blockquote class=&quot;wp-block-quote is-style-default&quot;&gt;&lt;p&gt;Holmes had been seated for some hours in silence with his long, thin back curved over a chemical vessel in which he was brewing a particularly malodorous product. His head was sunk upon his breast, and he looked from my point of view like a strange, lank bird, with dull grey plumage and a black top-knot.&lt;br /&gt;&lt;br /&gt;“So, Watson,” said he, suddenly, “you do not propose to invest in South African securities?”&lt;br /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;em&gt;I’ve run by a billboard that says “Lavate las manos” in New Haven quite a few times, and I’m kinda sad that I can’t find a photo of that billboard.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.</summary></entry><entry><title type="html">Why Empathy Matters: How Newton Actually Came Up With Gravity, and Other Examples of Speculative Mind Reading</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/08/Newton-Mind-Reading.html" rel="alternate" type="text/html" title="Why Empathy Matters: How Newton Actually Came Up With Gravity, and Other Examples of Speculative Mind Reading" /><published>2022-01-08T22:50:32-05:00</published><updated>2022-01-08T22:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/08/Newton-Mind-Reading</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/08/Newton-Mind-Reading.html">&lt;blockquote class=&quot;wp-block-quote is-style-default&quot;&gt;&lt;p&gt;Holmes had been seated for some hours in silence with his long, thin back curved over a chemical vessel in which he was brewing a particularly malodorous product. His head was sunk upon his breast, and he looked from my point of view like a strange, lank bird, with dull grey plumage and a black top-knot.&lt;br /&gt;&lt;br /&gt;“So, Watson,” said he, suddenly, “you do not propose to invest in South African securities?”&lt;br /&gt;&lt;br /&gt;
 &lt;/p&gt;&lt;cite&gt;The Adventure of the Dancing Men&quot;, from the collection&amp;nbsp;&lt;em&gt;The Return of Sherlock Holmes&lt;/em&gt;&amp;nbsp;(1905)&lt;/cite&gt;&lt;/blockquote&gt;
 
 &lt;p&gt;There are some really cool neuroscience results that come from the study of people who have had the two halves of their brains surgically separated. This is done to prevent some specific kinds of seizures, and allows most people to live normal lives 99% of the times – but there’s still the last one percent.&lt;/p&gt;
@@ -703,20 +703,4 @@ There’s a lot of olympiad math ideas which are extremely powerful in math, but
 
 &lt;p&gt;&lt;img src=&quot;assets/img1.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This was genuinely quite surprising, although upon reflection this makes sense (I have forced my mental image to confirm the data). Weekends(F,S,U) have less work hours because I don’t have classes, and Saturdays are especially low because races take place on Saturdays and drain a lot of time. Friday and Sunday are also lower than  weekdays because Friday nights usually aren’t very productive, and Sunday mornings aren’t that productive.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">2020 was quite frankly a terrible year. Everything was cancelled, and the pandemic shuttered everyone’s worlds.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/jekyll/update,/2021/06/18/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-06-18T23:50:32-04:00</published><updated>2021-06-18T23:50:32-04:00</updated><id>http://localhost:4000/blog/jekyll/update,/2021/06/18/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/2021/06/18/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;This was genuinely quite surprising, although upon reflection this makes sense (I have forced my mental image to confirm the data). Weekends(F,S,U) have less work hours because I don’t have classes, and Saturdays are especially low because races take place on Saturdays and drain a lot of time. Friday and Sunday are also lower than  weekdays because Friday nights usually aren’t very productive, and Sunday mornings aren’t that productive.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">2020 was quite frankly a terrible year. Everything was cancelled, and the pandemic shuttered everyone’s worlds.</summary></entry></feed>

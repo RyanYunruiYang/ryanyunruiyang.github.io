@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nauru's At-Birth Sex Ratio"
+title:  "So Many Baby Girls: The Mystery of Nauru's At-Birth Sex Ratio"
 date:   2023-11-16 20:50:32 -0400
 categories: jekyll update, essay
 ---

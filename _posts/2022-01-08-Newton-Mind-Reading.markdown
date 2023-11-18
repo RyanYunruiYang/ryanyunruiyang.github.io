@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Newton Actually Came Up With Gravity, and Other Examples of Mind Reading"
+title:  "Why Empathy Matters: How Newton Actually Came Up With Gravity, and Other Examples of Speculative Mind Reading"
 date:   2022-01-08 23:50:32 -0400
 categories: jekyll update, essay
 ---

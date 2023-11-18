@@ -18,22 +18,35 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ryan Yang's Website
+title: Ryan Yang-Liu's Website
 email: y.ryan.yang@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the personal website of Ryan Yang.
-
+  Ryan Yang-Liu, MIT 2027. Physics & CS.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: RyanYunrui
 github_username:  RyanYunruiYang
 
+# Social links for SEO
+twitter_username: ryanyang0
+github_username:  ryanyunruiyang
+
+# SEO optional settings
+logo: "/assets/headshot.png" # URL to a site-wide logo
+social:
+  name: Ryan Yang-Liu
+  links: # An array of links to social media profiles
+    - https://twitter.com/ryanyang0
+    - https://github.com/ryanyunruiyang
+    - https://www.instagram.com/yryanyang/
+
 # Build settings
 # remote_theme: https://github.com/poole/hyde
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # markdown: kramdown
 
