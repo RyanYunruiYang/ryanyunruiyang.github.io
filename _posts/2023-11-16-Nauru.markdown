@@ -1,0 +1,87 @@
+---
+layout: post
+title:  "Nauru's At-Birth Sex Ratio"
+date:   2023-11-16 20:50:32 -0400
+categories: jekyll update, essay
+---
+
+From ~2015 to 2020, the Republic of Nauru seems to have had the world's lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.
+
+And for some reason, I couldn't find ANY news coverage explaining this? So, I set out to solve this mystery on my own, and here are the results of my internet sleuthing:
+
+(pre-TLDR; low confidence that maybe phosphorus/obesity somehow affects baby gender or the @cia messed up their data, with a nice Covid epilogue)
+
+**I: Historical Context**
+
+Nauru is an island in Oceania approximately halfway between Australia and Hawaii. Previously mostly ignored by Europe, in 1899, high-grade phosphate ore was discovered in Nauru [1]. Occupied in sequence by Germany, Australia, and Japan, Nauru finally gained independence in 1968 after having been stripped of 35 trillion metric tons of phosphate.
+
+**II: Biology: a la Alec Jones and "the water's turning the frogs gay."**
+
+Due to the destruction of the natural land, 90% of the food in Nauru is imported [2], and Nauru has a 61% prevalence of obesity, the highest in the world (USA has 36.2%) [3].
+
+It's known that the environment can have an impact on the sex ratio of births. For turtles, gender is determined by temperature during incubation. More relevantly, male billionaires have an incredible 2X more sons than daughters [4]. 
+
+Thus, it's *possible* that the literal presence of phosphorus, or more likely the obesity epidemic that came as an aftereffect of environmental degradation, may have had an effect on the sex ratio. 
+
+Frustratingly, social scientists have not done any research into the effect of obesity on at-birth sex ratios, despite the insane coincidence that the country with the lowest at-birth sex ratio also has the highest rates of obesity.
+
+Or maybe it's just bad data?
+
+**III: The CIA World Factbook**
+
+The ratio over time (by default m/f) has been:
+2013 Nauru Bureau of Stats*: 193/173=1.11 [5]
+2017 CIA Factbook: 0.83 [6]
+2020 CIA Factbook: 0.84 [7]
+2022 CIA Factbook: 1.04 [8]
+
+Weird in 2017/2020, but back to normal in 2022?
+
+The sample size is small, but not *that* small. At ~300 births a year, each of the individual 2017 and 2020 sex ratios has a p-value of ~0.04, and damningly, the 0-14 age block also had a 0.79 ratio with 1337 males to 1684 females.
+
+Additionally, it's almost literally impossible to reconcile the change in the 0-14 block from the 2020 and 2022 data:
+- 0.84->1.04 (at birth)
+- 0.79 -> 1.04 (0-14 block)
+- 0.85 -> 0.91 (15-24)
+without massive changes in measured populations due to something like, say, a pandemic.
+
+**IV: A Clue: Covid?**
+
+I came across Nauru's notable at-birth sex-ratio back in 2021 and was hopeful that the return to normal in 2022 could explain this mystery.
+
+It sort of does. On one hand, the return to a 1:1 ratio in the 0-14 and 15-24 blocks are explainable by Covid. New Zealand and Australia, popular places for Nauru residents to find employment, enforced strict Covid bubbles, likely forcing the mostly male migrant workers to stay in Nauru, restoring the ratio.
+
+But the at-birth sex ratio is not solved by COVID at all???? It's *supposed* to be 50:50 no matter what, with my only ideas being:
+
+1. The CIA collected bad data in 2017/2020 and didn't bother sanity-checking the insane 0.84 at-birth sex ratio.
+2. Related to the previous, but maybe a small group of Nauru people have been hiding their boys from the CIA?
+2. Nauru people do ultrasounds pre-pregnancy and travel to the mainland for the births of the, generally larger, male babies.
+
+**V: Conclusion**
+
+Recap: Nauru's natural landscape got messed up. Health and environment can affect gender, and Nauru's environment and health were seriously affected by phosphorus mining. While COVID explains the sex ratio in the 0-14 block, the at-birth sex ratio should not be affected, but it nevertheless jumped significantly from 2017/2020 to 2022, rising from ~0.8 to ~1. 
+
+My plan is now to reach out to Nauru officials to see if they know anything, but any help in solving the following still-open problems would be greatly appreciated: 
+
+1) Could obesity rates actually cause such a big change in the at-birth sex ratio?
+2) Are there any COVID-era changes that could affect the at-birth sex ratio, such as an increase in the survival rate of Nauru baby boys?
+3) What are the CIA Handbook's data-collection policies, and is it possible that they forgot to sanity-check the Nauru numbers?
+
+thx for reading!  <3
+
+## Sources:
+[1] <https://thereader.mitpress.mit.edu/dark-history-nauru/>
+
+[2] https://fao.org/3/av263e/av263e.pdf
+
+[3] https://wisevoter.com/country-rankings/most-obese-countries/ (#2 Palau has a healthy sex ratio of 1.07)
+
+[4] https://ncbi.nlm.nih.gov/pmc/articles/PMC2614476/
+
+[5] Wikipedia's Source is no longer accessible, but it's in a footnote in https://en.wikipedia.org/wiki/Health_in_Nauru
+
+[6] https://web.archive.org/web/20190109031519/https://www.cia.gov/library/publications/the-world-factbook/fields/351.html
+
+[7] https://cia.gov/the-world-factbook/about/archives/2021/field/sex-ratio/
+
+[8] https://cia.gov/the-world-factbook/about/archives/2022/field/sex-ratio/

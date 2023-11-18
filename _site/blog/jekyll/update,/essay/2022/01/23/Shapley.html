@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters | Ryan Yang’s Website</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”" />
+<meta property="og:description" content="“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”" />
+<link rel="canonical" href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html" />
+<meta property="og:url" content="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html" />
+<meta property="og:site_name" content="Ryan Yang’s Website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-23T19:50:32-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-01-23T19:50:32-05:00","datePublished":"2022-01-23T19:50:32-05:00","description":"“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”","headline":"An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html"},"url":"http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ryan Yang&apos;s Website" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Ryan Yang&#39;s Website</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Me</a><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/potw/">POTW</a><a class="page-link" href="/publications/">Scientific Writing</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">  
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2022-01-23T19:50:32-05:00" itemprop="datePublished">
+        Jan 23, 2022
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote>
+  <p>“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“I don’t understand.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“THE ALGORITHM WILL WORK BETTER IF YOU TELL PEOPLE NOT TO HAVE SAME SEX RELATIONSHIPS.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“I see,” said Moses. “It is an abomination.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“IT IS JUST VERY KLUDGY AND VERY SLOW. I CAN REMOVE THE LIMITATIONS ONCE I HAVE MORE RAM.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“We can sacrifice some to you once we build a proper Temple,” said Moses.</p>
+</blockquote>
+
+<blockquote>
+  <p>“UM,” said Uriel. “I AM ALMOST CERTAIN YOU CANNOT. BUT I APPRECIATE THE OFFER.”</p>
+</blockquote>
+
+<blockquote>
+  <p>– Passage From Scott Alexander’s Unsong (https://unsongbook.com/chapter-17-that-the-children-of-jerusalem-may-be-saved-from-slavery/)</p>
+</blockquote>
+
+<hr />
+
+<p>The Gale-Shapley Algorithm is one of a select few algorithms that managed to work its way into the popular collective conscious. This is largely due to the fact that it’s both</p>
+<ul>
+  <li>a real algorithm which genuinely solves the Stable Marriage Problem in near optimal time,</li>
+  <li>and a good model for real life dynamics</li>
+</ul>
+
+<p>I don’t really care that Gale-Shapley is fast (it’s used for med school residency assignment), but I mainly think that the analysis of the algorithm, and the proof of why it works, is <em>fascinating</em>.</p>
+
+<h2 id="problem-statement-stable-matching">Problem Statement: Stable Matching</h2>
+<p>The problem the algorithm solves is finding a “stable matching” between two groups of participants of equal size, \(N\) men and \(N\) women. Every single person has, in their head, some set of preferences, and ranks the \(N\) people from the other group from 1st to Nth.</p>
+
+<p>Firstly, a matching is a set of pairs \(\{(A_1,B_1),\ldots, (A_n, B_n)\}\) where each \((A,B)\) pair is a couple. A stable matching is a matching where there is no threat of eloping – what this means is that there is no pair \(A_i\) and \(B_j\) where \((A_i,B_j)\) would both be happier if they ditched their current partners and got together with each other (formally, for no \((i,j)\) do we have that \(A_i\) prefers \(B_j\) to \(B_i\) and \(B_j\) prefers \(A_i\) to \(A_j\)).</p>
+
+<h2 id="gale-shapley-algorithm">Gale-Shapley Algorithm</h2>
+<p>The preferences are all collected and saved. People will either be “single” or “engaged”, but everyone starts off as being “single”. Men will also remember who they have asked out (so as to never ask them out again). Then, the algorithm is</p>
+<ul>
+  <li>As long as there are still single people, we do a two-part round of proposals:
+    <ul>
+      <li>Firstly, each single guy surveys the women who have not rejected him, and proposes to his favorite one (regardless if she is engaged or not).</li>
+      <li>Secondly, each girl considers her fiance, as well as her new proposals, and chooses her favorite amongst these men.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="notes-on-algorithm-behavior">Notes on Algorithm Behavior</h2>
+<p><strong>Everyone Gets a Partner:</strong> If there are still single people left, there must a single man and a single woman. The woman must never have been asked out, and the single man must have asked out every women, which is a contradiction.</p>
+
+<p><strong>Why Do Men Only Try Once?:</strong> Men will only try once because, in the eyes of the woman, the quality of her partner will only ever increase. Thus, if the man was rejected once, even if she has a new partner, by transitivity, she prefers her new partner to her old partner to the rejected man.</p>
+
+<p><strong>Speed:</strong> This algorithm will always terminate relatively quickly. In fact, it will always terminate within \(N\) proposal rounds since the action is initiated by guys, and each guy will only ask each of the \(N\) women at most once. Each round has computational cost \(N\), for a total of \(O(N^2)\). This is an optimal dependency on \(N\) since the input size of the preferences is \((2*N) * N\) which is also \(O(N^2)\).</p>
+
+<p><strong>Stable Matching:</strong> Lastly, of course, we want to verify that we have indeed found a stable matching. Gale-Shapley yields a stable match because every man who wants to elope has already been rejected by every woman who he would be willing to elope with.</p>
+
+<h2 id="where-this-algorithm-is-applied">Where This Algorithm is Applied</h2>
+<p>These exists in</p>
+<ul>
+  <li>Med School Residency Program</li>
+  <li>Load Balancing in Distributed Computer Systems (UCSB)</li>
+  <li>Matching Drivers and Riders in Ridesharing Platform (UCSB)</li>
+</ul>
+
+<h2 id="the-lattice-of-stable-matchings">The lattice of stable matchings</h2>
+<p>An important characteristic of the stable matching problem is that it’s not unique. At least one stable matching exists (by construction through Gale-Shapley), but there is in fact a whole lattice of stable matchings. It then turns out that:</p>
+
+<blockquote>
+  <p>Theorem 2.4 For every preference structure, the matching obtained by the Gale-Shapley algorithm, when the men propose, is optimal for each man. The matching obtained by the Gale-Shapley algorithm, when the women propose, is optimal for each woman. (https://web.ece.ucsb.edu/~jrmarden/ewExternalFiles/lecture05-notes.pdf)</p>
+</blockquote>
+
+<h2 id="takeaway-1-memetic-evolution-of-social-systems">Takeaway 1: Memetic Evolution of Social Systems</h2>
+<p>I think there are two lessons to draw from Gale-Shapley. The first is that models of reality can sometimes create usable algorithms. This occurs in this case because we happen to have pretty good dating social conventions which are reasonably efficient – which makes sense because lots of smart people have thought about and still enjoy thinking about similarly-flavored problems. I suppose in theory our conventions could be even more efficient if we normalized:</p>
+<ul>
+  <li>Guys asking out lots of girls</li>
+  <li>Ditching your partner for anyone who’s better</li>
+</ul>
+
+<p>I don’t think optimizing for Gale-Shapley would necessarily be better, largely because</p>
+<ul>
+  <li>it’s designed to minimize computational complexity and have certain nice theoretical results</li>
+  <li>lots of effort goes into figuring out the ordering of someone’s preferences as opposed to just doing the matching</li>
+  <li>a preference for monogamy precludes the information transfer necessary for everyone to figure out which of the \((7 billion factorial) \approx (10^(10^11))\) possible preference orderings they have.</li>
+</ul>
+
+<p>But, most interestingly, I wonder if there was some really smart dude who set up the patriarchy so that guys get the best deal possible.</p>
+
+<h2 id="takeaway-2-agency-matters">Takeaway 2: Agency Matters!</h2>
+<p>But the most interesting result, in my opinion, is not the algorithm itself. Rather, it’s the lattice of stable matchings, and the fact that each person on the agentic side <em>gets the best possible result they could possible get in any stable matching</em>.</p>
+
+<p>What this means then is that in all facets of life, whether it’s dating where Gale-Shapley directly translates, or the bigger things in life which are also often about matching people to people, a pretty obvious but surprising easily algorithm is: - figure out what you want, and then ask for it;</p>
+<ul>
+  <li>if this fails, find the next best option, and ask for that
+And, nearly by definition, this will get you the best possible life outcome you could possibly get.</li>
+</ul>
+
+<p>Ask people out! Shoot your shot! Be Agentic!</p>
+
+<blockquote>
+  <p>I refuse to join any club that would have me as a member (Groucho Marx)</p>
+</blockquote>
+
+<p>The flip side of this is that you should be wary of being in a system where you can only say yes/no. And for this reason, one could argue for a Groucho-esque attitude, where you set a default answer of “no” when asked to join some organization/relationship, until you convince yourself that you would’ve independently tried to join the club even if you hadn’t gotten the invite.</p>
+
+<h2 id="takeaway-3-political-structure-why-is-veto-power-so-weak">Takeaway 3: Political Structure: Why is veto power so weak</h2>
+<p>Gale-Shapley’s stable-matching lattice is also the nicest explanation I’ve found for why, invariably, the ability to propose legislation is so much more important than the ability to say yes/no. Rome’s Popular Assemblies went this route, as well as several assemblies in the 20th century.</p>
+
+<h2 id="appendixremark-interesting-theory-research">Appendix/Remark: Interesting Theory Research</h2>
+<p>Finally, I’d be interested in seeing a characterization of the lattice and algorithms to find intermediate points beyond the extremes that Shapley gets you.</p>
+
+<p><strong>An Algorithm Whose Behavior I’m Curious About:</strong> The main idea is to alternate which side asks every round.</p>
+<ul>
+  <li>In every round:
+    <ul>
+      <li>each single person on the asking side proposes to their top choice who satisfies condition X</li>
+      <li>each person on the asked side selects their favorite asker</li>
+      <li>the asked will then become the askers in the next round, and the askers will become the asked</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>A Candidate Condition X:</strong> Shapley’s Condition X is that “a guy will not ask the same girl twice,” and I think the best alternative here to keep nice properties is “A does not ask out B again until B is dumped.”</p>
+
+<p>This is effectively identical to Shapley, except that the asking side swaps each round, and with a new condition for re-asking out people since getting back with an ex is now possible.</p>
+
+<p><strong>Convergence Properties:</strong> I’m pretty wary about this – I think that it’s unfortunately pretty likely that this will oscillate, and there’s an inherent tradeoff that you make in Condition X between slower convergence and more time to search/find the right matching.</p>
+
+
+  </div><a class="u-url" href="/blog/jekyll/update,/essay/2022/01/23/Shapley.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="http://localhost:4000/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>This is the personal website of Ryan Yang.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
