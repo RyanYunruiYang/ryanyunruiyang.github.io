@@ -12,8 +12,6 @@ Welcome to my website! I'm Ryan Yang-Liu and I'm a freshman at MIT. This website
 
 My primary intellectual backgrounds have been in mathematics, where I competed in final round US IMO Team Selection Tests, and CS (AI and distributed systems) where I've been published in IEEE and ACM.
 
-Beyond that, my passionate distraction from the above topics is compulsively buying books from used book stores -- where I seek to devour as much history, sci-fi, politics, linguistics, and theology as possible ([goodreads.com/ryanyang](https://goodreads.com/ryanyang)).
-
-Outside of these things, I love [crossword fencing](https://downforaacross.com/fencing), the Atlantic, jiu-jitsu, twitter, Buddhist and Islamic theology, baseball sabermetrics, skateboarding, ancient Greek and Roman history, venturing-beyond-Jane-Street-T-shirts-into-real-fashion, and Home Depot.
+Beyond that, my passionate distraction from real work is compulsively buying books from used book stores -- where I seek to devour as much history, sci-fi, politics, linguistics, and theology as possible ([goodreads.com/ryanyang](https://goodreads.com/ryanyang)). Outside of these things, I also love [crossword fencing](https://downforaacross.com/fencing), the Atlantic, jiu-jitsu, twitter, Buddhist and Islamic theology, baseball sabermetrics, skateboarding, ancient Greek and Roman history, venturing-beyond-Jane-Street-T-shirts-into-real-fashion, and Home Depot.
 
 <!-- skateboarding, jiujitsu, breakdancing, pistol club, buddhism, greek history, sci-fi, leftist politics -->
