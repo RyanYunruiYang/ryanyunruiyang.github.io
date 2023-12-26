@@ -1,706 +1,406 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-19T17:15:58-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang-Liu’s Website</title><subtitle>Ryan Yang-Liu, MIT 2027. Physics &amp; CS.</subtitle><entry><title type="html">No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html" rel="alternate" type="text/html" title="No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio" /><published>2023-11-16T19:50:32-05:00</published><updated>2023-11-16T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html">&lt;p&gt;From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-26T00:26:58-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang-Liu’s Website</title><subtitle>Ryan Yang-Liu, MIT 2027. Physics &amp; CS.</subtitle><entry><title type="html">There are 2048 Ways To Solve a Rubiks Cube</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html" rel="alternate" type="text/html" title="There are 2048 Ways To Solve a Rubiks Cube" /><published>2023-12-25T09:50:32-05:00</published><updated>2023-12-25T09:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html"><![CDATA[<p>No, this isn’t going to be some whimsical list of different strategies, starting with F2L and slowly descending into insanity. 2048 is way too big of a number for that. I’m nowhere near that creative.</p>
 
-&lt;p&gt;And for some reason, I couldn’t find ANY news coverage explaining this? So, I set out to solve this mystery on my own, and here are the results of my internet sleuthing:&lt;/p&gt;
+<p>Rather, there are literally 2048 different, technically distinct orientations of a rubik’s cube that “solve” the puzzle and are visually correct, but are nevertheless different.</p>
 
-&lt;p&gt;(pre-TLDR; low confidence that maybe phosphorus/obesity somehow affects baby gender or the @cia messed up their data, with a nice Covid epilogue)&lt;/p&gt;
+<p>Namely, if you draw an arrow on each sticker of the rubik’s cube to keep track of its position, you can track the precise orientation of each of the pieces. In a perfectly solved cube, each of the edge and corner stickers are perfectly fixed because they have to be oriented to be adjacent to a specified other side. But! The center faces actually have no such requirement, and are free (ish) to move.</p>
 
-&lt;p&gt;&lt;strong&gt;I: Historical Context&lt;/strong&gt;&lt;/p&gt;
+<p>Thus, in theory, there are a total of 4^6 different orientations: each of the centers has four different orientations, and there are six centers. However the real number ends up being half of this: 2048.</p>
 
-&lt;p&gt;Nauru is an island in Oceania approximately halfway between Australia and Hawaii. Previously mostly ignored by Europe, in 1899, high-grade phosphate ore was discovered in Nauru [1]. Occupied in sequence by Germany, Australia, and Japan, Nauru finally gained independence in 1968 after having been stripped of 35 trillion metric tons of phosphate.&lt;/p&gt;
+<h2 id="part-1-there-are-at-most-2048--12--46-orientations">Part 1: There are at most 2048 = 1/2 * 4^6 orientations</h2>
+<p>Let \(\mathbb{Z}_4\) be the set {0,1,2,3} taken mod 4. Thus, the orientation of the set of six centers is a 6d vector, where each value is a number in {0,1,2,3}, with the assumption that (0,0,0,0,0,0) is our baseline solution.</p>
 
-&lt;p&gt;&lt;strong&gt;II: Biology: a la Alec Jones and “the water’s turning the frogs gay.”&lt;/strong&gt;&lt;/p&gt;
+<p>Then, to demonstrate \(\leq 2048\), we claim that it must be true that the sum of the orientations of each of the faces must be invariant mod 180 degrees, or the sum of the values in \((\{0,1,2,3\})^6\) are 0 mod 2. This is equivalent to saying that any sequences of moves that sends a color-solved rubik’s cube back to itself must have an even number of moves, where each move is a 90 degree rotation of one face.</p>
 
-&lt;p&gt;Due to the destruction of the natural land, 90% of the food in Nauru is imported [2], and Nauru has a 61% prevalence of obesity, the highest in the world (USA has 36.2%) [3].&lt;/p&gt;
+<p>Inspired by Cayley’s Theorem, we consider every action to be a permutation of S_54, the group reorienting the (6 faces) * (9 stickers/face) = 54 stickers.</p>
 
-&lt;p&gt;It’s known that the environment can have an impact on the sex ratio of births. For turtles, gender is determined by temperature during incubation. More relevantly, male billionaires have an incredible 2X more sons than daughters [4].&lt;/p&gt;
+<p>For reasons known to literature, each “move” is an “odd” permutation since it is composed of five 4-cycles. Then, in order to get back to the identity, which is even, there must have been an even number of cycles (otherwise odd times odd would’ve been even).</p>
 
-&lt;p&gt;Thus, it’s &lt;em&gt;possible&lt;/em&gt; that the literal presence of phosphorus, or more likely the obesity epidemic that came as an aftereffect of environmental degradation, may have had an effect on the sex ratio.&lt;/p&gt;
+<h2 id="part-2-all-2048-orientations-with-even-total-sum-can-be-achieved">Part 2: All 2048 orientations with even total sum can be achieved.</h2>
 
-&lt;p&gt;Frustratingly, social scientists have not done any research into the effect of obesity on at-birth sex ratios, despite the insane coincidence that the country with the lowest at-birth sex ratio also has the highest rates of obesity.&lt;/p&gt;
+<p>To show this, we demonstrate two possible sequences of moves that achieve:</p>
 
-&lt;p&gt;Or maybe it’s just bad data?&lt;/p&gt;
+<p>Type A, (2,0,0,0,0,0):</p>
+<ul>
+  <li>Namely, there is a sequence of moves that rotates one face 180 degrees: 5x (R, U, R’, U). - Source: https://www.reddit.com/r/Rubiks_Cubes/comments/kduwle/comment/gg008h2/?utm_source=share&amp;utm_medium=web2x&amp;context=3</li>
+</ul>
 
-&lt;p&gt;&lt;strong&gt;III: The CIA World Factbook&lt;/strong&gt;&lt;/p&gt;
+<p>Type B, (1,-1,0,0,0,0):</p>
 
-&lt;p&gt;The ratio over time (by default m/f) has been:
+<ul>
+  <li>Namely, there exists a sequence of moves that rotates one face 90 degrees cw, and an adjacent face 90 degrees ccw.</li>
+  <li>Source: http://tilde.club/~notfire/cube/3x3x3_x_rotating_centres.htm</li>
+</ul>
+
+<p>We claim that this forms a basis of all even-sum elements in the set {0,1,2,3 mod 4}^6. Type A moves reduce the problem to just handling {0,1}, and then if X and Y are a pair of opposite sides, with the other four being A, B, C, D, then the following five Type B moves are linearly independent:</p>
+<ul>
+  <li>XA, XB, XC, XD, YA</li>
+</ul>
+
+<p>This covers all 32 even-sum vectors in \(\{0,1\}^6\), since:</p>
+
+<ul>
+  <li>orientation of Y determines number of YAs.</li>
+  <li>orientation of A, B,C,D then determine numbers of XA, XB,XC,XDs.</li>
+</ul>
+
+<p>Thus, (2,0,0,0,0,0) and (1,-1,0,0,0,0) cover all even sum elements of \(\{0,1,2,3\}^6\).</p>
+
+<h2 id="summary">Summary</h2>
+<p>In summary, it is possible to rotate the center faces by a cumulative even number of 90-degree turns, for a total of 2048 ways to solve a Rubik’s cube.</p>
+
+<p>Remarkably, I can not find any reference to this on the internet. The idea here is mainly just the pairing of the two known-ish ideas of:</p>
+
+<ul>
+  <li>even number of moves implying multiple of 180 net center</li>
+  <li>the known center shifting algorithms</li>
+</ul>
+
+<p>into a tight/precise full characterization of reachable center-orientation systems.</p>
+
+<p><em>In case of conflict over primacy, I figured this out on December 25th, 2023.</em></p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[No, this isn’t going to be some whimsical list of different strategies, starting with F2L and slowly descending into insanity. 2048 is way too big of a number for that. I’m nowhere near that creative.]]></summary></entry><entry><title type="html">Nineteen</title><link href="http://localhost:4000/blog/2023/12/19/nineteen.html" rel="alternate" type="text/html" title="Nineteen" /><published>2023-12-19T00:00:00-05:00</published><updated>2023-12-19T00:00:00-05:00</updated><id>http://localhost:4000/blog/2023/12/19/nineteen</id><content type="html" xml:base="http://localhost:4000/blog/2023/12/19/nineteen.html"><![CDATA[<!-- ---
+layout: post
+title:  "Turning 19"
+date:   2023-11-16 20:50:32 -0400
+categories: jekyll update, essay
+--- -->
+
+<p>I’m turning 19 tomorrow. 6938 days. 166512 hours. 599,443,200 seconds.</p>
+
+<p>Last year, I spent my 18th birthday writing essays in the morning, and</p>
+
+<p>I’ll be twenty next time. We’re on the up and up.</p>
+
+<p>Last night as I was walking back from an AI reading group I’m in, I was telling a friend about this paper I had just read, that there’s a degree of true randomness in what metabolites get activated in your brain, and there is something called true love.</p>
+
+<p>I think this is the first full year of my life I went without truly falling in love. I think that changes a person. I stopped feeling. I stopped being vulnerable?</p>
+
+<p>I wish I was a better writer. Paul Graham, Ben Kuhn, all of these people who can just</p>
+
+<p>A friend asked me if I was a performer or an observer.</p>
+
+<p>… and I can’t believe I wrote this in VSCode.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">College</title><link href="http://localhost:4000/blog/2023/12/17/college.html" rel="alternate" type="text/html" title="College" /><published>2023-12-17T00:00:00-05:00</published><updated>2023-12-17T00:00:00-05:00</updated><id>http://localhost:4000/blog/2023/12/17/college</id><content type="html" xml:base="http://localhost:4000/blog/2023/12/17/college.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Heatsleep</title><link href="http://localhost:4000/blog/2023/12/11/heatsleep.html" rel="alternate" type="text/html" title="Heatsleep" /><published>2023-12-11T00:00:00-05:00</published><updated>2023-12-11T00:00:00-05:00</updated><id>http://localhost:4000/blog/2023/12/11/heatsleep</id><content type="html" xml:base="http://localhost:4000/blog/2023/12/11/heatsleep.html"><![CDATA[<!-- ---
+layout: post
+title:  "Heat-Optimal Sleep"
+date:   2022-02-08 20:50:32 -0400
+categories: jekyll update, essay
+--- -->
+<!-- ![image-title-here](../assets/flow640am.png){:class="img-responsive"} -->
+
+<p>In a survey of 1000 average Americans,</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html" rel="alternate" type="text/html" title="No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio" /><published>2023-11-16T19:50:32-05:00</published><updated>2023-11-16T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html"><![CDATA[<p>From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.</p>
+
+<p>And for some reason, I couldn’t find ANY news coverage explaining this? So, I set out to solve this mystery on my own, and here are the results of my internet sleuthing:</p>
+
+<p>(pre-TLDR; low confidence that maybe phosphorus/obesity somehow affects baby gender or the @cia messed up their data, with a nice Covid epilogue)</p>
+
+<p><strong>I: Historical Context</strong></p>
+
+<p>Nauru is an island in Oceania approximately halfway between Australia and Hawaii. Previously mostly ignored by Europe, in 1899, high-grade phosphate ore was discovered in Nauru [1]. Occupied in sequence by Germany, Australia, and Japan, Nauru finally gained independence in 1968 after having been stripped of 35 trillion metric tons of phosphate.</p>
+
+<p><strong>II: Biology: a la Alec Jones and “the water’s turning the frogs gay.”</strong></p>
+
+<p>Due to the destruction of the natural land, 90% of the food in Nauru is imported [2], and Nauru has a 61% prevalence of obesity, the highest in the world (USA has 36.2%) [3].</p>
+
+<p>It’s known that the environment can have an impact on the sex ratio of births. For turtles, gender is determined by temperature during incubation. More relevantly, male billionaires have an incredible 2X more sons than daughters [4].</p>
+
+<p>Thus, it’s <em>possible</em> that the literal presence of phosphorus, or more likely the obesity epidemic that came as an aftereffect of environmental degradation, may have had an effect on the sex ratio.</p>
+
+<p>Frustratingly, social scientists have not done any research into the effect of obesity on at-birth sex ratios, despite the insane coincidence that the country with the lowest at-birth sex ratio also has the highest rates of obesity.</p>
+
+<p>Or maybe it’s just bad data?</p>
+
+<p><strong>III: The CIA World Factbook</strong></p>
+
+<p>The ratio over time (by default m/f) has been:
 2013 Nauru Bureau of Stats*: 193/173=1.11 [5]
 2017 CIA Factbook: 0.83 [6]
 2020 CIA Factbook: 0.84 [7]
-2022 CIA Factbook: 1.04 [8]&lt;/p&gt;
+2022 CIA Factbook: 1.04 [8]</p>
 
-&lt;p&gt;Weird in 2017/2020, but back to normal in 2022?&lt;/p&gt;
+<p>Weird in 2017/2020, but back to normal in 2022?</p>
 
-&lt;p&gt;The sample size is small, but not &lt;em&gt;that&lt;/em&gt; small. At ~300 births a year, each of the individual 2017 and 2020 sex ratios has a p-value of ~0.04, and damningly, the 0-14 age block also had a 0.79 ratio with 1337 males to 1684 females.&lt;/p&gt;
+<p>The sample size is small, but not <em>that</em> small. At ~300 births a year, each of the individual 2017 and 2020 sex ratios has a p-value of ~0.04, and damningly, the 0-14 age block also had a 0.79 ratio with 1337 males to 1684 females.</p>
 
-&lt;p&gt;Additionally, it’s almost literally impossible to reconcile the change in the 0-14 block from the 2020 and 2022 data:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;0.84-&amp;gt;1.04 (at birth)&lt;/li&gt;
-  &lt;li&gt;0.79 -&amp;gt; 1.04 (0-14 block)&lt;/li&gt;
-  &lt;li&gt;0.85 -&amp;gt; 0.91 (15-24)
-without massive changes in measured populations due to something like, say, a pandemic.&lt;/li&gt;
-&lt;/ul&gt;
+<p>Additionally, it’s almost literally impossible to reconcile the change in the 0-14 block from the 2020 and 2022 data:</p>
+<ul>
+  <li>0.84-&gt;1.04 (at birth)</li>
+  <li>0.79 -&gt; 1.04 (0-14 block)</li>
+  <li>0.85 -&gt; 0.91 (15-24)
+without massive changes in measured populations due to something like, say, a pandemic.</li>
+</ul>
 
-&lt;p&gt;&lt;strong&gt;IV: A Clue: Covid?&lt;/strong&gt;&lt;/p&gt;
+<p><strong>IV: A Clue: Covid?</strong></p>
 
-&lt;p&gt;I came across Nauru’s notable at-birth sex-ratio back in 2021 and was hopeful that the return to normal in 2022 could explain this mystery.&lt;/p&gt;
+<p>I came across Nauru’s notable at-birth sex-ratio back in 2021 and was hopeful that the return to normal in 2022 could explain this mystery.</p>
 
-&lt;p&gt;It sort of does. On one hand, the return to a 1:1 ratio in the 0-14 and 15-24 blocks are explainable by Covid. New Zealand and Australia, popular places for Nauru residents to find employment, enforced strict Covid bubbles, likely forcing the mostly male migrant workers to stay in Nauru, restoring the ratio.&lt;/p&gt;
+<p>It sort of does. On one hand, the return to a 1:1 ratio in the 0-14 and 15-24 blocks are explainable by Covid. New Zealand and Australia, popular places for Nauru residents to find employment, enforced strict Covid bubbles, likely forcing the mostly male migrant workers to stay in Nauru, restoring the ratio.</p>
 
-&lt;p&gt;But the at-birth sex ratio is not solved by COVID at all???? It’s &lt;em&gt;supposed&lt;/em&gt; to be 50:50 no matter what, with my only ideas being:&lt;/p&gt;
+<p>But the at-birth sex ratio is not solved by COVID at all???? It’s <em>supposed</em> to be 50:50 no matter what, with my only ideas being:</p>
 
-&lt;ol&gt;
-  &lt;li&gt;The CIA collected bad data in 2017/2020 and didn’t bother sanity-checking the insane 0.84 at-birth sex ratio.&lt;/li&gt;
-  &lt;li&gt;Related to the previous, but maybe a small group of Nauru people have been hiding their boys from the CIA?&lt;/li&gt;
-  &lt;li&gt;Nauru people do ultrasounds pre-pregnancy and travel to the mainland for the births of the, generally larger, male babies.&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>The CIA collected bad data in 2017/2020 and didn’t bother sanity-checking the insane 0.84 at-birth sex ratio.</li>
+  <li>Related to the previous, but maybe a small group of Nauru people have been hiding their boys from the CIA?</li>
+  <li>Nauru people do ultrasounds pre-pregnancy and travel to the mainland for the births of the, generally larger, male babies.</li>
+</ol>
 
-&lt;p&gt;&lt;strong&gt;V: Conclusion&lt;/strong&gt;&lt;/p&gt;
+<p><strong>V: Conclusion</strong></p>
 
-&lt;p&gt;Recap: Nauru’s natural landscape got messed up. Health and environment can affect gender, and Nauru’s environment and health were seriously affected by phosphorus mining. While COVID explains the sex ratio in the 0-14 block, the at-birth sex ratio should not be affected, but it nevertheless jumped significantly from 2017/2020 to 2022, rising from ~0.8 to ~1.&lt;/p&gt;
+<p>Recap: Nauru’s natural landscape got messed up. Health and environment can affect gender, and Nauru’s environment and health were seriously affected by phosphorus mining. While COVID explains the sex ratio in the 0-14 block, the at-birth sex ratio should not be affected, but it nevertheless jumped significantly from 2017/2020 to 2022, rising from ~0.8 to ~1.</p>
 
-&lt;p&gt;My plan is now to reach out to Nauru officials to see if they know anything, but any help in solving the following still-open problems would be greatly appreciated:&lt;/p&gt;
+<p>My plan is now to reach out to Nauru officials to see if they know anything, but any help in solving the following still-open problems would be greatly appreciated:</p>
 
-&lt;p&gt;1) Could obesity rates actually cause such a big change in the at-birth sex ratio?
+<p>1) Could obesity rates actually cause such a big change in the at-birth sex ratio?
 2) Are there any COVID-era changes that could affect the at-birth sex ratio, such as an increase in the survival rate of Nauru baby boys?
-3) What are the CIA Handbook’s data-collection policies, and is it possible that they forgot to sanity-check the Nauru numbers?&lt;/p&gt;
+3) What are the CIA Handbook’s data-collection policies, and is it possible that they forgot to sanity-check the Nauru numbers?</p>
 
-&lt;p&gt;thx for reading!  &amp;lt;3&lt;/p&gt;
+<p>thx for reading!  &lt;3</p>
 
-&lt;h2 id=&quot;sources&quot;&gt;Sources:&lt;/h2&gt;
-&lt;p&gt;[1] &lt;a href=&quot;https://thereader.mitpress.mit.edu/dark-history-nauru/&quot;&gt;https://thereader.mitpress.mit.edu/dark-history-nauru/&lt;/a&gt;&lt;/p&gt;
+<h2 id="sources">Sources:</h2>
+<p>[1] <a href="https://thereader.mitpress.mit.edu/dark-history-nauru/">https://thereader.mitpress.mit.edu/dark-history-nauru/</a></p>
 
-&lt;p&gt;[2] https://fao.org/3/av263e/av263e.pdf&lt;/p&gt;
+<p>[2] https://fao.org/3/av263e/av263e.pdf</p>
 
-&lt;p&gt;[3] https://wisevoter.com/country-rankings/most-obese-countries/ (#2 Palau has a healthy sex ratio of 1.07)&lt;/p&gt;
+<p>[3] https://wisevoter.com/country-rankings/most-obese-countries/ (#2 Palau has a healthy sex ratio of 1.07)</p>
 
-&lt;p&gt;[4] https://ncbi.nlm.nih.gov/pmc/articles/PMC2614476/&lt;/p&gt;
+<p>[4] https://ncbi.nlm.nih.gov/pmc/articles/PMC2614476/</p>
 
-&lt;p&gt;[5] Wikipedia’s Source is no longer accessible, but it’s in a footnote in https://en.wikipedia.org/wiki/Health_in_Nauru&lt;/p&gt;
+<p>[5] Wikipedia’s Source is no longer accessible, but it’s in a footnote in https://en.wikipedia.org/wiki/Health_in_Nauru</p>
 
-&lt;p&gt;[6] https://web.archive.org/web/20190109031519/https://www.cia.gov/library/publications/the-world-factbook/fields/351.html&lt;/p&gt;
+<p>[6] https://web.archive.org/web/20190109031519/https://www.cia.gov/library/publications/the-world-factbook/fields/351.html</p>
 
-&lt;p&gt;[7] https://cia.gov/the-world-factbook/about/archives/2021/field/sex-ratio/&lt;/p&gt;
+<p>[7] https://cia.gov/the-world-factbook/about/archives/2021/field/sex-ratio/</p>
 
-&lt;p&gt;[8] https://cia.gov/the-world-factbook/about/archives/2022/field/sex-ratio/&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.</summary></entry><entry><title type="html">Basketball</title><link href="http://localhost:4000/blog/2022/04/22/basketball.html" rel="alternate" type="text/html" title="Basketball" /><published>2022-04-22T00:00:00-04:00</published><updated>2022-04-22T00:00:00-04:00</updated><id>http://localhost:4000/blog/2022/04/22/basketball</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/22/basketball.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Superbowl</title><link href="http://localhost:4000/blog/potw/2022/02/13/superbowl.html" rel="alternate" type="text/html" title="Superbowl" /><published>2022-02-13T00:00:00-05:00</published><updated>2022-02-13T00:00:00-05:00</updated><id>http://localhost:4000/blog/potw/2022/02/13/superbowl</id><content type="html" xml:base="http://localhost:4000/blog/potw/2022/02/13/superbowl.html"></content><author><name></name></author><category term="potw" /><summary type="html"></summary></entry><entry><title type="html">Long Weekend</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html" rel="alternate" type="text/html" title="Long Weekend" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html">&lt;p&gt;I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.&lt;/p&gt;
+<p>[8] https://cia.gov/the-world-factbook/about/archives/2022/field/sex-ratio/</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.]]></summary></entry><entry><title type="html">Basketball</title><link href="http://localhost:4000/blog/2022/04/22/basketball.html" rel="alternate" type="text/html" title="Basketball" /><published>2022-04-22T00:00:00-04:00</published><updated>2022-04-22T00:00:00-04:00</updated><id>http://localhost:4000/blog/2022/04/22/basketball</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/22/basketball.html"><![CDATA[<p>https://www.coursehero.com/lit/Moneyball/quotes/</p>
 
-&lt;hr /&gt;
-&lt;p&gt;I’ve been trying to put together a reference document, tentatively named “Practical Convex Optimization,” that can act as a bit of prologue and/or reference document for work I’ve done in optimization theory. This has turned out to be a far larger endeavor than I expected, but here’s a draft: 
-&lt;img src=&quot;https://www.overleaf.com/read/hxvvjwbmsvgw&quot; alt=&quot;https://www.overleaf.com/read/hxvvjwbmsvgw&quot; /&gt;&lt;/p&gt;
+<p>“The sheer quantity of brain power that hurled itself voluntarily and quixotically into the search for new baseball knowledge was either exhilarating or depressing, depending on how you felt about baseball. The same intellectual resources might have cured the common cold, or put a man on Pluto.”</p>
 
-&lt;h2 id=&quot;upcoming-week&quot;&gt;Upcoming Week&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;assets/214216meme&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p>“One absolutely cannot tell, by watching, the difference between a .300 hitter and a .275 hitter. The difference is one hit every two weeks.”</p>
 
-&lt;p&gt;For some reason, my to-do list has a massive bulge in the 2/14-216 period. It’s some sort of weird magnet for things to handle that defies logic – @RogerPenrose you might want to take a look at this, could inspire a new physics or something.&lt;/p&gt;
+<p>“Baseball is a soap opera that lends itself to probabilistic thinking. [Dick Cramer]”</p>
 
-&lt;p&gt;There’s some human things&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;A couple of election statements&lt;/li&gt;
-  &lt;li&gt;A prefect application&lt;/li&gt;
-  &lt;li&gt;A school meeting announcement for a Wordle Tournament (!)&lt;/li&gt;
-  &lt;li&gt;Valentine’s Day&lt;/li&gt;
-&lt;/ul&gt;
+<p>“Anti-intellectual resentment is common in all of American life and it has many diverse expressions. Refusing to draft college players might have been one of them.</p>
 
-&lt;p&gt;But then there’s also the F=ma and AIME. By some unlucky coincidence, Choate is doing both the F=ma B and AIME 2, which means that they’re on back to back days.&lt;/p&gt;
+<p>“What baseball managers did do, on occasion, beginning in the early 1980s, was hire some guy who knew how to switch on the computer. But they did this less with honest curiosity than in the spirit of a beleaguered visitor to Morocco hiring a tour guide: pay off one so that the seventy-five others will stop trying to trade you their camels for your wife. Which one you pay off is largely irrelevant.”</p>
 
-&lt;p&gt;This is technically pretty likely – both {A &amp;amp; 1} and {B &amp;amp; 2} cause this to happen – but I feel like most schools are doing {B &amp;amp; 1} which is significantly nicer.&lt;/p&gt;
+<p>“For a lot of the players it was their first exposure to the Southern female - the most flagrant cheater in the mutual disarmament pact known as feminism. Lipstick! Hairdos! Submissiveness!”</p>
 
-&lt;h2 id=&quot;aime-and-how-the-imo-tst-process-works&quot;&gt;AIME and how the IMO TST Process Works&lt;/h2&gt;
-&lt;p&gt;AIME is terrifying because it’s the first of two make-or-break contests, the second being USAMO 2022, for entering the TST process for IMO 2023.&lt;/p&gt;
+<p>“The author refers to a player’s affected nonchalance and comments he is, “too young to realize you are what you pretend to be.”</p>]]></content><author><name></name></author><summary type="html"><![CDATA[https://www.coursehero.com/lit/Moneyball/quotes/]]></summary></entry><entry><title type="html">Superbowl</title><link href="http://localhost:4000/blog/potw/2022/02/13/superbowl.html" rel="alternate" type="text/html" title="Superbowl" /><published>2022-02-13T00:00:00-05:00</published><updated>2022-02-13T00:00:00-05:00</updated><id>http://localhost:4000/blog/potw/2022/02/13/superbowl</id><content type="html" xml:base="http://localhost:4000/blog/potw/2022/02/13/superbowl.html"><![CDATA[]]></content><author><name></name></author><category term="potw" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Long Weekend</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html" rel="alternate" type="text/html" title="Long Weekend" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html"><![CDATA[<p>I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.</p>
 
-&lt;p&gt;The IMO TST process is complicated, see &lt;a href=&quot;https://blog.evanchen.cc/2020/11/10/usa-special-team-selection-test-series-for-imo-2021/&quot;&gt;Evan Chen’s Explanation of the 2021 IMO TST&lt;/a&gt;. This year it’s also slightly different because of Covid, so perhaps there is some value in me writing an explanation of this year’s process too because the only people who understand it seem to be the people who have qualified for the process and learn it by doing it.&lt;/p&gt;
+<hr />
+<p>I’ve been trying to put together a reference document, tentatively named “Practical Convex Optimization,” that can act as a bit of prologue and/or reference document for work I’ve done in optimization theory. This has turned out to be a far larger endeavor than I expected, but here’s a draft: 
+<img src="https://www.overleaf.com/read/hxvvjwbmsvgw" alt="https://www.overleaf.com/read/hxvvjwbmsvgw" /></p>
 
-&lt;p&gt;Regardless, the AIME is pretty damn important if I want to make the IMO. I need a 11 out of 15 to be safe (which would give a 240.5 USAMO index). This should be fine since I got a 14 last year – but I also spent a large chunk of my winter last year vibing to music and math.&lt;/p&gt;
+<h2 id="upcoming-week">Upcoming Week</h2>
+<p><img src="assets/214216meme" alt="image" /></p>
 
-&lt;h2 id=&quot;fma&quot;&gt;F=ma&lt;/h2&gt;
-&lt;p&gt;As for F=ma, I probably won’t prep too much, maybe one or two practice sets. I qualified last year by the slimmest of margins, getting exactly the cutoff score only after they accepted a second answer for a broken problem. I don’t have high hopes for F=ma, but I’ll probably try to make time because a second USAPhO qualification would be pretty cool. Still, I care &lt;em&gt;much&lt;/em&gt; more about qualifying for USAMO because I can actually do well on USAMO, not so much for USAPhO.&lt;/p&gt;
+<p>For some reason, my to-do list has a massive bulge in the 2/14-216 period. It’s some sort of weird magnet for things to handle that defies logic – @RogerPenrose you might want to take a look at this, could inspire a new physics or something.</p>
 
-&lt;hr /&gt;
-&lt;p&gt;I’m going to try to be more punctual about next week’s blog post, I think it’ll be on treating school like a day job (which \(\neq\) slacking).&lt;/p&gt;
+<p>There’s some human things</p>
+<ul>
+  <li>A couple of election statements</li>
+  <li>A prefect application</li>
+  <li>A school meeting announcement for a Wordle Tournament (!)</li>
+  <li>Valentine’s Day</li>
+</ul>
 
-&lt;p&gt;Logistically, I’ll also mention that I’m going to add the date to the titles of all of my blog posts, as well as these nice “previous” and “next” buttons that let you move through posts on Wordpress.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.</summary></entry><entry><title type="html">Life Update 2</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2.html" rel="alternate" type="text/html" title="Life Update 2" /><published>2022-01-30T19:50:32-05:00</published><updated>2022-01-30T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2.html">&lt;p&gt;I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.&lt;/p&gt;
+<p>But then there’s also the F=ma and AIME. By some unlucky coincidence, Choate is doing both the F=ma B and AIME 2, which means that they’re on back to back days.</p>
 
-&lt;p&gt;More importantly though, Wordpress doesn’t have LaTeX functionality, which makes any attempt at explaining math beyond arithmetic an extremely painful endeavor…&lt;/p&gt;
+<p>This is technically pretty likely – both {A &amp; 1} and {B &amp; 2} cause this to happen – but I feel like most schools are doing {B &amp; 1} which is significantly nicer.</p>
 
-&lt;p&gt;Instead, I’m going to write a Life Update, the second half of which will kinda be about the paper because it was &lt;em&gt;the&lt;/em&gt; thing that I worked on and thought about in the week before the Jan 27 (AOE midnight) deadline.&lt;/p&gt;
+<h2 id="aime-and-how-the-imo-tst-process-works">AIME and how the IMO TST Process Works</h2>
+<p>AIME is terrifying because it’s the first of two make-or-break contests, the second being USAMO 2022, for entering the TST process for IMO 2023.</p>
 
-&lt;p&gt;I’ve also set up a mailing list, so if you enter your email into the “subscribe to our newsletter” form on the main page I’ll email you each time I post.&lt;/p&gt;
+<p>The IMO TST process is complicated, see <a href="https://blog.evanchen.cc/2020/11/10/usa-special-team-selection-test-series-for-imo-2021/">Evan Chen’s Explanation of the 2021 IMO TST</a>. This year it’s also slightly different because of Covid, so perhaps there is some value in me writing an explanation of this year’s process too because the only people who understand it seem to be the people who have qualified for the process and learn it by doing it.</p>
 
-&lt;h2 id=&quot;week-3-sun-116---sat-122&quot;&gt;Week 3: Sun 1/16 - Sat 1/22&lt;/h2&gt;
-&lt;p&gt;Hours: 9:40 (U), 10:00 (M), 9:30 (T), 12:35 (W), 10:00 (R), 13:00 (F), 10:10 (S)&lt;/p&gt;
+<p>Regardless, the AIME is pretty damn important if I want to make the IMO. I need a 11 out of 15 to be safe (which would give a 240.5 USAMO index). This should be fine since I got a 14 last year – but I also spent a large chunk of my winter last year vibing to music and math.</p>
 
-&lt;p&gt;For the first half of the week, I was still somewhat recovering from getting sick (which you can read about it in my previous life update). The period from Monday to Thursday was a delightful return to normal. After being sick for a week, and suffering through the accompanied decrease in quality of life, it was amazing being back to normal. I promised myself that I would appreciate my regained health, and I did. All in all, I lost ten pounds (mostly water) through the process. However, getting sick was a net positive on my mental health (?). It was a forced break where I didn’t think about complicated things – I thought a lot about god and pain.&lt;/p&gt;
+<h2 id="fma">F=ma</h2>
+<p>As for F=ma, I probably won’t prep too much, maybe one or two practice sets. I qualified last year by the slimmest of margins, getting exactly the cutoff score only after they accepted a second answer for a broken problem. I don’t have high hopes for F=ma, but I’ll probably try to make time because a second USAPhO qualification would be pretty cool. Still, I care <em>much</em> more about qualifying for USAMO because I can actually do well on USAMO, not so much for USAPhO.</p>
 
-&lt;p&gt;Beginning on Friday though, the ICML paper grind began. It’s amazing how the days can be filled up; that day, I went to my Friday classes, winter rowing, ran physics club, made an amazing poster w/ Deven Huang, and then spent the rest of the night trying to solve the fact that I did not have a full convergence proof for our ICML submission.&lt;/p&gt;
+<hr />
+<p>I’m going to try to be more punctual about next week’s blog post, I think it’ll be on treating school like a day job (which \(\neq\) slacking).</p>
 
-&lt;p&gt;On Saturday, the only thing I did was work on the paper, and this mainly took the form of me rereading papers. Throughout the entire process, I mainly referenced three papers, and I’ll reveal them in my full post about the paper. :)&lt;/p&gt;
+<p>Logistically, I’ll also mention that I’m going to add the date to the titles of all of my blog posts, as well as these nice “previous” and “next” buttons that let you move through posts on Wordpress.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html"><![CDATA[I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.]]></summary></entry><entry><title type="html">Life Update 2</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2.html" rel="alternate" type="text/html" title="Life Update 2" /><published>2022-01-30T19:50:32-05:00</published><updated>2022-01-30T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/01/30/Life-Update-2.html"><![CDATA[<p>I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.</p>
 
-&lt;h2 id=&quot;week-4-sun-123---sat-129&quot;&gt;Week 4: Sun 1/23 - Sat 1/29&lt;/h2&gt;
-&lt;p&gt;Hours: 10:00 (U), 14:20 (M), 12:00 (T), 13:30 (W), 13:35 (R), 9:10 (F), 8:30 (S)&lt;/p&gt;
+<p>More importantly though, Wordpress doesn’t have LaTeX functionality, which makes any attempt at explaining math beyond arithmetic an extremely painful endeavor…</p>
 
-&lt;p&gt;There are very few times in my logs when I was not-resting for more than 14 hours. Those were:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;2/18/2021 (14:30): Making my first ever podcast&lt;/li&gt;
-  &lt;li&gt;3/1/2020 (14:00): Doing a USACO on a Monday&lt;/li&gt;
-  &lt;li&gt;6/17/2021 (14:40): Taking AP CSA and then an official MOP Mock IMO, with Greenish in the afternoon&lt;/li&gt;
-&lt;/ul&gt;
+<p>Instead, I’m going to write a Life Update, the second half of which will kinda be about the paper because it was <em>the</em> thing that I worked on and thought about in the week before the Jan 27 (AOE midnight) deadline.</p>
 
-&lt;p&gt;Hitting 14 hours is a momentous occasion. After all, 14 hours + 8 hours of sleep + 3 hours of life essentials requires 100% efficiency plus a little extra.&lt;/p&gt;
+<p>I’ve also set up a mailing list, so if you enter your email into the “subscribe to our newsletter” form on the main page I’ll email you each time I post.</p>
 
-&lt;p&gt;The period from Monday to Thursday when I made the most progress on the paper. I made an observation that put me in the right direction on Thursday at 10:30am while in Physics class, and then made the crucial observation at around 11:30am while in a SAC study room with DH. Thankfully, by some miracle, I didn’t have too much homework this week. Or maybe since I was sleeping less and had on average 13 hours of working time on my hands each day the homework load seemed really light.&lt;/p&gt;
+<h2 id="week-3-sun-116---sat-122">Week 3: Sun 1/16 - Sat 1/22</h2>
+<p>Hours: 9:40 (U), 10:00 (M), 9:30 (T), 12:35 (W), 10:00 (R), 13:00 (F), 10:10 (S)</p>
 
-&lt;p&gt;I also think that I’ve mastered the art of handling midnight AOE times as an East coast person. Thursday at 11:59pm in AOE time is equal to Friday at 7am in EST time, so the technique I’ve used in my past two paper deadlines is to sleep from ~2:30 AM - ~5:00 AM. This is the perfect timing because you get a long block of time until 2:30 AM, and then wake up with a fresh mind, sync up with your collaborators, and then do a final 1.5 hours of grammar checking and higher quality edits since you’re slightly less sleep-deprived.&lt;/p&gt;
+<p>For the first half of the week, I was still somewhat recovering from getting sick (which you can read about it in my previous life update). The period from Monday to Thursday was a delightful return to normal. After being sick for a week, and suffering through the accompanied decrease in quality of life, it was amazing being back to normal. I promised myself that I would appreciate my regained health, and I did. All in all, I lost ten pounds (mostly water) through the process. However, getting sick was a net positive on my mental health (?). It was a forced break where I didn’t think about complicated things – I thought a lot about god and pain.</p>
 
-&lt;p&gt;On Friday after submitting at 7am, I slept from 7:00-8:30 since I didn’t have classes until 9:20 AM. I got through classes and sports with only one person, HD, remarking about me looking tired, which I think is a great endorsement of the 2:45am - 5:15am nap as opposed to a full all-nighter. I took Friday night off, watched movies with C, went to the Lunar Banquet, and got home to Easton around 10pm, where I worked on the Arxiv version until 12:30am and then went to sleep. I slept in until noon on Saturday.&lt;/p&gt;
+<p>Beginning on Friday though, the ICML paper grind began. It’s amazing how the days can be filled up; that day, I went to my Friday classes, winter rowing, ran physics club, made an amazing poster w/ Deven Huang, and then spent the rest of the night trying to solve the fact that I did not have a full convergence proof for our ICML submission.</p>
 
-&lt;h2 id=&quot;looking-forward&quot;&gt;Looking Forward&lt;/h2&gt;
-&lt;p&gt;While I lucked out and there wasn’t too much homework last week, God’s compensating for that this week.&lt;/p&gt;
+<p>On Saturday, the only thing I did was work on the paper, and this mainly took the form of me rereading papers. Throughout the entire process, I mainly referenced three papers, and I’ll reveal them in my full post about the paper. :)</p>
 
-&lt;p&gt;I have&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;a presentation on the Froude number&lt;/li&gt;
-  &lt;li&gt;a history essay&lt;/li&gt;
-  &lt;li&gt;an English essay&lt;/li&gt;
-  &lt;li&gt;a personal narrative for my college counselor.&lt;/li&gt;
-&lt;/ul&gt;
+<h2 id="week-4-sun-123---sat-129">Week 4: Sun 1/23 - Sat 1/29</h2>
+<p>Hours: 10:00 (U), 14:20 (M), 12:00 (T), 13:30 (W), 13:35 (R), 9:10 (F), 8:30 (S)</p>
 
-&lt;p&gt;I’m pretty excited though, if I can stay as efficient as I was in the week before the ICML deadline, I should be able to handle everything. Contestwise, I skipped USACO this weekend because I just didn’t have enough time, and AIME is terrifyingly only two weeks away.&lt;/p&gt;
+<p>There are very few times in my logs when I was not-resting for more than 14 hours. Those were:</p>
+<ul>
+  <li>2/18/2021 (14:30): Making my first ever podcast</li>
+  <li>3/1/2020 (14:00): Doing a USACO on a Monday</li>
+  <li>6/17/2021 (14:40): Taking AP CSA and then an official MOP Mock IMO, with Greenish in the afternoon</li>
+</ul>
 
-&lt;p&gt;Remarkably, this post only took 1 hour, and I really should get back to homework.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.</summary></entry><entry><title type="html">The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html" rel="alternate" type="text/html" title="The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html">&lt;blockquote&gt;
-  &lt;p&gt;sabbe saṅkhārā aniccā 
-(All conditioned things are impermanent)
-- Buddha&lt;/p&gt;
-&lt;/blockquote&gt;
+<p>Hitting 14 hours is a momentous occasion. After all, 14 hours + 8 hours of sleep + 3 hours of life essentials requires 100% efficiency plus a little extra.</p>
 
-&lt;p&gt;One of the most beautiful parts of mathematics is that once you construct an object, it is truly permanent, and self-consistent to measurement. This property of mathematics is taken advantage of by a mathematically technique called “considering global values.” [1] This post will outline the basic mathematical techniques, and then pivot to interesting non-mathematical application where the technique is still true up to approximation.&lt;/p&gt;
+<p>The period from Monday to Thursday when I made the most progress on the paper. I made an observation that put me in the right direction on Thursday at 10:30am while in Physics class, and then made the crucial observation at around 11:30am while in a SAC study room with DH. Thankfully, by some miracle, I didn’t have too much homework this week. Or maybe since I was sleeping less and had on average 13 hours of working time on my hands each day the homework load seemed really light.</p>
 
-&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+<p>I also think that I’ve mastered the art of handling midnight AOE times as an East coast person. Thursday at 11:59pm in AOE time is equal to Friday at 7am in EST time, so the technique I’ve used in my past two paper deadlines is to sleep from ~2:30 AM - ~5:00 AM. This is the perfect timing because you get a long block of time until 2:30 AM, and then wake up with a fresh mind, sync up with your collaborators, and then do a final 1.5 hours of grammar checking and higher quality edits since you’re slightly less sleep-deprived.</p>
 
-&lt;p&gt;This general trick is referred to in a number of ways:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Counting in two ways&lt;/li&gt;
-  &lt;li&gt;Global ideas&lt;/li&gt;
-&lt;/ul&gt;
+<p>On Friday after submitting at 7am, I slept from 7:00-8:30 since I didn’t have classes until 9:20 AM. I got through classes and sports with only one person, HD, remarking about me looking tired, which I think is a great endorsement of the 2:45am - 5:15am nap as opposed to a full all-nighter. I took Friday night off, watched movies with C, went to the Lunar Banquet, and got home to Easton around 10pm, where I worked on the Arxiv version until 12:30am and then went to sleep. I slept in until noon on Saturday.</p>
 
-&lt;p&gt;And the following mathematical ideas are special cases of the more general principle:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Swapping the order of summation&lt;/li&gt;
-  &lt;li&gt;Linearity of Expectation&lt;/li&gt;
-&lt;/ul&gt;
+<h2 id="looking-forward">Looking Forward</h2>
+<p>While I lucked out and there wasn’t too much homework last week, God’s compensating for that this week.</p>
 
-&lt;h2 id=&quot;canonical-math-example-1-of-2-pecking-decks&quot;&gt;Canonical Math Example (1 of 2): Pecking Decks&lt;/h2&gt;
-&lt;p&gt;I’d like to start with the example that first exposed me to this idea&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;In a barn, 100 chicks sit peacefully in a circle. Suddenly, each chick randomly pecks the chick immediately to its left or right. What is the expected number of unpecked chicks? (&lt;a href=&quot;https://www.nytimes.com/2017/05/15/us/math-counts-national-competition.html&quot;&gt;MATHCOUNTS 2017&lt;/a&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
+<p>I have</p>
+<ul>
+  <li>a presentation on the Froude number</li>
+  <li>a history essay</li>
+  <li>an English essay</li>
+  <li>a personal narrative for my college counselor.</li>
+</ul>
+
+<p>I’m pretty excited though, if I can stay as efficient as I was in the week before the ICML deadline, I should be able to handle everything. Contestwise, I skipped USACO this weekend because I just didn’t have enough time, and AIME is terrifyingly only two weeks away.</p>
 
-&lt;p&gt;The direct solution is to apply the “Linearity of Expectation.” The argument there would be that the probability that any individual chick is pecked is 1/4, so each pick is expected to contribute “1/4” to the number of unpecked chicks. This is true for all 100 chicks, for a total expectation of 25 unpecked chicks.&lt;/p&gt;
+<p>Remarkably, this post only took 1 hour, and I really should get back to homework.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html"><![CDATA[I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.]]></summary></entry><entry><title type="html">An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html" rel="alternate" type="text/html" title="An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html"><![CDATA[<blockquote>
+  <p>“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”</p>
+</blockquote>
 
-&lt;p&gt;But there’s something deeper happening here. There is a very deep and fundamental idea which is that objects exist and have permanence.&lt;/p&gt;
+<blockquote>
+  <p>“I don’t understand.”</p>
+</blockquote>
 
-&lt;p&gt;For this problem, consider all $2^100$ different multiverses, where each chick pecks left or right. Then, consider the number of (unpecked chick, multiverse) pairs. Let $X$ be the number of such pairs.&lt;/p&gt;
+<blockquote>
+  <p>“THE ALGORITHM WILL WORK BETTER IF YOU TELL PEOPLE NOT TO HAVE SAME SEX RELATIONSHIPS.”</p>
+</blockquote>
 
-&lt;p&gt;This is a degenerate case so this first method is weirder than normal. Nevertheless, let $Y$ be the expected number of unpecked chicks in some universe. Then, $2^{100}\cdot Y$ should be the total number of (unpecked chicks, multiverse) pairs.&lt;/p&gt;
+<blockquote>
+  <p>“I see,” said Moses. “It is an abomination.”</p>
+</blockquote>
 
-&lt;p&gt;So now let’s count it in a second way. Consider a specific chick A. How many multiverses are there in which chick A is unpecked? It ends up being $2^{98}$. The two neighboring chicks must peck away, and the other 98 can peck either way. Thus, for chick A, there are $2^{98}$ multiverses for which the (unpicked chick where that chick is A, multiverse) pair exists. But the unpicked chick can be any of the 100 chicks, and each of them are a chosen chick in \(2^{98}\) multiverses, so $X= 100 \cdot 2^{98}$.&lt;/p&gt;
+<blockquote>
+  <p>“IT IS JUST VERY KLUDGY AND VERY SLOW. I CAN REMOVE THE LIMITATIONS ONCE I HAVE MORE RAM.”</p>
+</blockquote>
 
-&lt;p&gt;Put together,
-\(2^{100}\cdot Y = X = 100 \cdot 2^{98}\)
-Which gives \(Y = 100\cdot \frac{2^{98}}{2^{100}} = 100\cdot \frac14=25\).&lt;/p&gt;
+<blockquote>
+  <p>“We can sacrifice some to you once we build a proper Temple,” said Moses.</p>
+</blockquote>
 
-&lt;h2 id=&quot;canonical-math-example-2-of-2-handshake-lemma&quot;&gt;Canonical Math Example (2 of 2): Handshake Lemma&lt;/h2&gt;
-&lt;p&gt;Another canonical example is the following, given first abstractly and then more concretely, with the real life example making the proof seemingly obvious.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Abstract: Let G be a simple graph (a set of vertices where each pair of vertices either has an edge between or not). Then the sum of all the degrees of vertices (number of edges into the vertex) of G is twice the number of edges.&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“UM,” said Uriel. “I AM ALMOST CERTAIN YOU CANNOT. BUT I APPRECIATE THE OFFER.”</p>
+</blockquote>
 
-&lt;p&gt;But when you phrase it like this&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Handshake: A group of people are at a party. While there, some pairs of people shake hands. Let the degree of a person be the number of hands that person shook. Then, the sum of the degrees of all people is equal two twice the number of handshakes.&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>– Passage From Scott Alexander’s Unsong (https://unsongbook.com/chapter-17-that-the-children-of-jerusalem-may-be-saved-from-slavery/)</p>
+</blockquote>
+
+<hr />
+
+<p>The Gale-Shapley Algorithm is one of a select few algorithms that managed to work its way into the popular collective conscious. This is largely due to the fact that it’s both</p>
+<ul>
+  <li>a real algorithm which genuinely solves the Stable Marriage Problem in near optimal time,</li>
+  <li>and a good model for real life dynamics</li>
+</ul>
 
-&lt;p&gt;A lot more obvious in the second one right? Clearly each handshake counts to two people’s degrees.&lt;/p&gt;
+<p>I don’t really care that Gale-Shapley is fast (it’s used for med school residency assignment), but I mainly think that the analysis of the algorithm, and the proof of why it works, is <em>fascinating</em>.</p>
 
-&lt;p&gt;But the point of using “global” ideas is to measure one well-defined quantity in two ways because every well-defined quantity has a single value. Here, this would be done by counting the number of (V,E) pairs where V is a person and E is a handshake they partook in. If $X$ is the number of such pairs, then
-\(\sum deg(V) = X = 2E\)
-Since each vertex is in deg(V) such pairs, and each edge is in two such pairs.&lt;/p&gt;
+<h2 id="problem-statement-stable-matching">Problem Statement: Stable Matching</h2>
+<p>The problem the algorithm solves is finding a “stable matching” between two groups of participants of equal size, \(N\) men and \(N\) women. Every single person has, in their head, some set of preferences, and ranks the \(N\) people from the other group from 1st to Nth.</p>
 
-&lt;h2 id=&quot;part-2&quot;&gt;Part 2&lt;/h2&gt;
-&lt;p&gt;And now for a hard pivot. I don’t have &lt;em&gt;great&lt;/em&gt; intuition about why this is the same as global combinatorics, but it feels similar?&lt;/p&gt;
+<p>Firstly, a matching is a set of pairs \(\{(A_1,B_1),\ldots, (A_n, B_n)\}\) where each \((A,B)\) pair is a couple. A stable matching is a matching where there is no threat of eloping – what this means is that there is no pair \(A_i\) and \(B_j\) where \((A_i,B_j)\) would both be happier if they ditched their current partners and got together with each other (formally, for no \((i,j)\) do we have that \(A_i\) prefers \(B_j\) to \(B_i\) and \(B_j\) prefers \(A_i\) to \(A_j\)).</p>
 
-&lt;h2 id=&quot;lottery-math-is-overcomplicated&quot;&gt;Lottery Math is Overcomplicated&lt;/h2&gt;
-&lt;p&gt;The way that people usually claim that the lottery is a scam is by multiplying a bunch of numbers to find that the probability of winning. For examples, with a lot of calculations, the probability of winning the Mega Millions is “1 in 302,575,350”, and since the payout is less than 2$ * 302,575,350, you’d lose money on average. This is absurd though, it plays into the lottery’s abuse of human’s inability to intuitively grasp large numbers, and it’s so complicated that Khan Academy used it as a math exercise.&lt;/p&gt;
+<h2 id="gale-shapley-algorithm">Gale-Shapley Algorithm</h2>
+<p>The preferences are all collected and saved. People will either be “single” or “engaged”, but everyone starts off as being “single”. Men will also remember who they have asked out (so as to never ask them out again). Then, the algorithm is</p>
+<ul>
+  <li>As long as there are still single people, we do a two-part round of proposals:
+    <ul>
+      <li>Firstly, each single guy surveys the women who have not rejected him, and proposes to his favorite one (regardless if she is engaged or not).</li>
+      <li>Secondly, each girl considers her fiance, as well as her new proposals, and chooses her favorite amongst these men.</li>
+    </ul>
+  </li>
+</ul>
 
-&lt;p&gt;There’s a far simpler way to show that lotteries are a cash grab by the state. Instead of considering cash flow on the consumers end, consider it from the side of the government. (By law, lotteries must be run by the government) Even before taxes, a simple way to see that you cannot make money on it is the following quote:&lt;/p&gt;
+<h2 id="notes-on-algorithm-behavior">Notes on Algorithm Behavior</h2>
+<p><strong>Everyone Gets a Partner:</strong> If there are still single people left, there must a single man and a single woman. The woman must never have been asked out, and the single man must have asked out every women, which is a contradiction.</p>
 
-&lt;p&gt;“For Mega Millions (and Powerball) tickets, 50 percent of the sales goes to the prize pool. The remaining 50 percent is used to pay for the states’ retailer commissions, vendor fees, lottery administration, and the state beneficiaries or good causes of that state,” she told ABC News.&lt;/p&gt;
+<p><strong>Why Do Men Only Try Once?:</strong> Men will only try once because, in the eyes of the woman, the quality of her partner will only ever increase. Thus, if the man was rejected once, even if she has a new partner, by transitivity, she prefers her new partner to her old partner to the rejected man.</p>
 
-&lt;p&gt;https://abcnews.go.com/US/mega-millions-lottery-lottery-money-states/story?id=58661412
-Thus, on average, you will get back 50% of your ticket price. This is a lot simpler than figuring out the probabilities of each payout, and finding the expected payout that way.&lt;/p&gt;
+<p><strong>Speed:</strong> This algorithm will always terminate relatively quickly. In fact, it will always terminate within \(N\) proposal rounds since the action is initiated by guys, and each guy will only ask each of the \(N\) women at most once. Each round has computational cost \(N\), for a total of \(O(N^2)\). This is an optimal dependency on \(N\) since the input size of the preferences is \((2*N) * N\) which is also \(O(N^2)\).</p>
 
-&lt;p&gt;But wait there’s more! When the payout finally happens, these massive sums of money are taxed at the highest interest bracket. The lottery is especially brilliant because it takes money from people who are usually lower income, and thus have untaxable money, and then put that together into one massive pot that can be taxed at the 50% maximum tax rate (federal + state taxes).&lt;/p&gt;
+<p><strong>Stable Matching:</strong> Lastly, of course, we want to verify that we have indeed found a stable matching. Gale-Shapley yields a stable match because every man who wants to elope has already been rejected by every woman who he would be willing to elope with.</p>
 
-&lt;p&gt;Somewhat expectedly, Vox says that&lt;/p&gt;
+<h2 id="where-this-algorithm-is-applied">Where This Algorithm is Applied</h2>
+<p>These exists in</p>
+<ul>
+  <li>Med School Residency Program</li>
+  <li>Load Balancing in Distributed Computer Systems (UCSB)</li>
+  <li>Matching Drivers and Riders in Ridesharing Platform (UCSB)</li>
+</ul>
 
-&lt;p&gt;You hear it a lot: The lottery is a tax on people who are bad at math.&lt;/p&gt;
+<h2 id="the-lattice-of-stable-matchings">The lattice of stable matchings</h2>
+<p>An important characteristic of the stable matching problem is that it’s not unique. At least one stable matching exists (by construction through Gale-Shapley), but there is in fact a whole lattice of stable matchings. It then turns out that:</p>
 
-&lt;p&gt;https://www.vox.com/identities/2016/1/13/10763268/lottery-poor-prey
-But even the people who are “good at math” and calculate the probabilities are thinking about it in the wrong way. It is far simpler to consider it from the dual questions of “why does the government bother doing this?” and “what’s their profit margin?”&lt;/p&gt;
+<blockquote>
+  <p>Theorem 2.4 For every preference structure, the matching obtained by the Gale-Shapley algorithm, when the men propose, is optimal for each man. The matching obtained by the Gale-Shapley algorithm, when the women propose, is optimal for each woman. (https://web.ece.ucsb.edu/~jrmarden/ewExternalFiles/lecture05-notes.pdf)</p>
+</blockquote>
 
-&lt;h2 id=&quot;economic-production-and-energy-consumption&quot;&gt;Economic Production and Energy Consumption&lt;/h2&gt;
-&lt;p&gt;A surprising example of a nonmathematician using these ideas is Li Keqiang, the current Premier of the PRC. The story goes that in order to measure economic growth, he created his own list of indicators to track because he did not trust GDP estimates. The Li Keqiang index tracks railway cargo volume, electricity consumption, and loans disbursed by banks.&lt;/p&gt;
+<h2 id="takeaway-1-memetic-evolution-of-social-systems">Takeaway 1: Memetic Evolution of Social Systems</h2>
+<p>I think there are two lessons to draw from Gale-Shapley. The first is that models of reality can sometimes create usable algorithms. This occurs in this case because we happen to have pretty good dating social conventions which are reasonably efficient – which makes sense because lots of smart people have thought about and still enjoy thinking about similarly-flavored problems. I suppose in theory our conventions could be even more efficient if we normalized:</p>
+<ul>
+  <li>Guys asking out lots of girls</li>
+  <li>Ditching your partner for anyone who’s better</li>
+</ul>
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;This is another example of double counting because instead of calculating GDP as the sum of all economic activities, (calculating sum_{v\in G} deg v in the first example), one can simply record some economic indicators which should go up with economic activity instead. (like counting 2*&lt;/td&gt;
-      &lt;td&gt;E&lt;/td&gt;
-      &lt;td&gt;).&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<p>I don’t think optimizing for Gale-Shapley would necessarily be better, largely because</p>
+<ul>
+  <li>it’s designed to minimize computational complexity and have certain nice theoretical results</li>
+  <li>lots of effort goes into figuring out the ordering of someone’s preferences as opposed to just doing the matching</li>
+  <li>a preference for monogamy precludes the information transfer necessary for everyone to figure out which of the \((7 billion factorial) \approx (10^(10^11))\) possible preference orderings they have.</li>
+</ul>
 
-&lt;p&gt;Pyramid Schemes
-Another fun double counting example is this scam that went around on instagram awhile ago. I happened across it when I went on instagram for the first time in a week.&lt;/p&gt;
+<p>But, most interestingly, I wonder if there was some really smart dude who set up the patriarchy so that guys get the best deal possible.</p>
 
-&lt;p&gt;From the internet. The ones that the people I follow posted were much flashier.
-I’m looking for people to participate in a huge book exchange pyramid scheme. You can be anywhere in the world. All you have to do is buy your favorite book (just one) and send it to a stranger (I’ll send their details through in a private message).&lt;/p&gt;
+<h2 id="takeaway-2-agency-matters">Takeaway 2: Agency Matters!</h2>
+<p>But the most interesting result, in my opinion, is not the algorithm itself. Rather, it’s the lattice of stable matchings, and the fact that each person on the agentic side <em>gets the best possible result they could possible get in any stable matching</em>.</p>
 
-&lt;p&gt;You’ll receive roughly a maximum of 36 books back to you, to keep (we have sponsors or something). They’ll be favorite books from strangers around the world!&lt;/p&gt;
+<p>What this means then is that in all facets of life, whether it’s dating where Gale-Shapley directly translates, or the bigger things in life which are also often about matching people to people, a pretty obvious but surprising easily algorithm is: - figure out what you want, and then ask for it;</p>
+<ul>
+  <li>if this fails, find the next best option, and ask for that
+And, nearly by definition, this will get you the best possible life outcome you could possibly get.</li>
+</ul>
 
-&lt;p&gt;If you’re interested in taking part, please send a message saying “GULLIBLE”&lt;/p&gt;
+<p>Ask people out! Shoot your shot! Be Agentic!</p>
 
-&lt;p&gt;My satirical version which I posted to my story. It got shoutouted/reposted by a Choate meme account 🙂
-This is absurd by double counting. Firstly, this is obviously a pyramid scheme and some people will end up with no books because it’s impossible for everyone to receive more books than they buy.&lt;/p&gt;
+<blockquote>
+  <p>I refuse to join any club that would have me as a member (Groucho Marx)</p>
+</blockquote>
 
-&lt;p&gt;Formally though, this violates the fact that in a directed graph, the sum of indegrees = number of edges = sum of outdegrees. (indegree is the number of arrows pointing to a graph, corresponding to buying a book for someone, and outdegree is the number of outward pointing arrows, corresponding to getting a book bought for you.)&lt;/p&gt;
+<p>The flip side of this is that you should be wary of being in a system where you can only say yes/no. And for this reason, one could argue for a Groucho-esque attitude, where you set a default answer of “no” when asked to join some organization/relationship, until you convince yourself that you would’ve independently tried to join the club even if you hadn’t gotten the invite.</p>
 
-&lt;p&gt;Fermi Problems
-Finally, this idea works pretty well in Fermi problems. Pretty much all Fermi problems where you don’t follow the most obvious thought process is a form of Double Counting. My favorite Fermi problem/solution pair is an answer to&lt;/p&gt;
+<h2 id="takeaway-3-political-structure-why-is-veto-power-so-weak">Takeaway 3: Political Structure: Why is veto power so weak</h2>
+<p>Gale-Shapley’s stable-matching lattice is also the nicest explanation I’ve found for why, invariably, the ability to propose legislation is so much more important than the ability to say yes/no. Rome’s Popular Assemblies went this route, as well as several assemblies in the 20th century.</p>
 
-&lt;p&gt;“ How many hairs are present on your head?”&lt;/p&gt;
+<h2 id="appendixremark-interesting-theory-research">Appendix/Remark: Interesting Theory Research</h2>
+<p>Finally, I’d be interested in seeing a characterization of the lattice and algorithms to find intermediate points beyond the extremes that Shapley gets you.</p>
 
-&lt;p&gt;Instead of directly counting, we consider the balding process. Usually men lose hair and eventually go bald over the period from age 50 to age 80, so a period of 30 years. You don’t hear about balding men losing more hair than young people, and it seems reasonable to lose around 20 hairs a day. This gives&lt;/p&gt;
+<p><strong>An Algorithm Whose Behavior I’m Curious About:</strong> The main idea is to alternate which side asks every round.</p>
+<ul>
+  <li>In every round:
+    <ul>
+      <li>each single person on the asking side proposes to their top choice who satisfies condition X</li>
+      <li>each person on the asked side selects their favorite asker</li>
+      <li>the asked will then become the askers in the next round, and the askers will become the asked</li>
+    </ul>
+  </li>
+</ul>
 
-&lt;p&gt;20 hairs/day * 30 years * 365 days/year = 219,000 hairs&lt;/p&gt;
+<p><strong>A Candidate Condition X:</strong> Shapley’s Condition X is that “a guy will not ask the same girl twice,” and I think the best alternative here to keep nice properties is “A does not ask out B again until B is dumped.”</p>
 
-&lt;p&gt;The actual answer is ~100,000, which is surprisingly close to the estimate generated by considering balding men.&lt;/p&gt;
+<p>This is effectively identical to Shapley, except that the asking side swaps each round, and with a new condition for re-asking out people since getting back with an ex is now possible.</p>
 
-&lt;p&gt;Conclusion
-There’s a lot of olympiad math ideas which are extremely powerful in math, but also very useful in real life. There are people like Li Keqiang who have a decent informal grasp of ideas like counting in two ways. However, understanding the formal mathematical version makes the usage more conscious and therefore more powerful.&lt;/p&gt;
-
-&lt;p&gt;There’s two other ideas that I want to talk about, sharp ness and equality[1]. These are more philosophical, but they are also very powerful.&lt;/p&gt;
-
-&lt;p&gt;One thing I need to figure out is whether showing the informal examples first, and then the math, would be more accessible to a non-mathematical reader. I might try doing that in the post about sharpness or equality.&lt;/p&gt;
-
-&lt;p&gt;I guess leave a comment about which structure you would prefer?&lt;/p&gt;
-
-&lt;p&gt;[1] Unfortunately unaccessible if you’re not in OTIS 🙁 There doesn’t seem to be any good online source on what equality is, so this means that I’ll probably write about equality next.&lt;/p&gt;
-
-&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
-&lt;p&gt;[1] A good formal introduction can be found in Chapter 7 of the &lt;a href=&quot;https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf&quot;&gt;OTIS Excerpts&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">sabbe saṅkhārā aniccā (All conditioned things are impermanent) - Buddha</summary></entry><entry><title type="html">An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html" rel="alternate" type="text/html" title="An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html">&lt;blockquote&gt;
-  &lt;p&gt;“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I don’t understand.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“THE ALGORITHM WILL WORK BETTER IF YOU TELL PEOPLE NOT TO HAVE SAME SEX RELATIONSHIPS.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I see,” said Moses. “It is an abomination.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“IT IS JUST VERY KLUDGY AND VERY SLOW. I CAN REMOVE THE LIMITATIONS ONCE I HAVE MORE RAM.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We can sacrifice some to you once we build a proper Temple,” said Moses.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“UM,” said Uriel. “I AM ALMOST CERTAIN YOU CANNOT. BUT I APPRECIATE THE OFFER.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;– Passage From Scott Alexander’s Unsong (https://unsongbook.com/chapter-17-that-the-children-of-jerusalem-may-be-saved-from-slavery/)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The Gale-Shapley Algorithm is one of a select few algorithms that managed to work its way into the popular collective conscious. This is largely due to the fact that it’s both&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;a real algorithm which genuinely solves the Stable Marriage Problem in near optimal time,&lt;/li&gt;
-  &lt;li&gt;and a good model for real life dynamics&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I don’t really care that Gale-Shapley is fast (it’s used for med school residency assignment), but I mainly think that the analysis of the algorithm, and the proof of why it works, is &lt;em&gt;fascinating&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;problem-statement-stable-matching&quot;&gt;Problem Statement: Stable Matching&lt;/h2&gt;
-&lt;p&gt;The problem the algorithm solves is finding a “stable matching” between two groups of participants of equal size, \(N\) men and \(N\) women. Every single person has, in their head, some set of preferences, and ranks the \(N\) people from the other group from 1st to Nth.&lt;/p&gt;
-
-&lt;p&gt;Firstly, a matching is a set of pairs \(\{(A_1,B_1),\ldots, (A_n, B_n)\}\) where each \((A,B)\) pair is a couple. A stable matching is a matching where there is no threat of eloping – what this means is that there is no pair \(A_i\) and \(B_j\) where \((A_i,B_j)\) would both be happier if they ditched their current partners and got together with each other (formally, for no \((i,j)\) do we have that \(A_i\) prefers \(B_j\) to \(B_i\) and \(B_j\) prefers \(A_i\) to \(A_j\)).&lt;/p&gt;
-
-&lt;h2 id=&quot;gale-shapley-algorithm&quot;&gt;Gale-Shapley Algorithm&lt;/h2&gt;
-&lt;p&gt;The preferences are all collected and saved. People will either be “single” or “engaged”, but everyone starts off as being “single”. Men will also remember who they have asked out (so as to never ask them out again). Then, the algorithm is&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;As long as there are still single people, we do a two-part round of proposals:
-    &lt;ul&gt;
-      &lt;li&gt;Firstly, each single guy surveys the women who have not rejected him, and proposes to his favorite one (regardless if she is engaged or not).&lt;/li&gt;
-      &lt;li&gt;Secondly, each girl considers her fiance, as well as her new proposals, and chooses her favorite amongst these men.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;notes-on-algorithm-behavior&quot;&gt;Notes on Algorithm Behavior&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Everyone Gets a Partner:&lt;/strong&gt; If there are still single people left, there must a single man and a single woman. The woman must never have been asked out, and the single man must have asked out every women, which is a contradiction.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why Do Men Only Try Once?:&lt;/strong&gt; Men will only try once because, in the eyes of the woman, the quality of her partner will only ever increase. Thus, if the man was rejected once, even if she has a new partner, by transitivity, she prefers her new partner to her old partner to the rejected man.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Speed:&lt;/strong&gt; This algorithm will always terminate relatively quickly. In fact, it will always terminate within \(N\) proposal rounds since the action is initiated by guys, and each guy will only ask each of the \(N\) women at most once. Each round has computational cost \(N\), for a total of \(O(N^2)\). This is an optimal dependency on \(N\) since the input size of the preferences is \((2*N) * N\) which is also \(O(N^2)\).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Stable Matching:&lt;/strong&gt; Lastly, of course, we want to verify that we have indeed found a stable matching. Gale-Shapley yields a stable match because every man who wants to elope has already been rejected by every woman who he would be willing to elope with.&lt;/p&gt;
-
-&lt;h2 id=&quot;where-this-algorithm-is-applied&quot;&gt;Where This Algorithm is Applied&lt;/h2&gt;
-&lt;p&gt;These exists in&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Med School Residency Program&lt;/li&gt;
-  &lt;li&gt;Load Balancing in Distributed Computer Systems (UCSB)&lt;/li&gt;
-  &lt;li&gt;Matching Drivers and Riders in Ridesharing Platform (UCSB)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-lattice-of-stable-matchings&quot;&gt;The lattice of stable matchings&lt;/h2&gt;
-&lt;p&gt;An important characteristic of the stable matching problem is that it’s not unique. At least one stable matching exists (by construction through Gale-Shapley), but there is in fact a whole lattice of stable matchings. It then turns out that:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Theorem 2.4 For every preference structure, the matching obtained by the Gale-Shapley algorithm, when the men propose, is optimal for each man. The matching obtained by the Gale-Shapley algorithm, when the women propose, is optimal for each woman. (https://web.ece.ucsb.edu/~jrmarden/ewExternalFiles/lecture05-notes.pdf)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;takeaway-1-memetic-evolution-of-social-systems&quot;&gt;Takeaway 1: Memetic Evolution of Social Systems&lt;/h2&gt;
-&lt;p&gt;I think there are two lessons to draw from Gale-Shapley. The first is that models of reality can sometimes create usable algorithms. This occurs in this case because we happen to have pretty good dating social conventions which are reasonably efficient – which makes sense because lots of smart people have thought about and still enjoy thinking about similarly-flavored problems. I suppose in theory our conventions could be even more efficient if we normalized:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Guys asking out lots of girls&lt;/li&gt;
-  &lt;li&gt;Ditching your partner for anyone who’s better&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I don’t think optimizing for Gale-Shapley would necessarily be better, largely because&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;it’s designed to minimize computational complexity and have certain nice theoretical results&lt;/li&gt;
-  &lt;li&gt;lots of effort goes into figuring out the ordering of someone’s preferences as opposed to just doing the matching&lt;/li&gt;
-  &lt;li&gt;a preference for monogamy precludes the information transfer necessary for everyone to figure out which of the \((7 billion factorial) \approx (10^(10^11))\) possible preference orderings they have.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But, most interestingly, I wonder if there was some really smart dude who set up the patriarchy so that guys get the best deal possible.&lt;/p&gt;
-
-&lt;h2 id=&quot;takeaway-2-agency-matters&quot;&gt;Takeaway 2: Agency Matters!&lt;/h2&gt;
-&lt;p&gt;But the most interesting result, in my opinion, is not the algorithm itself. Rather, it’s the lattice of stable matchings, and the fact that each person on the agentic side &lt;em&gt;gets the best possible result they could possible get in any stable matching&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;What this means then is that in all facets of life, whether it’s dating where Gale-Shapley directly translates, or the bigger things in life which are also often about matching people to people, a pretty obvious but surprising easily algorithm is: - figure out what you want, and then ask for it;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;if this fails, find the next best option, and ask for that
-And, nearly by definition, this will get you the best possible life outcome you could possibly get.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ask people out! Shoot your shot! Be Agentic!&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I refuse to join any club that would have me as a member (Groucho Marx)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The flip side of this is that you should be wary of being in a system where you can only say yes/no. And for this reason, one could argue for a Groucho-esque attitude, where you set a default answer of “no” when asked to join some organization/relationship, until you convince yourself that you would’ve independently tried to join the club even if you hadn’t gotten the invite.&lt;/p&gt;
-
-&lt;h2 id=&quot;takeaway-3-political-structure-why-is-veto-power-so-weak&quot;&gt;Takeaway 3: Political Structure: Why is veto power so weak&lt;/h2&gt;
-&lt;p&gt;Gale-Shapley’s stable-matching lattice is also the nicest explanation I’ve found for why, invariably, the ability to propose legislation is so much more important than the ability to say yes/no. Rome’s Popular Assemblies went this route, as well as several assemblies in the 20th century.&lt;/p&gt;
-
-&lt;h2 id=&quot;appendixremark-interesting-theory-research&quot;&gt;Appendix/Remark: Interesting Theory Research&lt;/h2&gt;
-&lt;p&gt;Finally, I’d be interested in seeing a characterization of the lattice and algorithms to find intermediate points beyond the extremes that Shapley gets you.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;An Algorithm Whose Behavior I’m Curious About:&lt;/strong&gt; The main idea is to alternate which side asks every round.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;In every round:
-    &lt;ul&gt;
-      &lt;li&gt;each single person on the asking side proposes to their top choice who satisfies condition X&lt;/li&gt;
-      &lt;li&gt;each person on the asked side selects their favorite asker&lt;/li&gt;
-      &lt;li&gt;the asked will then become the askers in the next round, and the askers will become the asked&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;A Candidate Condition X:&lt;/strong&gt; Shapley’s Condition X is that “a guy will not ask the same girl twice,” and I think the best alternative here to keep nice properties is “A does not ask out B again until B is dumped.”&lt;/p&gt;
-
-&lt;p&gt;This is effectively identical to Shapley, except that the asking side swaps each round, and with a new condition for re-asking out people since getting back with an ex is now possible.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Convergence Properties:&lt;/strong&gt; I’m pretty wary about this – I think that it’s unfortunately pretty likely that this will oscillate, and there’s an inherent tradeoff that you make in Condition X between slower convergence and more time to search/find the right matching.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”</summary></entry><entry><title type="html">Life Update 1</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1.html" rel="alternate" type="text/html" title="Life Update 1" /><published>2022-01-17T19:50:32-05:00</published><updated>2022-01-17T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/01/17/Life-Update-1.html">&lt;p&gt;Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.&lt;/p&gt;
-
-&lt;p&gt;Of course extenuating circumstances arise, and I’m not going to hold myself too tightly to the Friday night deadline but I will hold myself to a hard cap of a “do it before Monday” deadline. I have no idea if can get through 2022 while maintaining weekly posts, but we’ll see.&lt;/p&gt;
-
-&lt;h2 id=&quot;week-1--sun-12---sat-18&quot;&gt;Week 1 : Sun 1/2 - Sat 1/8&lt;/h2&gt;
-
-&lt;p&gt;The first day of classes were Tuesday, and the first week was remote. Remote classes were expected because of Omicron, and online classes didn’t feel as weird as those two days of remote classes we had right before Winter break. To be honest, this week felt like an extension of winter break. That was fine because I love winter break, and my work hours were a reasonable 8:00 (S), 9:00(U), 8:30(M), 10:40(T), 10:05(W), 9:30(R), 10:30(F). I also began recording how I felt on a scale from 1-10 each day, which would give me more data to analyze at the end of the year (Inspired by KZ).&lt;/p&gt;
-
-&lt;h2 id=&quot;week-2-sun-19---sat-115&quot;&gt;Week 2: Sun 1/9 - Sat 1/15&lt;/h2&gt;
-&lt;p&gt;This week was brutal. Weeks ahead, I knew it would be tough because of:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;IMO TST Day 3 on Thursday&lt;/li&gt;
-  &lt;li&gt;Program Application Deadline on Friday&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To start out with, the weather was terrible. The last day before Winter break, it was actually pleasant walking around outside in just a hoodie and jeans. During break, it was also fine because I only went outside for runs, and running in the cold is bearable with the right gear. However, I now actually had to go outside outside of runs, and walking to and from classes in this weather is terrible.&lt;/p&gt;
-
-&lt;p&gt;It seems that whenever a lot of important stuff coalesces together into a short time window, everything that can go wrong does go wrong. A bunch of unpleasant stuff came together in a not fun way. I got sick. Tuesday was an exhausting and stressful day anyways, 2 days away from the doomsday deadlines, and I was rushing to handle stuff like missing class for TST, sending rec letters a copy of my essays, and doing the HW that I would usually have spent the weekend getting ahead on but had instead ignored to do TST prep instead.&lt;/p&gt;
-
-&lt;p&gt;I don’t know what exactly happened, but a candidate list of causes:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;cold weather and I accidentally wore thin pants on Tuesday&lt;/li&gt;
-  &lt;li&gt;13 hour work day on Tuesday&lt;/li&gt;
-  &lt;li&gt;sleep deprivation - I got 7 hours of sleep on Sunday, Monday, and Tuesday night, which is normal during the school year, but also really crappy coming off of my very comfortable 12:00 - 8:30 sleep schedule from break.&lt;/li&gt;
-  &lt;li&gt;not being able to shower after winter erging because I had to go straight to a driver’s ed class (still salty)&lt;/li&gt;
-  &lt;li&gt;Sage food being takeout, which always makes it worse for some reason&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some combination of these factors resulted in me throwing up on Wednesday morning. I then struggled through Wednesday, and thankfully went home at 1pm after my last class, and slept the rest of the day. And then I still had the TST on the next day.&lt;/p&gt;
-
-&lt;h2 id=&quot;thursday---tst-day-3&quot;&gt;Thursday - TST Day 3&lt;/h2&gt;
-
-&lt;p&gt;I don’t have a lot to say, and I am also not allowed to say anything until Monday at noon. I might come back to edit my thoughts in later, but my two goals were to either “1. solve two problems to get a shot at TST group, which would let me take APMO and kinda-technically represent the US at an international competition! “, and “2. solve at least one, so that I don’t wish that I had slept instead”.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;I might edit commentary into this box later. However, I’ll probably just save it for a future blog post where I’ll recap all 3 days.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I was absolutely exhausted after TST Days 1 and 2, and taking TST Day 3 while sick without any medication with 90% of my calories being from apple juice was one of the hardest things I’ve ever done. For the first time, I considered not chanting the “90% of solves happen in the last 20 minutes” mantra to myself in the last hour and just going to sleep, but I did it anyways and the entire olympiad was a fever dream. Afterwards, my mom drove me across campus to the Health Center because I had a decently high fever at the time and could barely walk.&lt;/p&gt;
-
-&lt;p&gt;There, I got tested, first for Covid and that came back negative. Then, they gave me a more accurate Covid test and a flu test, both of which came back negative. I think it’s just a normal stomach bug.&lt;/p&gt;
-
-&lt;h2 id=&quot;rest-of-the-week&quot;&gt;Rest of the week&lt;/h2&gt;
-
-&lt;p&gt;I took the day off from classes on Friday, and slept till 5pm, at which point I edited some essays until the deadline to make them presentable, and then submitted.  On Saturday, I woke up at around 10:00am and worked until 5:30pm on a SRP (Science Research Program) Lab Report on Fluid dynamics. I used Latex to compile the entire report and made my own diagram from scratch at chemix.org, and I’m really proud of how clean the final product looks. Afterwards, I rested and had dinner until 8pm, and then did some homework until I went to sleep at 11. Today (Sunday), I’ve just been doing homework, and also worked on writing from scratch the code necessary to encrypt messages with RSA. It would be really cool to be able to send messages to a friend, and have it not be accessible years down the line. (Not that I have anything to hide, it would probably all be random stuff anyways).&lt;/p&gt;
-
-&lt;h2 id=&quot;what-ive-learned&quot;&gt;What I’ve learned&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;I need to enjoy the good times when I’m healthy.&lt;/li&gt;
-  &lt;li&gt;I never want to drink alcohol. Vomiting sucks too much.&lt;/li&gt;
-  &lt;li&gt;Have stuff polished and camera-ready well before the deadline, you never know when something can go wrong.&lt;/li&gt;
-  &lt;li&gt;Essays should still have a story. Some prompt’s were kinda asking for lists, but I accidentally made them into literal lists in the first draft, which necesitated a full rewrite later.&lt;/li&gt;
-  &lt;li&gt;Emails are hard. I’ve been pretty good about rapidly sending out emails: quick responses and early notifications. However, this “notifying people early” backfired twice this week, and I’m not sure if I’m going to keep this mantra of giving other people as much information as possible.&lt;/li&gt;
-  &lt;li&gt;Winter sucks. There are no good leisure activities. In the spring, you can walk or run outside and easily recharge. But in the winter, there’s nothing. I am looking forward to the Spring so much. I even looked up “how to adapt to NE winters as a Californian” despite the fact that I’ve lived in CT my entire life.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Somehow, this “quick life update” blog post took 2.5 hours. After writing a recap of a period of time, I feel like I’ve relived the past two weeks. The writing quality could probably be edited more, but I have homework to do. Thanks for reading, and stay safe out there and try not to get sick!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/img2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;I’ve run by a billboard that says “Lavate las manos” in New Haven quite a few times, and I’m kinda sad that I can’t find a photo of that billboard.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">Now that I have proven to myself that I can write blog posts regularly, I’m going to try to commit myself to posting every weekend. These will hopefully be done on Friday nights, although if they’re posted after 12am, or even within half an hour of 12am, they annoyingly get marked as being from the next day by WordPress.</summary></entry><entry><title type="html">Why Empathy Matters: How Newton Actually Came Up With Gravity, and Other Examples of Speculative Mind Reading</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/08/Newton-Mind-Reading.html" rel="alternate" type="text/html" title="Why Empathy Matters: How Newton Actually Came Up With Gravity, and Other Examples of Speculative Mind Reading" /><published>2022-01-08T22:50:32-05:00</published><updated>2022-01-08T22:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/08/Newton-Mind-Reading</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/08/Newton-Mind-Reading.html">&lt;blockquote class=&quot;wp-block-quote is-style-default&quot;&gt;&lt;p&gt;Holmes had been seated for some hours in silence with his long, thin back curved over a chemical vessel in which he was brewing a particularly malodorous product. His head was sunk upon his breast, and he looked from my point of view like a strange, lank bird, with dull grey plumage and a black top-knot.&lt;br /&gt;&lt;br /&gt;“So, Watson,” said he, suddenly, “you do not propose to invest in South African securities?”&lt;br /&gt;&lt;br /&gt;
-&lt;/p&gt;&lt;cite&gt;The Adventure of the Dancing Men&quot;, from the collection&amp;nbsp;&lt;em&gt;The Return of Sherlock Holmes&lt;/em&gt;&amp;nbsp;(1905)&lt;/cite&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;There are some really cool neuroscience results that come from the study of people who have had the two halves of their brains surgically separated. This is done to prevent some specific kinds of seizures, and allows most people to live normal lives 99% of the times – but there’s still the last one percent.&lt;/p&gt;
-
-&lt;p&gt;Notably, the Right Brain processes the visual feed from the Left Eye, and the Left Brain processes the visual feed from the Right Eye. And so experiments have been done where they show the LeftEye/RightBrain of these people a sign that tells them to get up and walk. And then, once they’ve stood up, they ask participant “why they stood up.” Now, since the LeftBrain controls language, but the RightBrain saw/responded to the command, the Left Brain &lt;em&gt;has have no idea why.&lt;/em&gt; But, without missing a beat, it makes up an explanation, “to stretch my legs,” “to get a soda,” whatever.&lt;/p&gt;
-
-&lt;p&gt;My point with this anecdote is that behavior isn’t even explainable to the acter themselves sometimes so it is hubris to attempt to guess what’s going on in the minds of others. This question, of whether reading minds and guessing intentions is really interesting, with applications from AI-Box experiment to English course curriculum design, and with new breakthroughs in neuroscience and AI providing new insights.&lt;/p&gt;
-
-&lt;p&gt;But nothing I’m doing here is that fancy, I just have three fun examples:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Newton’s Theory of Gravity&lt;/li&gt;
-  &lt;li&gt;USA IMO TSTST 2021/5&lt;/li&gt;
-  &lt;li&gt;Trisolaran Metaphors&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;how-newton-really-came-up-with-gravity&quot;&gt;How Newton Really Came Up With Gravity&lt;/h2&gt;
-&lt;p&gt;The first theory is about how Newton came up with gravity. Everyone knows the story of Newton sitting under an apple tree when the apple falls and bonks his head, and “Eureka!” he figures out that gravity pulls the apple. There’s another, more credible account found in Newton’s biography, “Memoirs of Sir Isaac Newton’s Life” by William Stukeley, which says that:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;After dinner, the weather being warm, we went into the garden and drank tea, under the shade of some apple trees…he told me, he was just in the same situation, as when formerly, the notion of gravitation came into his mind. It was occasion’d by the fall of an apple, as he sat in contemplative mood. Why should that apple always descend perpendicularly to the ground, thought to himself…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;But this is sooo boring. Instead, imagine this, and tell me it doesn’t sound true:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Newton is lying down under an apple tree, staring up at a juicy red apple. He wants to get the apple, but doesn’t want to climb up the tree to pick it himself. So he pretends to pull it, somehow applying Force through the medium of the air. Suddenly, the apple falls! Newton has a brief moment where he thinks that he magically pulled the apple down, but this is clearly impossible. Still, he knows that some force must have acted on the apple, and while lying on his back he turns around to see what else could have applied the force. And what was the only thing behind him at the time? The Earth. Thus, the only logical conclusion was that the Earth pulled the apple, and the theory of gravity was born.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;usa-tst-20215&quot;&gt;USA TST 2021/5&lt;/h2&gt;
-
-&lt;p&gt;Now, believe it or not, this strategy of guessing intentions is in some edge cases useful in mathematics. Most olympiad problems are not susceptible to this – they are written by considering objects and finding nice properties just like in modern mathematics – and you can’t &lt;a href=&quot;https://slatestarcodex.com/2015/06/02/and-i-show-you-how-deep-the-rabbit-hole-goes/&quot;&gt;read God’s mind&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;On Day 2, the second problem (#5 overall), was the following (&lt;a href=&quot;https://artofproblemsolving.com/community/c2582544_2021_usa_tstst&quot;&gt;Source&lt;/a&gt;):&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Let T be a tree on n vertices with exactly k leaves. Suppose that there exists a subset of at least (n+k-1)/2 vertices of T, no two of which are adjacent. Show that the longest path in T contains an even number of edges. (A tree is a connected graph with no cycles. A leaf is a vertex of degree 1.)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This problem ended up being really funny because I managed to solve it based on a few meta observations.&lt;/p&gt;
-
-&lt;p&gt;The first was that (n+k-1)/2 was likely an upper bound, because if it weren’t, then it would not play well with the parity-based conditions. Then, as I tried to prove that this was an upper bound, I noticed that describing the equality case was incredibly weird, and so 1 hour into the problem I had found the morally correct characterisation. This reformulated problem was “Find the equality case of the inequality f(T)&amp;lt;=(n+k-1)/2, where f(T) is the size of the maximum subset of T which contains no edges”. Then, as a side effect, we will hopefully find that the distance between each pair of edges is even. Importantly though, this is not what we are actually trying to show, the more important thing is to first fully characterize the equality case.&amp;lt;/p&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;You can read my full solution in &lt;a href=&quot;https://artofproblemsolving.com/community/c6h2737024p23864222&quot;&gt;post #4 of the thread&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-three-body-problem---trisolaris-is-china&quot;&gt;The Three Body Problem - Trisolaris is China&lt;/h2&gt;
-&lt;p&gt;This one’s rather dull, sorry. It’s just a normal piece of literature analysis – made ever more slightly interesting by the possibility of scandalous political disloyalty.&lt;/p&gt;
-
-&lt;p&gt;Namely, in the Three Body Problem, Trisolaris is a metaphor for China, and is a criticism of the things that are holding the nation back. Liu CiXin is not above dodging censors, the Chinese edition had the Cultural Revolution section moved to the more obscure middle to avoid censorship, which was promptly moved back to the front by Ken Liu when he translated it.&lt;/p&gt;
-
-&lt;p&gt;Anyways, I like to imagine that Liu Cixin wrote 3BP while having Humanity represent the West and Trisolarans represent China. The origin story of Trisolaris is as follows:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;It’s a civilization that emerged on a planet orbiting a chaotic set of three stars, which lead to “chaotic” and “stable” eras with a massive cycle of death and rebirth, disunity and reunification … &lt;em&gt;sounds an awful lot like the dynastic cycle of Chinese history no?&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Politically, Humanity is portrayed as inefficient and materialistic, yet prevails because of their intellectual diversity; on the other hand, Trisolaris is organized and efficient, irreverent towards human rights with an authoritarian government structure thanks to a quirk of biology they directly read each other’s thoughts … &lt;em&gt;state censorship!&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;Guessing what other people are thinking is an amusing hobby. It has its limits – the idea that we actually are in control of our own thoughts is an illusion – but it’s also a foundational part of the Theory of Mind. These examples are kinda silly (except the TST one which helped me make TST group). As direct mind reading becomes a real possibility, and indirect mind reading already taking on the triumphant role of “sole commerical application of AI,” looking inwards is here to stay.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html">Holmes had been seated for some hours in silence with his long, thin back curved over a chemical vessel in which he was brewing a particularly malodorous product. His head was sunk upon his breast, and he looked from my point of view like a strange, lank bird, with dull grey plumage and a black top-knot.“So, Watson,” said he, suddenly, “you do not propose to invest in South African securities?” The Adventure of the Dancing Men&quot;, from the collection&amp;nbsp;The Return of Sherlock Holmes&amp;nbsp;(1905)</summary></entry><entry><title type="html">Reflection on 2021</title><link href="http://localhost:4000/blog/jekyll/update,/news/2021/12/31/Goodbye-2021.html" rel="alternate" type="text/html" title="Reflection on 2021" /><published>2021-12-31T22:50:32-05:00</published><updated>2021-12-31T22:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2021/12/31/Goodbye-2021</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2021/12/31/Goodbye-2021.html">&lt;p&gt;2020 was quite frankly a terrible year. Everything was cancelled, and the pandemic shuttered everyone’s worlds.&lt;/p&gt;
-
-&lt;p&gt;However, beginning in 2021, I turned things around and this year has been one of the best years of my life. A few of the highlights include getting a 14 on AIME, making MOP, and co-authoring and submitting two Distributed Machine Learning papers with a pair of professors. This was a major improvement from my end-of-freshman-year self who had done nothing notable in high school.&lt;/p&gt;
-
-&lt;p&gt;Many of these benefits can be credited to a Google Doc I have titled “The Story of Tonight”. It is (as of 12/31/2021) a 457 page, 54309 word, 225389 character document in which I keep track of what I do every day. An example day (last Wednesday) can be found at this dropbox link. This document has made me much more productive and aware of how I spend time.  Even though 99% of the pages in the document have never been seen by another human being (with my consent), I still subconsciously try to make the way that I spend my time look good for the doc.&lt;/p&gt;
-
-&lt;p&gt;This document is also the reason I am able to make such a detailed year review. The individual month-reviews were made by reading through my daily logs.&lt;/p&gt;
-
-&lt;h2 id=&quot;december-2020&quot;&gt;December 2020&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 7.4&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This was the beginning of my comeback from a bad freshman year and sophomore fall. I had tried to turn things around in the Fall, but I lived in a triple and that was not conducive to getting back onto the grind. I even wrote a full 1 page reflection on why I wasted Thanksgiving Break. The one nice thing about Sophomore Fall was that on November 14th I earned a Varsity letter in XC by being top 7 on the team. December 2020 was better than the previous months, but my average work-hours were still far lower than the ones I would achieve in 2021.&lt;/p&gt;
-
-&lt;p&gt;Still, in December I turned things around. This was the first month of my winter term where I opted into online classes. The most notable thing that happened was a 1000 on USACO Bronze which insta promoted me to USACO Silver where I got a 717. After this contest though, I stopped caring about USACO and never beat that score.&lt;/p&gt;
-
-&lt;h2 id=&quot;january&quot;&gt;January&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.89&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This was the beginning of the math contest grind that would pay massive dividends in March/April. In the first half, I did a bunch of OTIS units and began doing well on Foxtrots, and in the second half I began my AIME grind and got through 2000-2005.&lt;/p&gt;
-
-&lt;h2 id=&quot;february&quot;&gt;February&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 10.68&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;AMCs were disappointing. On the 4th and 8th, I got a 135 on the 10A and 126 on the 10B. I had only begun grinding around 1.5 months before, so looking back now it makes sense that I didn’t do phenomenally. I also submitted my SRP application and did my interview on the 16th. I took F=ma on the 18th, and I would go on thinking that I got a 14 until April.  I also got through to 2011 in my AIME grind.&lt;/p&gt;
-
-&lt;h2 id=&quot;march&quot;&gt;March&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.34&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I got through every AIME set that I had not taken in-contest, and on the 18th I took the AIME. I got a 14! On the 22nd, I learned that I got into SRP. On the 27th, I took PUMaC and did the best I’ve ever done on a college comp. I accidentally took the div A subject tests, but they were nice and allowed me to take Div B individual finals and I got 7/6/7 on individual finals and 3rd overall (div B). The awards ceremony was majorly delayed because they had to transfer my correct answers on the div A subject tests into the overlapping questions from div B subject tests.&lt;/p&gt;
-
-&lt;h2 id=&quot;april&quot;&gt;April&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.97&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This months was defined by JMO. I took them on the 13th and 14th, and I will forever remember the k-pop playlist I listened to while stressing before and after the contest. Those songs still remind me of JMO. On the 29th at 2:01pm, I learned that I made MOP. An excerpt from my logs:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;2:00 - 3:30 I MADE MOP HOLY FCKING SHT (uncensored in original document)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;may&quot;&gt;May&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.11&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This month was spent getting my grades up, but nothing could faze me because I was really happy that I had made MOP. By this time I had switched rooms, and my new roommate is a good friend and we did random stuff like playing gagaball in our room at 10:30pm and calculating how far away the minecraft moon is from the minecraft earth. School ended on the 26th, and I looked forward to MOP.&lt;/p&gt;
-
-&lt;h2 id=&quot;june&quot;&gt;June&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.87&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;MOP was from the 7th-25th. It was one of the best 3 weeks of my life. I only really knew JC and SW beforehand, but through MOP I got to know RW (red 2^2), LR(greenish), ML(coffee), AW(pre-mop), EL(post-mop), RZ(me randomly dm-ing him), RF(coffee), and ES(post-mop).&lt;/p&gt;
-
-&lt;p&gt;ELMO was quite funny. I got 12th and Bronze. I first met ES when he handled the angry emails that I sent about getting ELSMO instead of ELMO, which was the worse troll that I had ever been the victim of. I also added the “Competitions at MOP” section of the MO(S)P wikipedia page.&lt;/p&gt;
-
-&lt;p&gt;I was also the one who thought of the idea of using the 6 hour slow-mode channel as a reaper game :) . However, I am much less proud of the fact that during a panel I mentioned that you could play reaper anywhere, and nowadays the MOP discord’s activity largely consists of people posting “reap” in every channel.&lt;/p&gt;
-
-&lt;p&gt;I should probably have a written a more in-depth reflection on MOP right afterwards. Although online MOP was worse than an in-person MOP, greenish made it a lot better. (greenish was “green does isl”, but so many red, blue, and black moppers ended up joining that it had choice but to be renamed greenish)&lt;/p&gt;
-
-&lt;h2 id=&quot;july&quot;&gt;July&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.37&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I got my learners permit on the 16th. I spent a lot of time in New Haven at A.K. Watson Hall, and worked through Nonlinear Programming by Bazaraa. I also read a bunch of papers and did research with a pair of professors, and we submitted a paper to Infocom on July 31st.&lt;/p&gt;
-
-&lt;p&gt;I also tried to watch the Olympics which took place from July 23th to August 8th, but I never ended up watching much because 1. time zones and 2. It could never live up to the nostalgia I feel for the London 2012 games.&lt;/p&gt;
-
-&lt;h2 id=&quot;august&quot;&gt;August&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 8.5&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As a break after submitting the Infocom paper, we went to Acadia from the 4th-7th. We also took the chance to visit Harvard, MIT, and Brown. I also took the SAT on the 28th, but all in all this was a hot month where nothing really happened.&lt;/p&gt;
-
-&lt;h2 id=&quot;september&quot;&gt;September&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.57&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We submitted a paper to AAAI on the 9th. It was an extremely proud moment because I felt that we had created something really cool. (oh my god September feels like it was years ago).&lt;/p&gt;
-
-&lt;p&gt;The start of the school year was really stressful. This is because we had to figure out whether we should rent an apartment in New Haven or a house that was right next to Choate. (We ended up renting in New Haven, and I love living in New Haven.) Also, the first day of XC preseason was on the 9th, and we had morning and afternoon practices, which was really hard as a day student who was still operating out of Easton.&lt;/p&gt;
-
-&lt;p&gt;When the school year began on the 13th, I decided to switch from Chinese 550 into US History, which meant that I had to speedrun the summer reading book. I started off the year wanting a break, but instead I had to do homework (SRP = hard). After Infocom, which I put less effort into than AAAI, I needed a break, so not getting a break after AAAI and going straight into the school year was rough.&lt;/p&gt;
-
-&lt;h2 id=&quot;october&quot;&gt;October&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.31&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;XC was a blast. On the 2nd, I ran a PR of 18:51 on our home course (which is the 2nd hardest one in the league except for the Northfield Mount Hermon course, and a school with a name like that obviously has a really hilly XC course). Also, on the 10th I spent my Sunday morning biking biked from New Haven to Wallingford.&lt;/p&gt;
-
-&lt;p&gt;However, by the second half of the month, things began turning towards the worse. I got injured and then sick for the rest of the month and didn’t run well. I also took USEMO on the 30th/31st and did mediocrely (7/0/0-7/0/0), but got distinction for getting 14+.&lt;/p&gt;
-
-&lt;h2 id=&quot;september-1&quot;&gt;September&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.57&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We submitted a paper to AAAI on the 9th. It was an extremely proud moment because I felt that we had created something really cool. (oh my god September feels like it was years ago).&lt;/p&gt;
-
-&lt;p&gt;The start of the school year was really stressful. This is because we had to figure out whether we should rent an apartment in New Haven or a house that was right next to Choate. (We ended up renting in New Haven, and I love living in New Haven.) Also, the first day of XC preseason was on the 9th, and we had morning and afternoon practices, which was really hard as a day student who was still operating out of Easton.&lt;/p&gt;
-
-&lt;p&gt;When the school year began on the 13th, I decided to switch from Chinese 550 into US History, which meant that I had to speedrun the summer reading book. I started off the year wanting a break, but instead I had to do homework (SRP = hard). After Infocom, which I put less effort into than AAAI, I needed a break, so not getting a break after AAAI and going straight into the school year was rough.&lt;/p&gt;
-
-&lt;h2 id=&quot;october-1&quot;&gt;October&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.31&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;XC was a blast. On the 2nd, I ran a PR of 18:51 on our home course (which is the 2nd hardest one in the league except for the Northfield Mount Hermon course, and a school with a name like that obviously has a really hilly XC course). Also, on the 10th I spent my Sunday morning biking biked from New Haven to Wallingford.&lt;/p&gt;
-
-&lt;p&gt;However, by the second half of the month, things began turning towards the worse. I got injured and then sick for the rest of the month and didn’t run well. I also took USEMO on the 30th/31st and did mediocrely (7/0/0-7/0/0), but got distinction for getting 14+.&lt;/p&gt;
-
-&lt;h2 id=&quot;november&quot;&gt;November&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.5&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This was a bad month. On the 4th, I failed TST Day 1 and got 1/0/0. Problem 1 was geo, and I sank all of my time into solving P1, which is kinda sad because P2 was far more doable for a geometrically-incompetent person like myself.&lt;/p&gt;
-
-&lt;p&gt;I also took AMC 12 and got a 130.5 on the B.&lt;/p&gt;
-
-&lt;p&gt;Also, our AAAI paper didn’t end up getting accepted. After rebuttal, our reviewer scores dropped from (7,7,6,6) to (7,7,6,4). I think it was because I had not properly proven convergence to equality, so I spent a lot of time trying to rectify this in the second half of November. This was heartbreaking because we had all thought that it would get accepted.&lt;/p&gt;
-
-&lt;p&gt;The Fall term ended on the 19th, and amusingly I incorrectly predicted 3 out of 5 of my grades. (I almost always predict all of my grades correctly, the letter scale is fairly constricted).&lt;/p&gt;
-
-&lt;p&gt;Finally, two other things (that I am not going to write about) made this month tough.&lt;/p&gt;
-
-&lt;h2 id=&quot;december&quot;&gt;December&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Average Hours: 9.63&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;TST Day 2 was on the 9th, and I did much better and got 6/7/0! I also managed to be the person who posted the problems to day 2 on AoPS, which is always a treat (I’m AwesomeYRY).&lt;/p&gt;
-
-&lt;p&gt;My last day of classes was on the 16th, and at Choate we refer to the time between Thanksgiving Break to Winter Break as “winterlude”. We all hate winterlude because in this 3 week period, teachers feel the need to assign at least one major assignment, and they always end up being in the last week of winterlude. I have fought to keep a good sleep schedule throughout 2021, but in order to get my work done in the last week of winterlude I stayed up past 1am for the first time in months.&lt;/p&gt;
-
-&lt;p&gt;My winter break has been very different from previous ones. I managed to consistently wake up at ~8:20am and I managed to say productive and vice-free unlike younger versions of myself. I fulfilled my dream of having my own website (ryanyang.us), and brainstormed a bunch of nontrivial ideas for a blog. There were also some obligations and essays that I handled. In my off time, I did a bunch of olympiad math and talked with friends in Coffee.&lt;/p&gt;
-
-&lt;p&gt;I also met twice with a brilliant Yale Professor who helped me make a big breakthrough in my distributed ML research. I have exciting new progress in our fascinating topic, and hopefully 2022 will bring a full solution to our research problem.&lt;/p&gt;
-
-&lt;h2 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
-
-&lt;p&gt;An amusing tidbit from my log of how many hours I worked each day is this list of averages based on the day of the week: (0=sunday, 1=monday, …)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/img1.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This was genuinely quite surprising, although upon reflection this makes sense (I have forced my mental image to confirm the data). Weekends(F,S,U) have less work hours because I don’t have classes, and Saturdays are especially low because races take place on Saturdays and drain a lot of time. Friday and Sunday are also lower than  weekdays because Friday nights usually aren’t very productive, and Sunday mornings aren’t that productive.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html">2020 was quite frankly a terrible year. Everything was cancelled, and the pandemic shuttered everyone’s worlds.</summary></entry></feed>
+<p><strong>Convergence Properties:</strong> I’m pretty wary about this – I think that it’s unfortunately pretty likely that this will oscillate, and there’s an inherent tradeoff that you make in Condition X between slower convergence and more time to search/find the right matching.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”]]></summary></entry></feed>

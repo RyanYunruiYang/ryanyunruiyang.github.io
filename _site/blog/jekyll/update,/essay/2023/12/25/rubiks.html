@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>There are 2048 Ways To Solve a Rubiks Cube | Ryan Yang-Liu’s Website</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="There are 2048 Ways To Solve a Rubiks Cube" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="No, this isn’t going to be some whimsical list of different strategies, starting with F2L and slowly descending into insanity. 2048 is way too big of a number for that. I’m nowhere near that creative." />
+<meta property="og:description" content="No, this isn’t going to be some whimsical list of different strategies, starting with F2L and slowly descending into insanity. 2048 is way too big of a number for that. I’m nowhere near that creative." />
+<link rel="canonical" href="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html" />
+<meta property="og:url" content="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html" />
+<meta property="og:site_name" content="Ryan Yang-Liu’s Website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-12-25T09:50:32-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="There are 2048 Ways To Solve a Rubiks Cube" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T09:50:32-05:00","datePublished":"2023-12-25T09:50:32-05:00","description":"No, this isn’t going to be some whimsical list of different strategies, starting with F2L and slowly descending into insanity. 2048 is way too big of a number for that. I’m nowhere near that creative.","headline":"There are 2048 Ways To Solve a Rubiks Cube","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/headshot.png"}},"url":"http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ryan Yang-Liu's Website" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Ryan Yang-Liu&#39;s Website</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Me</a><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/potw/">POTW</a><a class="page-link" href="/publications/">Scientific Writing</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">  
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">There are 2048 Ways To Solve a Rubiks Cube</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2023-12-25T09:50:32-05:00" itemprop="datePublished">
+        Dec 25, 2023
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>No, this isn’t going to be some whimsical list of different strategies, starting with F2L and slowly descending into insanity. 2048 is way too big of a number for that. I’m nowhere near that creative.</p>
+
+<p>Rather, there are literally 2048 different, technically distinct orientations of a rubik’s cube that “solve” the puzzle and are visually correct, but are nevertheless different.</p>
+
+<p>Namely, if you draw an arrow on each sticker of the rubik’s cube to keep track of its position, you can track the precise orientation of each of the pieces. In a perfectly solved cube, each of the edge and corner stickers are perfectly fixed because they have to be oriented to be adjacent to a specified other side. But! The center faces actually have no such requirement, and are free (ish) to move.</p>
+
+<p>Thus, in theory, there are a total of 4^6 different orientations: each of the centers has four different orientations, and there are six centers. However the real number ends up being half of this: 2048.</p>
+
+<h2 id="part-1-there-are-at-most-2048--12--46-orientations">Part 1: There are at most 2048 = 1/2 * 4^6 orientations</h2>
+<p>Let \(\mathbb{Z}_4\) be the set {0,1,2,3} taken mod 4. Thus, the orientation of the set of six centers is a 6d vector, where each value is a number in {0,1,2,3}, with the assumption that (0,0,0,0,0,0) is our baseline solution.</p>
+
+<p>Then, to demonstrate \(\leq 2048\), we claim that it must be true that the sum of the orientations of each of the faces must be invariant mod 180 degrees, or the sum of the values in \((\{0,1,2,3\})^6\) are 0 mod 2. This is equivalent to saying that any sequences of moves that sends a color-solved rubik’s cube back to itself must have an even number of moves, where each move is a 90 degree rotation of one face.</p>
+
+<p>Inspired by Cayley’s Theorem, we consider every action to be a permutation of S_54, the group reorienting the (6 faces) * (9 stickers/face) = 54 stickers.</p>
+
+<p>For reasons known to literature, each “move” is an “odd” permutation since it is composed of five 4-cycles. Then, in order to get back to the identity, which is even, there must have been an even number of cycles (otherwise odd times odd would’ve been even).</p>
+
+<h2 id="part-2-all-2048-orientations-with-even-total-sum-can-be-achieved">Part 2: All 2048 orientations with even total sum can be achieved.</h2>
+
+<p>To show this, we demonstrate two possible sequences of moves that achieve:</p>
+
+<p>Type A, (2,0,0,0,0,0):</p>
+<ul>
+  <li>Namely, there is a sequence of moves that rotates one face 180 degrees: 5x (R, U, R’, U). - Source: https://www.reddit.com/r/Rubiks_Cubes/comments/kduwle/comment/gg008h2/?utm_source=share&amp;utm_medium=web2x&amp;context=3</li>
+</ul>
+
+<p>Type B, (1,-1,0,0,0,0):</p>
+
+<ul>
+  <li>Namely, there exists a sequence of moves that rotates one face 90 degrees cw, and an adjacent face 90 degrees ccw.</li>
+  <li>Source: http://tilde.club/~notfire/cube/3x3x3_x_rotating_centres.htm</li>
+</ul>
+
+<p>We claim that this forms a basis of all even-sum elements in the set {0,1,2,3 mod 4}^6. Type A moves reduce the problem to just handling {0,1}, and then if X and Y are a pair of opposite sides, with the other four being A, B, C, D, then the following five Type B moves are linearly independent:</p>
+<ul>
+  <li>XA, XB, XC, XD, YA</li>
+</ul>
+
+<p>This covers all 32 even-sum vectors in \(\{0,1\}^6\), since:</p>
+
+<ul>
+  <li>orientation of Y determines number of YAs.</li>
+  <li>orientation of A, B,C,D then determine numbers of XA, XB,XC,XDs.</li>
+</ul>
+
+<p>Thus, (2,0,0,0,0,0) and (1,-1,0,0,0,0) cover all even sum elements of \(\{0,1,2,3\}^6\).</p>
+
+<h2 id="summary">Summary</h2>
+<p>In summary, it is possible to rotate the center faces by a cumulative even number of 90-degree turns, for a total of 2048 ways to solve a Rubik’s cube.</p>
+
+<p>Remarkably, I can not find any reference to this on the internet. The idea here is mainly just the pairing of the two known-ish ideas of:</p>
+
+<ul>
+  <li>even number of moves implying multiple of 180 net center</li>
+  <li>the known center shifting algorithms</li>
+</ul>
+
+<p>into a tight/precise full characterization of reachable center-orientation systems.</p>
+
+<p><em>In case of conflict over primacy, I figured this out on December 25th, 2023.</em></p>
+
+  </div><a class="u-url" href="/blog/jekyll/update,/essay/2023/12/25/rubiks.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="http://localhost:4000/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Ryan Yang-Liu, MIT 2027. Physics &amp; CS.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
