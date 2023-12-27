@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Heat-Optimal Sleep"
-date:   2022-02-08 20:50:32 -0400
+date:   2023-12-11 20:50:32 -0400
 categories: jekyll update, essay
 ---
 <!-- ![image-title-here](../assets/flow640am.png){:class="img-responsive"} -->
