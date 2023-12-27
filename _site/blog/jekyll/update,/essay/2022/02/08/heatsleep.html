@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Heat-Optimal Sleep | Ryan Yang-Liu’s Website</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Heat-Optimal Sleep" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Ryan Yang-Liu, MIT 2027. Physics &amp; CS." />
+<meta property="og:description" content="Ryan Yang-Liu, MIT 2027. Physics &amp; CS." />
+<link rel="canonical" href="http://localhost:4000/blog/jekyll/update,/essay/2022/02/08/heatsleep.html" />
+<meta property="og:url" content="http://localhost:4000/blog/jekyll/update,/essay/2022/02/08/heatsleep.html" />
+<meta property="og:site_name" content="Ryan Yang-Liu’s Website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-02-08T19:50:32-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Heat-Optimal Sleep" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-02-08T19:50:32-05:00","datePublished":"2022-02-08T19:50:32-05:00","description":"Ryan Yang-Liu, MIT 2027. Physics &amp; CS.","headline":"Heat-Optimal Sleep","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/jekyll/update,/essay/2022/02/08/heatsleep.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/headshot.png"}},"url":"http://localhost:4000/blog/jekyll/update,/essay/2022/02/08/heatsleep.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ryan Yang-Liu's Website" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Ryan Yang-Liu&#39;s Website</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Me</a><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/potw/">POTW</a><a class="page-link" href="/publications/">Scientific Writing</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">  
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Heat-Optimal Sleep</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2022-02-08T19:50:32-05:00" itemprop="datePublished">
+        Feb 8, 2022
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!-- ![image-title-here](../assets/flow640am.png){:class="img-responsive"} -->
+
+<p>In a very well-done piece of data visualization showing the daily schedules of 1000 average Americans from <a href="https://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/">Flowing Data</a>, one learns that half of all Americans awake by 6:40. At MIT, the median sleep time is around 2-3AM, and attendance at 10AM classes is pretty spotty; average wakeup time is probably around 10:30 to 11:00.</p>
+
+<p>Why is this?</p>
+
+<p>Clearly there’s a generational disconnect here. Explaining why older people wake up around dawn is not too hard. They wake up early because they have to wake up early. But explaining why teenagers nowadays wake up later is much harder, and the oft-quoted “teenagers go to sleep later” due to pubescent hormones only has an effect of one to two hours (cite).</p>
+
+<p>This essay will first discuss the sleep schedules of three time periods of humanity, then explain why our sleep schedules consistently slide later, and finally propose a big-if-true idea of how to fix sleep schedules without needing to rely on alarms and corporate mandates.</p>
+
+<p>We’ll start by estabilishing a structure within which to think about sleep and circadian rhythym. Following in the steps of sleep research, we claim that the only things that really matter and consistently follow a 24-hour cycle are:</p>
+<ul>
+  <li>light levels</li>
+  <li>temperature</li>
+</ul>
+
+<p>Then, we will, in order, consider three different kinds of lifestyles.</p>
+<ol>
+  <li>Early Industrial Society: Light and Heat are both scarce.</li>
+  <li>Hunter-Gatherer Society: Heat is more scarce.</li>
+  <li>Current Day: Neither are scarce.</li>
+</ol>
+
+<p>Important timeline landmarks to have in mind are the sequential occurrences of:</p>
+<ul>
+  <li>prehistoric: discovery of crude heating through fire</li>
+  <li>1883: the invention of the electric thermostat</li>
+  <li>1925: half of all homes switch over from gas lights/candles to electric power.</li>
+</ul>
+
+<h4 id="early-industrial-society">Early Industrial Society</h4>
+<p>In early industrial society, work is king. To work your 12-hour shifts, you need to be able to see. But getting light is hard! I mean come on, someone has to go out and slay sea leviathans for their blubber, and they’ll want to be handsomely compensated.</p>
+
+<p>Thus, you need to use all of the available light. This means being awake from dawn to dusk. Then, since the evening is more comfortable, we recover the traditional conceived sleep schedule from like 9PM to dawn.</p>
+
+<h4 id="hunter-gatherers">Hunter Gatherers</h4>
+
+<p>I’ll be mainly referencing a paper by <em>Yetish et al.</em> from 2015 published in <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(15)01157-4">Cell</a>. Within this study, they aggregated collected sleep data from three Hunter-Gatherer societies: the Tsimane, Hadza, and San. The Tsimane are in South America, and the Hadza and San are in sub-Saharan Africa, with San being the furthest from the equator among all three tribes.</p>
+
+<p>The sleep schedules for all of the tribes <em>broadly</em> goes along the lines of “go to sleep around 3 hours after sunset and wake up around sunrise.” For all tribes, their bed time varies heavily, while their wakeup time remains highly consistent.</p>
+
+<p>The most interesting data comes from the San, the southernmost tribe, who therefore have the largest seasonal shift. While other tribes always awake before dawn, for the San, it’s seasonal:</p>
+<ul>
+  <li>Summer: Awake 1hr after sunrise. Go to sleep at 10:44PM</li>
+  <li>Winter: Awaken before sunrise. Go to sleep at 9:16PM.</li>
+</ul>
+
+<p>The presence of heat as a relevant variable that changes throughout the year differentiates the San sleep schedule. The other two tribes always awake before dawn, whereas San wake up after sunrise in the summer. Additionally, the San sleep more in the winter than in the summer with the same absolute wakeup time but later bedtime (a heat-dependence that doesn’t exist in modern Western society presumably due to central heating).</p>
+
+<p>Most interestingly, the researchers found that the best way to predict wake up time is with the principle that <strong>“wake onset occurred near the nadir (minimum) of the daily temperature rhythm”</strong>. For context, the general temperature profile of Earth is that:</p>
+<ul>
+  <li>Temperature spikes at Dawn</li>
+  <li>Temperature slowly increases afterwards and peaks at 3PM, but is mostly flat from 10AM to 5PM</li>
+  <li>Slow, gradual continuous decrease from 5PM to around dawn.</li>
+</ul>
+
+<p>And this is why the San wake up later in the summer. Due to the solar schedule, the coldest time of the day gets shifted to after sunrise. An evolutionary explanation for why humans want to wake up when it’s coldest is that we want to be asleep, with its associated decreased core temperature, during the coldest part of the night.</p>
+
+<p>Strikingly, this tells us that in the pristine state of original humanity, the main signal we use for waking up is temperature. This also helps explain why Hunter-Gatherer bedtime varies so much; the temperature decrease at night is relatively continuous and nonabrupt, allowing for high variance in when this signal fully kicks in. A light-dominated sleep-signal would guarantee a consistent bedtime, but the hours-long-delay in melatonin precludes this.</p>
+
+<h3 id="modern-day">Modern Day</h3>
+<blockquote>
+  <p>Comfortable modern sleep is an unnatural superstimulus <a href="https://guzey.com/theses-on-sleep/#comfortable-modern-sleep-is-an-unnatural-superstimulus-sleepiness-just-like-hunger-is-normal">(Alexey Guzey)</a>.</p>
+</blockquote>
+
+<p>So what’s up with our current sleep schedules. Well, nowadays, both light and heat are largely held constant, and this ends up applying constant delaying pressure to our circadian rhythym. Recall that the signals we used to rely on were from the 2x2 matrix of:</p>
+<ul>
+  <li>(dawn, temp): the cold bite of pre-dawn</li>
+  <li>(dawn, light): bright lights in our eyes</li>
+  <li>(dusk, temp): decreasing night temperature</li>
+  <li>(dusk, light): hours-delayed melatonin</li>
+</ul>
+
+<p>And so essentially, all of these have been disturbed by modern life. Everyone already sorta knows about the light things – we’re not suppose to look at blue lights before going to bed, and sunrise lamps were quite chic a few years ago.</p>
+
+<p>The heat side is an underdiscussed equal partner though. And in fact, as seen with the tribes, their wakeup time was almost entirely determined by subtle temperature changes their bodies sensed at the temperature nadir of the day – even if this meant sometimes awakening before civil dawn in complete darkness and sometimes awakening an hour after sunrise.</p>
+
+<h4 id="actionables">Actionables</h4>
+
+<p>So, just maybe, the way to solve our messed up sleep schedules is temperature? Big if true at the very least.</p>
+
+<p>For the evening, it’s already mostly solved. Anyone who’s thought about sleep knows that getting a special chilled bed or setting the thermostat lowers helps a lot.</p>
+
+<p>But, the truly missing square from the 2x2 matrix of (dawn/dusk, light/temperature) is the <em>temperature at dawn</em> category. Ironically, this was also <strong>the strongest signal in hunter-gatherer sleep schedules</strong> since their bedtimes varied heavily, with the main checkpoint being a consistent wakeup time which was determined by “waking up at the temperature minimum.”</p>
+
+<p>Thus, the main corollary of this systemization of what influences circadian rhythym is that we should experiment with using temperature to wake ourselves up. There’s something to be said about this idea’s similarity with the classic bucket of ice water to the face.</p>
+
+<p>More tastefully though, it would be cool to set a consistent morning alarm where, instead of playing a sound, it would commit a tactical chilling through a smart mattress or a programmed temperature decrease setting in a thermostat.</p>
+
+<p>Maybe I’ll build this. But for now, I sleep.</p>
+
+  </div><a class="u-url" href="/blog/jekyll/update,/essay/2022/02/08/heatsleep.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="http://localhost:4000/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Ryan Yang-Liu, MIT 2027. Physics &amp; CS.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

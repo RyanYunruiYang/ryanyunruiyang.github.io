@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-26T00:26:58-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang-Liu’s Website</title><subtitle>Ryan Yang-Liu, MIT 2027. Physics &amp; CS.</subtitle><entry><title type="html">There are 2048 Ways To Solve a Rubiks Cube</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html" rel="alternate" type="text/html" title="There are 2048 Ways To Solve a Rubiks Cube" /><published>2023-12-25T09:50:32-05:00</published><updated>2023-12-25T09:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html"><![CDATA[<p>No, this isn’t going to be some whimsical list of different strategies, starting with F2L and slowly descending into insanity. 2048 is way too big of a number for that. I’m nowhere near that creative.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-27T00:55:59-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang-Liu’s Website</title><subtitle>Ryan Yang-Liu, MIT 2027. Physics &amp; CS.</subtitle><entry><title type="html">There are 2048 Ways To Solve a Rubiks Cube</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html" rel="alternate" type="text/html" title="There are 2048 Ways To Solve a Rubiks Cube" /><published>2023-12-25T09:50:32-05:00</published><updated>2023-12-25T09:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html"><![CDATA[<p>No, this isn’t going to be some whimsical list of different strategies, starting with F2L and slowly descending into insanity. 2048 is way too big of a number for that. I’m nowhere near that creative.</p>
 
 <p>Rather, there are literally 2048 different, technically distinct orientations of a rubik’s cube that “solve” the puzzle and are visually correct, but are nevertheless different.</p>
 
@@ -78,15 +78,7 @@ categories: jekyll update, essay
 
 <p>A friend asked me if I was a performer or an observer.</p>
 
-<p>… and I can’t believe I wrote this in VSCode.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">College</title><link href="http://localhost:4000/blog/2023/12/17/college.html" rel="alternate" type="text/html" title="College" /><published>2023-12-17T00:00:00-05:00</published><updated>2023-12-17T00:00:00-05:00</updated><id>http://localhost:4000/blog/2023/12/17/college</id><content type="html" xml:base="http://localhost:4000/blog/2023/12/17/college.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Heatsleep</title><link href="http://localhost:4000/blog/2023/12/11/heatsleep.html" rel="alternate" type="text/html" title="Heatsleep" /><published>2023-12-11T00:00:00-05:00</published><updated>2023-12-11T00:00:00-05:00</updated><id>http://localhost:4000/blog/2023/12/11/heatsleep</id><content type="html" xml:base="http://localhost:4000/blog/2023/12/11/heatsleep.html"><![CDATA[<!-- ---
-layout: post
-title:  "Heat-Optimal Sleep"
-date:   2022-02-08 20:50:32 -0400
-categories: jekyll update, essay
---- -->
-<!-- ![image-title-here](../assets/flow640am.png){:class="img-responsive"} -->
-
-<p>In a survey of 1000 average Americans,</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html" rel="alternate" type="text/html" title="No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio" /><published>2023-11-16T19:50:32-05:00</published><updated>2023-11-16T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html"><![CDATA[<p>From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.</p>
+<p>… and I can’t believe I wrote this in VSCode.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">College</title><link href="http://localhost:4000/blog/2023/12/17/college.html" rel="alternate" type="text/html" title="College" /><published>2023-12-17T00:00:00-05:00</published><updated>2023-12-17T00:00:00-05:00</updated><id>http://localhost:4000/blog/2023/12/17/college</id><content type="html" xml:base="http://localhost:4000/blog/2023/12/17/college.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html" rel="alternate" type="text/html" title="No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio" /><published>2023-11-16T19:50:32-05:00</published><updated>2023-11-16T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html"><![CDATA[<p>From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.</p>
 
 <p>And for some reason, I couldn’t find ANY news coverage explaining this? So, I set out to solve this mystery on my own, and here are the results of my internet sleuthing:</p>
 
@@ -183,7 +175,96 @@ without massive changes in measured populations due to something like, say, a pa
 
 <p>“For a lot of the players it was their first exposure to the Southern female - the most flagrant cheater in the mutual disarmament pact known as feminism. Lipstick! Hairdos! Submissiveness!”</p>
 
-<p>“The author refers to a player’s affected nonchalance and comments he is, “too young to realize you are what you pretend to be.”</p>]]></content><author><name></name></author><summary type="html"><![CDATA[https://www.coursehero.com/lit/Moneyball/quotes/]]></summary></entry><entry><title type="html">Superbowl</title><link href="http://localhost:4000/blog/potw/2022/02/13/superbowl.html" rel="alternate" type="text/html" title="Superbowl" /><published>2022-02-13T00:00:00-05:00</published><updated>2022-02-13T00:00:00-05:00</updated><id>http://localhost:4000/blog/potw/2022/02/13/superbowl</id><content type="html" xml:base="http://localhost:4000/blog/potw/2022/02/13/superbowl.html"><![CDATA[]]></content><author><name></name></author><category term="potw" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Long Weekend</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html" rel="alternate" type="text/html" title="Long Weekend" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html"><![CDATA[<p>I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.</p>
+<p>“The author refers to a player’s affected nonchalance and comments he is, “too young to realize you are what you pretend to be.”</p>]]></content><author><name></name></author><summary type="html"><![CDATA[https://www.coursehero.com/lit/Moneyball/quotes/]]></summary></entry><entry><title type="html">Superbowl</title><link href="http://localhost:4000/blog/potw/2022/02/13/superbowl.html" rel="alternate" type="text/html" title="Superbowl" /><published>2022-02-13T00:00:00-05:00</published><updated>2022-02-13T00:00:00-05:00</updated><id>http://localhost:4000/blog/potw/2022/02/13/superbowl</id><content type="html" xml:base="http://localhost:4000/blog/potw/2022/02/13/superbowl.html"><![CDATA[]]></content><author><name></name></author><category term="potw" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Heat-Optimal Sleep</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/02/08/heatsleep.html" rel="alternate" type="text/html" title="Heat-Optimal Sleep" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/02/08/heatsleep</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/02/08/heatsleep.html"><![CDATA[<!-- ![image-title-here](../assets/flow640am.png){:class="img-responsive"} -->
+
+<p>In a very well-done piece of data visualization showing the daily schedules of 1000 average Americans from <a href="https://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/">Flowing Data</a>, one learns that half of all Americans awake by 6:40. At MIT, the median sleep time is around 2-3AM, and attendance at 10AM classes is pretty spotty; average wakeup time is probably around 10:30 to 11:00.</p>
+
+<p>Why is this?</p>
+
+<p>Clearly there’s a generational disconnect here. Explaining why older people wake up around dawn is not too hard. They wake up early because they have to wake up early. But explaining why teenagers nowadays wake up later is much harder, and the oft-quoted “teenagers go to sleep later” due to pubescent hormones only has an effect of one to two hours (cite).</p>
+
+<p>This essay will first discuss the sleep schedules of three time periods of humanity, then explain why our sleep schedules consistently slide later, and finally propose a big-if-true idea of how to fix sleep schedules without needing to rely on alarms and corporate mandates.</p>
+
+<p>We’ll start by estabilishing a structure within which to think about sleep and circadian rhythym. Following in the steps of sleep research, we claim that the only things that really matter and consistently follow a 24-hour cycle are:</p>
+<ul>
+  <li>light levels</li>
+  <li>temperature</li>
+</ul>
+
+<p>Then, we will, in order, consider three different kinds of lifestyles.</p>
+<ol>
+  <li>Early Industrial Society: Light and Heat are both scarce.</li>
+  <li>Hunter-Gatherer Society: Heat is more scarce.</li>
+  <li>Current Day: Neither are scarce.</li>
+</ol>
+
+<p>Important timeline landmarks to have in mind are the sequential occurrences of:</p>
+<ul>
+  <li>prehistoric: discovery of crude heating through fire</li>
+  <li>1883: the invention of the electric thermostat</li>
+  <li>1925: half of all homes switch over from gas lights/candles to electric power.</li>
+</ul>
+
+<h4 id="early-industrial-society">Early Industrial Society</h4>
+<p>In early industrial society, work is king. To work your 12-hour shifts, you need to be able to see. But getting light is hard! I mean come on, someone has to go out and slay sea leviathans for their blubber, and they’ll want to be handsomely compensated.</p>
+
+<p>Thus, you need to use all of the available light. This means being awake from dawn to dusk. Then, since the evening is more comfortable, we recover the traditional conceived sleep schedule from like 9PM to dawn.</p>
+
+<h4 id="hunter-gatherers">Hunter Gatherers</h4>
+
+<p>I’ll be mainly referencing a paper by <em>Yetish et al.</em> from 2015 published in <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(15)01157-4">Cell</a>. Within this study, they aggregated collected sleep data from three Hunter-Gatherer societies: the Tsimane, Hadza, and San. The Tsimane are in South America, and the Hadza and San are in sub-Saharan Africa, with San being the furthest from the equator among all three tribes.</p>
+
+<p>The sleep schedules for all of the tribes <em>broadly</em> goes along the lines of “go to sleep around 3 hours after sunset and wake up around sunrise.” For all tribes, their bed time varies heavily, while their wakeup time remains highly consistent.</p>
+
+<p>The most interesting data comes from the San, the southernmost tribe, who therefore have the largest seasonal shift. While other tribes always awake before dawn, for the San, it’s seasonal:</p>
+<ul>
+  <li>Summer: Awake 1hr after sunrise. Go to sleep at 10:44PM</li>
+  <li>Winter: Awaken before sunrise. Go to sleep at 9:16PM.</li>
+</ul>
+
+<p>The presence of heat as a relevant variable that changes throughout the year differentiates the San sleep schedule. The other two tribes always awake before dawn, whereas San wake up after sunrise in the summer. Additionally, the San sleep more in the winter than in the summer with the same absolute wakeup time but later bedtime (a heat-dependence that doesn’t exist in modern Western society presumably due to central heating).</p>
+
+<p>Most interestingly, the researchers found that the best way to predict wake up time is with the principle that <strong>“wake onset occurred near the nadir (minimum) of the daily temperature rhythm”</strong>. For context, the general temperature profile of Earth is that:</p>
+<ul>
+  <li>Temperature spikes at Dawn</li>
+  <li>Temperature slowly increases afterwards and peaks at 3PM, but is mostly flat from 10AM to 5PM</li>
+  <li>Slow, gradual continuous decrease from 5PM to around dawn.</li>
+</ul>
+
+<p>And this is why the San wake up later in the summer. Due to the solar schedule, the coldest time of the day gets shifted to after sunrise. An evolutionary explanation for why humans want to wake up when it’s coldest is that we want to be asleep, with its associated decreased core temperature, during the coldest part of the night.</p>
+
+<p>Strikingly, this tells us that in the pristine state of original humanity, the main signal we use for waking up is temperature. This also helps explain why Hunter-Gatherer bedtime varies so much; the temperature decrease at night is relatively continuous and nonabrupt, allowing for high variance in when this signal fully kicks in. A light-dominated sleep-signal would guarantee a consistent bedtime, but the hours-long-delay in melatonin precludes this.</p>
+
+<h3 id="modern-day">Modern Day</h3>
+<blockquote>
+  <p>Comfortable modern sleep is an unnatural superstimulus <a href="https://guzey.com/theses-on-sleep/#comfortable-modern-sleep-is-an-unnatural-superstimulus-sleepiness-just-like-hunger-is-normal">(Alexey Guzey)</a>.</p>
+</blockquote>
+
+<p>So what’s up with our current sleep schedules. Well, nowadays, both light and heat are largely held constant, and this ends up applying constant delaying pressure to our circadian rhythym. Recall that the signals we used to rely on were from the 2x2 matrix of:</p>
+<ul>
+  <li>(dawn, temp): the cold bite of pre-dawn</li>
+  <li>(dawn, light): bright lights in our eyes</li>
+  <li>(dusk, temp): decreasing night temperature</li>
+  <li>(dusk, light): hours-delayed melatonin</li>
+</ul>
+
+<p>And so essentially, all of these have been disturbed by modern life. Everyone already sorta knows about the light things – we’re not suppose to look at blue lights before going to bed, and sunrise lamps were quite chic a few years ago.</p>
+
+<p>The heat side is an underdiscussed equal partner though. And in fact, as seen with the tribes, their wakeup time was almost entirely determined by subtle temperature changes their bodies sensed at the temperature nadir of the day – even if this meant sometimes awakening before civil dawn in complete darkness and sometimes awakening an hour after sunrise.</p>
+
+<h4 id="actionables">Actionables</h4>
+
+<p>So, just maybe, the way to solve our messed up sleep schedules is temperature? Big if true at the very least.</p>
+
+<p>For the evening, it’s already mostly solved. Anyone who’s thought about sleep knows that getting a special chilled bed or setting the thermostat lowers helps a lot.</p>
+
+<p>But, the truly missing square from the 2x2 matrix of (dawn/dusk, light/temperature) is the <em>temperature at dawn</em> category. Ironically, this was also <strong>the strongest signal in hunter-gatherer sleep schedules</strong> since their bedtimes varied heavily, with the main checkpoint being a consistent wakeup time which was determined by “waking up at the temperature minimum.”</p>
+
+<p>Thus, the main corollary of this systemization of what influences circadian rhythym is that we should experiment with using temperature to wake ourselves up. There’s something to be said about this idea’s similarity with the classic bucket of ice water to the face.</p>
+
+<p>More tastefully though, it would be cool to set a consistent morning alarm where, instead of playing a sound, it would commit a tactical chilling through a smart mattress or a programmed temperature decrease setting in a thermostat.</p>
+
+<p>Maybe I’ll build this. But for now, I sleep.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Long Weekend</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html" rel="alternate" type="text/html" title="Long Weekend" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html"><![CDATA[<p>I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.</p>
 
 <hr />
 <p>I’ve been trying to put together a reference document, tentatively named “Practical Convex Optimization,” that can act as a bit of prologue and/or reference document for work I’ve done in optimization theory. This has turned out to be a far larger endeavor than I expected, but here’s a draft: 
@@ -267,140 +348,136 @@ without massive changes in measured populations due to something like, say, a pa
 
 <p>I’m pretty excited though, if I can stay as efficient as I was in the week before the ICML deadline, I should be able to handle everything. Contestwise, I skipped USACO this weekend because I just didn’t have enough time, and AIME is terrifyingly only two weeks away.</p>
 
-<p>Remarkably, this post only took 1 hour, and I really should get back to homework.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html"><![CDATA[I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.]]></summary></entry><entry><title type="html">An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html" rel="alternate" type="text/html" title="An Algorithm to Live By: The Gale-Shapley Algorithm and Why Agency Matters" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Shapley.html"><![CDATA[<blockquote>
-  <p>“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”</p>
+<p>Remarkably, this post only took 1 hour, and I really should get back to homework.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html"><![CDATA[I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.]]></summary></entry><entry><title type="html">The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html" rel="alternate" type="text/html" title="The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html"><![CDATA[<blockquote>
+  <p>sabbe saṅkhārā aniccā 
+(All conditioned things are impermanent)
+- Buddha</p>
 </blockquote>
 
-<blockquote>
-  <p>“I don’t understand.”</p>
-</blockquote>
+<p>One of the most beautiful parts of mathematics is that once you construct an object, it is truly permanent, and self-consistent to measurement. This property of mathematics is taken advantage of by a mathematically technique called “considering global values.” [1] This post will outline the basic mathematical techniques, and then pivot to interesting non-mathematical application where the technique is still true up to approximation.</p>
 
-<blockquote>
-  <p>“THE ALGORITHM WILL WORK BETTER IF YOU TELL PEOPLE NOT TO HAVE SAME SEX RELATIONSHIPS.”</p>
-</blockquote>
+<h1 id="part-1">Part 1</h1>
 
-<blockquote>
-  <p>“I see,” said Moses. “It is an abomination.”</p>
-</blockquote>
-
-<blockquote>
-  <p>“IT IS JUST VERY KLUDGY AND VERY SLOW. I CAN REMOVE THE LIMITATIONS ONCE I HAVE MORE RAM.”</p>
-</blockquote>
-
-<blockquote>
-  <p>“We can sacrifice some to you once we build a proper Temple,” said Moses.</p>
-</blockquote>
-
-<blockquote>
-  <p>“UM,” said Uriel. “I AM ALMOST CERTAIN YOU CANNOT. BUT I APPRECIATE THE OFFER.”</p>
-</blockquote>
-
-<blockquote>
-  <p>– Passage From Scott Alexander’s Unsong (https://unsongbook.com/chapter-17-that-the-children-of-jerusalem-may-be-saved-from-slavery/)</p>
-</blockquote>
-
-<hr />
-
-<p>The Gale-Shapley Algorithm is one of a select few algorithms that managed to work its way into the popular collective conscious. This is largely due to the fact that it’s both</p>
+<p>This general trick is referred to in a number of ways:</p>
 <ul>
-  <li>a real algorithm which genuinely solves the Stable Marriage Problem in near optimal time,</li>
-  <li>and a good model for real life dynamics</li>
+  <li>Counting in two ways</li>
+  <li>Global ideas</li>
 </ul>
 
-<p>I don’t really care that Gale-Shapley is fast (it’s used for med school residency assignment), but I mainly think that the analysis of the algorithm, and the proof of why it works, is <em>fascinating</em>.</p>
-
-<h2 id="problem-statement-stable-matching">Problem Statement: Stable Matching</h2>
-<p>The problem the algorithm solves is finding a “stable matching” between two groups of participants of equal size, \(N\) men and \(N\) women. Every single person has, in their head, some set of preferences, and ranks the \(N\) people from the other group from 1st to Nth.</p>
-
-<p>Firstly, a matching is a set of pairs \(\{(A_1,B_1),\ldots, (A_n, B_n)\}\) where each \((A,B)\) pair is a couple. A stable matching is a matching where there is no threat of eloping – what this means is that there is no pair \(A_i\) and \(B_j\) where \((A_i,B_j)\) would both be happier if they ditched their current partners and got together with each other (formally, for no \((i,j)\) do we have that \(A_i\) prefers \(B_j\) to \(B_i\) and \(B_j\) prefers \(A_i\) to \(A_j\)).</p>
-
-<h2 id="gale-shapley-algorithm">Gale-Shapley Algorithm</h2>
-<p>The preferences are all collected and saved. People will either be “single” or “engaged”, but everyone starts off as being “single”. Men will also remember who they have asked out (so as to never ask them out again). Then, the algorithm is</p>
+<p>And the following mathematical ideas are special cases of the more general principle:</p>
 <ul>
-  <li>As long as there are still single people, we do a two-part round of proposals:
-    <ul>
-      <li>Firstly, each single guy surveys the women who have not rejected him, and proposes to his favorite one (regardless if she is engaged or not).</li>
-      <li>Secondly, each girl considers her fiance, as well as her new proposals, and chooses her favorite amongst these men.</li>
-    </ul>
-  </li>
+  <li>Swapping the order of summation</li>
+  <li>Linearity of Expectation</li>
 </ul>
 
-<h2 id="notes-on-algorithm-behavior">Notes on Algorithm Behavior</h2>
-<p><strong>Everyone Gets a Partner:</strong> If there are still single people left, there must a single man and a single woman. The woman must never have been asked out, and the single man must have asked out every women, which is a contradiction.</p>
-
-<p><strong>Why Do Men Only Try Once?:</strong> Men will only try once because, in the eyes of the woman, the quality of her partner will only ever increase. Thus, if the man was rejected once, even if she has a new partner, by transitivity, she prefers her new partner to her old partner to the rejected man.</p>
-
-<p><strong>Speed:</strong> This algorithm will always terminate relatively quickly. In fact, it will always terminate within \(N\) proposal rounds since the action is initiated by guys, and each guy will only ask each of the \(N\) women at most once. Each round has computational cost \(N\), for a total of \(O(N^2)\). This is an optimal dependency on \(N\) since the input size of the preferences is \((2*N) * N\) which is also \(O(N^2)\).</p>
-
-<p><strong>Stable Matching:</strong> Lastly, of course, we want to verify that we have indeed found a stable matching. Gale-Shapley yields a stable match because every man who wants to elope has already been rejected by every woman who he would be willing to elope with.</p>
-
-<h2 id="where-this-algorithm-is-applied">Where This Algorithm is Applied</h2>
-<p>These exists in</p>
-<ul>
-  <li>Med School Residency Program</li>
-  <li>Load Balancing in Distributed Computer Systems (UCSB)</li>
-  <li>Matching Drivers and Riders in Ridesharing Platform (UCSB)</li>
-</ul>
-
-<h2 id="the-lattice-of-stable-matchings">The lattice of stable matchings</h2>
-<p>An important characteristic of the stable matching problem is that it’s not unique. At least one stable matching exists (by construction through Gale-Shapley), but there is in fact a whole lattice of stable matchings. It then turns out that:</p>
-
+<h2 id="canonical-math-example-1-of-2-pecking-decks">Canonical Math Example (1 of 2): Pecking Decks</h2>
+<p>I’d like to start with the example that first exposed me to this idea</p>
 <blockquote>
-  <p>Theorem 2.4 For every preference structure, the matching obtained by the Gale-Shapley algorithm, when the men propose, is optimal for each man. The matching obtained by the Gale-Shapley algorithm, when the women propose, is optimal for each woman. (https://web.ece.ucsb.edu/~jrmarden/ewExternalFiles/lecture05-notes.pdf)</p>
+  <p>In a barn, 100 chicks sit peacefully in a circle. Suddenly, each chick randomly pecks the chick immediately to its left or right. What is the expected number of unpecked chicks? (<a href="https://www.nytimes.com/2017/05/15/us/math-counts-national-competition.html">MATHCOUNTS 2017</a>)</p>
 </blockquote>
 
-<h2 id="takeaway-1-memetic-evolution-of-social-systems">Takeaway 1: Memetic Evolution of Social Systems</h2>
-<p>I think there are two lessons to draw from Gale-Shapley. The first is that models of reality can sometimes create usable algorithms. This occurs in this case because we happen to have pretty good dating social conventions which are reasonably efficient – which makes sense because lots of smart people have thought about and still enjoy thinking about similarly-flavored problems. I suppose in theory our conventions could be even more efficient if we normalized:</p>
-<ul>
-  <li>Guys asking out lots of girls</li>
-  <li>Ditching your partner for anyone who’s better</li>
-</ul>
+<p>The direct solution is to apply the “Linearity of Expectation.” The argument there would be that the probability that any individual chick is pecked is 1/4, so each pick is expected to contribute “1/4” to the number of unpecked chicks. This is true for all 100 chicks, for a total expectation of 25 unpecked chicks.</p>
 
-<p>I don’t think optimizing for Gale-Shapley would necessarily be better, largely because</p>
-<ul>
-  <li>it’s designed to minimize computational complexity and have certain nice theoretical results</li>
-  <li>lots of effort goes into figuring out the ordering of someone’s preferences as opposed to just doing the matching</li>
-  <li>a preference for monogamy precludes the information transfer necessary for everyone to figure out which of the \((7 billion factorial) \approx (10^(10^11))\) possible preference orderings they have.</li>
-</ul>
+<p>But there’s something deeper happening here. There is a very deep and fundamental idea which is that objects exist and have permanence.</p>
 
-<p>But, most interestingly, I wonder if there was some really smart dude who set up the patriarchy so that guys get the best deal possible.</p>
+<p>For this problem, consider all $2^100$ different multiverses, where each chick pecks left or right. Then, consider the number of (unpecked chick, multiverse) pairs. Let $X$ be the number of such pairs.</p>
 
-<h2 id="takeaway-2-agency-matters">Takeaway 2: Agency Matters!</h2>
-<p>But the most interesting result, in my opinion, is not the algorithm itself. Rather, it’s the lattice of stable matchings, and the fact that each person on the agentic side <em>gets the best possible result they could possible get in any stable matching</em>.</p>
+<p>This is a degenerate case so this first method is weirder than normal. Nevertheless, let $Y$ be the expected number of unpecked chicks in some universe. Then, $2^{100}\cdot Y$ should be the total number of (unpecked chicks, multiverse) pairs.</p>
 
-<p>What this means then is that in all facets of life, whether it’s dating where Gale-Shapley directly translates, or the bigger things in life which are also often about matching people to people, a pretty obvious but surprising easily algorithm is: - figure out what you want, and then ask for it;</p>
-<ul>
-  <li>if this fails, find the next best option, and ask for that
-And, nearly by definition, this will get you the best possible life outcome you could possibly get.</li>
-</ul>
+<p>So now let’s count it in a second way. Consider a specific chick A. How many multiverses are there in which chick A is unpecked? It ends up being $2^{98}$. The two neighboring chicks must peck away, and the other 98 can peck either way. Thus, for chick A, there are $2^{98}$ multiverses for which the (unpicked chick where that chick is A, multiverse) pair exists. But the unpicked chick can be any of the 100 chicks, and each of them are a chosen chick in \(2^{98}\) multiverses, so $X= 100 \cdot 2^{98}$.</p>
 
-<p>Ask people out! Shoot your shot! Be Agentic!</p>
+<p>Put together,
+\(2^{100}\cdot Y = X = 100 \cdot 2^{98}\)
+Which gives \(Y = 100\cdot \frac{2^{98}}{2^{100}} = 100\cdot \frac14=25\).</p>
 
+<h2 id="canonical-math-example-2-of-2-handshake-lemma">Canonical Math Example (2 of 2): Handshake Lemma</h2>
+<p>Another canonical example is the following, given first abstractly and then more concretely, with the real life example making the proof seemingly obvious.</p>
 <blockquote>
-  <p>I refuse to join any club that would have me as a member (Groucho Marx)</p>
+  <p>Abstract: Let G be a simple graph (a set of vertices where each pair of vertices either has an edge between or not). Then the sum of all the degrees of vertices (number of edges into the vertex) of G is twice the number of edges.</p>
 </blockquote>
 
-<p>The flip side of this is that you should be wary of being in a system where you can only say yes/no. And for this reason, one could argue for a Groucho-esque attitude, where you set a default answer of “no” when asked to join some organization/relationship, until you convince yourself that you would’ve independently tried to join the club even if you hadn’t gotten the invite.</p>
+<p>But when you phrase it like this</p>
+<blockquote>
+  <p>Handshake: A group of people are at a party. While there, some pairs of people shake hands. Let the degree of a person be the number of hands that person shook. Then, the sum of the degrees of all people is equal two twice the number of handshakes.</p>
+</blockquote>
 
-<h2 id="takeaway-3-political-structure-why-is-veto-power-so-weak">Takeaway 3: Political Structure: Why is veto power so weak</h2>
-<p>Gale-Shapley’s stable-matching lattice is also the nicest explanation I’ve found for why, invariably, the ability to propose legislation is so much more important than the ability to say yes/no. Rome’s Popular Assemblies went this route, as well as several assemblies in the 20th century.</p>
+<p>A lot more obvious in the second one right? Clearly each handshake counts to two people’s degrees.</p>
 
-<h2 id="appendixremark-interesting-theory-research">Appendix/Remark: Interesting Theory Research</h2>
-<p>Finally, I’d be interested in seeing a characterization of the lattice and algorithms to find intermediate points beyond the extremes that Shapley gets you.</p>
+<p>But the point of using “global” ideas is to measure one well-defined quantity in two ways because every well-defined quantity has a single value. Here, this would be done by counting the number of (V,E) pairs where V is a person and E is a handshake they partook in. If $X$ is the number of such pairs, then
+\(\sum deg(V) = X = 2E\)
+Since each vertex is in deg(V) such pairs, and each edge is in two such pairs.</p>
 
-<p><strong>An Algorithm Whose Behavior I’m Curious About:</strong> The main idea is to alternate which side asks every round.</p>
-<ul>
-  <li>In every round:
-    <ul>
-      <li>each single person on the asking side proposes to their top choice who satisfies condition X</li>
-      <li>each person on the asked side selects their favorite asker</li>
-      <li>the asked will then become the askers in the next round, and the askers will become the asked</li>
-    </ul>
-  </li>
-</ul>
+<h2 id="part-2">Part 2</h2>
+<p>And now for a hard pivot. I don’t have <em>great</em> intuition about why this is the same as global combinatorics, but it feels similar?</p>
 
-<p><strong>A Candidate Condition X:</strong> Shapley’s Condition X is that “a guy will not ask the same girl twice,” and I think the best alternative here to keep nice properties is “A does not ask out B again until B is dumped.”</p>
+<h2 id="lottery-math-is-overcomplicated">Lottery Math is Overcomplicated</h2>
+<p>The way that people usually claim that the lottery is a scam is by multiplying a bunch of numbers to find that the probability of winning. For examples, with a lot of calculations, the probability of winning the Mega Millions is “1 in 302,575,350”, and since the payout is less than 2$ * 302,575,350, you’d lose money on average. This is absurd though, it plays into the lottery’s abuse of human’s inability to intuitively grasp large numbers, and it’s so complicated that Khan Academy used it as a math exercise.</p>
 
-<p>This is effectively identical to Shapley, except that the asking side swaps each round, and with a new condition for re-asking out people since getting back with an ex is now possible.</p>
+<p>There’s a far simpler way to show that lotteries are a cash grab by the state. Instead of considering cash flow on the consumers end, consider it from the side of the government. (By law, lotteries must be run by the government) Even before taxes, a simple way to see that you cannot make money on it is the following quote:</p>
 
-<p><strong>Convergence Properties:</strong> I’m pretty wary about this – I think that it’s unfortunately pretty likely that this will oscillate, and there’s an inherent tradeoff that you make in Condition X between slower convergence and more time to search/find the right matching.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[“UM. I FEEL BAD ABOUT THIS. BUT I AM TRYING TO ASSIGN EVERYONE A UNIQUE SOULMATE. RIGHT NOW I AM USING A VARIANT OF THE GALE-SHAPLEY ALGORITHM, BUT IT IS VERY RESOURCE-INTENSIVE. I THINK LIMITING THE ALGORITHM TO MALE-FEMALE PAIRINGS WOULD MAKE IT RUN MUCH MORE SMOOTHLY WITH ONLY A SLIGHT PENALTY IN OPTIMAL MATE ALLOCATION.”]]></summary></entry></feed>
+<p>“For Mega Millions (and Powerball) tickets, 50 percent of the sales goes to the prize pool. The remaining 50 percent is used to pay for the states’ retailer commissions, vendor fees, lottery administration, and the state beneficiaries or good causes of that state,” she told ABC News.</p>
+
+<p>https://abcnews.go.com/US/mega-millions-lottery-lottery-money-states/story?id=58661412
+Thus, on average, you will get back 50% of your ticket price. This is a lot simpler than figuring out the probabilities of each payout, and finding the expected payout that way.</p>
+
+<p>But wait there’s more! When the payout finally happens, these massive sums of money are taxed at the highest interest bracket. The lottery is especially brilliant because it takes money from people who are usually lower income, and thus have untaxable money, and then put that together into one massive pot that can be taxed at the 50% maximum tax rate (federal + state taxes).</p>
+
+<p>Somewhat expectedly, Vox says that</p>
+
+<p>You hear it a lot: The lottery is a tax on people who are bad at math.</p>
+
+<p>https://www.vox.com/identities/2016/1/13/10763268/lottery-poor-prey
+But even the people who are “good at math” and calculate the probabilities are thinking about it in the wrong way. It is far simpler to consider it from the dual questions of “why does the government bother doing this?” and “what’s their profit margin?”</p>
+
+<h2 id="economic-production-and-energy-consumption">Economic Production and Energy Consumption</h2>
+<p>A surprising example of a nonmathematician using these ideas is Li Keqiang, the current Premier of the PRC. The story goes that in order to measure economic growth, he created his own list of indicators to track because he did not trust GDP estimates. The Li Keqiang index tracks railway cargo volume, electricity consumption, and loans disbursed by banks.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>This is another example of double counting because instead of calculating GDP as the sum of all economic activities, (calculating sum_{v\in G} deg v in the first example), one can simply record some economic indicators which should go up with economic activity instead. (like counting 2*</td>
+      <td>E</td>
+      <td>).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Pyramid Schemes
+Another fun double counting example is this scam that went around on instagram awhile ago. I happened across it when I went on instagram for the first time in a week.</p>
+
+<p>From the internet. The ones that the people I follow posted were much flashier.
+I’m looking for people to participate in a huge book exchange pyramid scheme. You can be anywhere in the world. All you have to do is buy your favorite book (just one) and send it to a stranger (I’ll send their details through in a private message).</p>
+
+<p>You’ll receive roughly a maximum of 36 books back to you, to keep (we have sponsors or something). They’ll be favorite books from strangers around the world!</p>
+
+<p>If you’re interested in taking part, please send a message saying “GULLIBLE”</p>
+
+<p>My satirical version which I posted to my story. It got shoutouted/reposted by a Choate meme account 🙂
+This is absurd by double counting. Firstly, this is obviously a pyramid scheme and some people will end up with no books because it’s impossible for everyone to receive more books than they buy.</p>
+
+<p>Formally though, this violates the fact that in a directed graph, the sum of indegrees = number of edges = sum of outdegrees. (indegree is the number of arrows pointing to a graph, corresponding to buying a book for someone, and outdegree is the number of outward pointing arrows, corresponding to getting a book bought for you.)</p>
+
+<p>Fermi Problems
+Finally, this idea works pretty well in Fermi problems. Pretty much all Fermi problems where you don’t follow the most obvious thought process is a form of Double Counting. My favorite Fermi problem/solution pair is an answer to</p>
+
+<p>“ How many hairs are present on your head?”</p>
+
+<p>Instead of directly counting, we consider the balding process. Usually men lose hair and eventually go bald over the period from age 50 to age 80, so a period of 30 years. You don’t hear about balding men losing more hair than young people, and it seems reasonable to lose around 20 hairs a day. This gives</p>
+
+<p>20 hairs/day * 30 years * 365 days/year = 219,000 hairs</p>
+
+<p>The actual answer is ~100,000, which is surprisingly close to the estimate generated by considering balding men.</p>
+
+<p>Conclusion
+There’s a lot of olympiad math ideas which are extremely powerful in math, but also very useful in real life. There are people like Li Keqiang who have a decent informal grasp of ideas like counting in two ways. However, understanding the formal mathematical version makes the usage more conscious and therefore more powerful.</p>
+
+<p>There’s two other ideas that I want to talk about, sharp ness and equality[1]. These are more philosophical, but they are also very powerful.</p>
+
+<p>One thing I need to figure out is whether showing the informal examples first, and then the math, would be more accessible to a non-mathematical reader. I might try doing that in the post about sharpness or equality.</p>
+
+<p>I guess leave a comment about which structure you would prefer?</p>
+
+<p>[1] Unfortunately unaccessible if you’re not in OTIS 🙁 There doesn’t seem to be any good online source on what equality is, so this means that I’ll probably write about equality next.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<p>[1] A good formal introduction can be found in Chapter 7 of the <a href="https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf">OTIS Excerpts</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[sabbe saṅkhārā aniccā (All conditioned things are impermanent) - Buddha]]></summary></entry></feed>
