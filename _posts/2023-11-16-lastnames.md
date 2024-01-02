@@ -29,7 +29,7 @@ To do this, I'm boot strapping it by using the European hyphenated double-barrel
 
 Then, this system can propagate, in that whenever a child is born:
 - the patrilineal name works as normal
-- if the mother subscribes to the Xing-Shi system, the child's matrilineal name matches the mother's matrilineal name. otherwise, the child's matrilineal name becomes the mother's sole (coopted patrilineal) last name.
+- if the mother subscribes to the Xing-Shi system, the child's matrilineal name inherits the mother's matrilineal name. otherwise, the child's matrilineal name inherits the mother's sole (coopted patrilineal) last name.
 
 Hopefully this can propagate. And hopefully this, and a new generation of distinct first names (I like Russell and Sophus as names), will turn the romanized Chinese last name system into something somewhat workable and a bit less broken...
 
