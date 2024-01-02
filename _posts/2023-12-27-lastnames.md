@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bringing Back the Xing-Shi Naming System, or why I changed my last name to Yang-Liu"
-date:   2023-11-16 20:50:32 -0400
+date:   2023-12-27 20:50:32 -0400
 categories: jekyll update, essay
 ---
 
