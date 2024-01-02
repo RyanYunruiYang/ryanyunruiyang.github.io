@@ -1,4 +1,5 @@
 https://www.coursehero.com/lit/Moneyball/quotes/
+https://www.goodreads.com/work/quotes/416305-moneyball-the-art-of-winning-an-unfair-game?page=2
 
 “The sheer quantity of brain power that hurled itself voluntarily and quixotically into the search for new baseball knowledge was either exhilarating or depressing, depending on how you felt about baseball. The same intellectual resources might have cured the common cold, or put a man on Pluto.”
 

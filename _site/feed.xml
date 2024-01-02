@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-27T00:55:59-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang-Liu’s Website</title><subtitle>Ryan Yang-Liu, MIT 2027. Physics &amp; CS.</subtitle><entry><title type="html">There are 2048 Ways To Solve a Rubiks Cube</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html" rel="alternate" type="text/html" title="There are 2048 Ways To Solve a Rubiks Cube" /><published>2023-12-25T09:50:32-05:00</published><updated>2023-12-25T09:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html"><![CDATA[<p>No, this isn’t going to be some whimsical list of different strategies, starting with F2L and slowly descending into insanity. 2048 is way too big of a number for that. I’m nowhere near that creative.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-01T21:24:08-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ryan Yang-Liu’s Website</title><subtitle>Ryan Yang-Liu, MIT 2027. Physics &amp; CS.</subtitle><entry><title type="html">There are 2048 Ways To Solve a Rubiks Cube</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html" rel="alternate" type="text/html" title="There are 2048 Ways To Solve a Rubiks Cube" /><published>2023-12-25T09:50:32-05:00</published><updated>2023-12-25T09:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/12/25/rubiks.html"><![CDATA[<p>No, this isn’t going to be some whimsical list of different strategies, starting with F2L and slowly descending into insanity. 2048 is way too big of a number for that. I’m nowhere near that creative.</p>
 
 <p>Rather, there are literally 2048 different, technically distinct orientations of a rubik’s cube that “solve” the puzzle and are visually correct, but are nevertheless different.</p>
 
@@ -78,104 +78,7 @@ categories: jekyll update, essay
 
 <p>A friend asked me if I was a performer or an observer.</p>
 
-<p>… and I can’t believe I wrote this in VSCode.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">College</title><link href="http://localhost:4000/blog/2023/12/17/college.html" rel="alternate" type="text/html" title="College" /><published>2023-12-17T00:00:00-05:00</published><updated>2023-12-17T00:00:00-05:00</updated><id>http://localhost:4000/blog/2023/12/17/college</id><content type="html" xml:base="http://localhost:4000/blog/2023/12/17/college.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html" rel="alternate" type="text/html" title="No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio" /><published>2023-11-16T19:50:32-05:00</published><updated>2023-11-16T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html"><![CDATA[<p>From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.</p>
-
-<p>And for some reason, I couldn’t find ANY news coverage explaining this? So, I set out to solve this mystery on my own, and here are the results of my internet sleuthing:</p>
-
-<p>(pre-TLDR; low confidence that maybe phosphorus/obesity somehow affects baby gender or the @cia messed up their data, with a nice Covid epilogue)</p>
-
-<p><strong>I: Historical Context</strong></p>
-
-<p>Nauru is an island in Oceania approximately halfway between Australia and Hawaii. Previously mostly ignored by Europe, in 1899, high-grade phosphate ore was discovered in Nauru [1]. Occupied in sequence by Germany, Australia, and Japan, Nauru finally gained independence in 1968 after having been stripped of 35 trillion metric tons of phosphate.</p>
-
-<p><strong>II: Biology: a la Alec Jones and “the water’s turning the frogs gay.”</strong></p>
-
-<p>Due to the destruction of the natural land, 90% of the food in Nauru is imported [2], and Nauru has a 61% prevalence of obesity, the highest in the world (USA has 36.2%) [3].</p>
-
-<p>It’s known that the environment can have an impact on the sex ratio of births. For turtles, gender is determined by temperature during incubation. More relevantly, male billionaires have an incredible 2X more sons than daughters [4].</p>
-
-<p>Thus, it’s <em>possible</em> that the literal presence of phosphorus, or more likely the obesity epidemic that came as an aftereffect of environmental degradation, may have had an effect on the sex ratio.</p>
-
-<p>Frustratingly, social scientists have not done any research into the effect of obesity on at-birth sex ratios, despite the insane coincidence that the country with the lowest at-birth sex ratio also has the highest rates of obesity.</p>
-
-<p>Or maybe it’s just bad data?</p>
-
-<p><strong>III: The CIA World Factbook</strong></p>
-
-<p>The ratio over time (by default m/f) has been:
-2013 Nauru Bureau of Stats*: 193/173=1.11 [5]
-2017 CIA Factbook: 0.83 [6]
-2020 CIA Factbook: 0.84 [7]
-2022 CIA Factbook: 1.04 [8]</p>
-
-<p>Weird in 2017/2020, but back to normal in 2022?</p>
-
-<p>The sample size is small, but not <em>that</em> small. At ~300 births a year, each of the individual 2017 and 2020 sex ratios has a p-value of ~0.04, and damningly, the 0-14 age block also had a 0.79 ratio with 1337 males to 1684 females.</p>
-
-<p>Additionally, it’s almost literally impossible to reconcile the change in the 0-14 block from the 2020 and 2022 data:</p>
-<ul>
-  <li>0.84-&gt;1.04 (at birth)</li>
-  <li>0.79 -&gt; 1.04 (0-14 block)</li>
-  <li>0.85 -&gt; 0.91 (15-24)
-without massive changes in measured populations due to something like, say, a pandemic.</li>
-</ul>
-
-<p><strong>IV: A Clue: Covid?</strong></p>
-
-<p>I came across Nauru’s notable at-birth sex-ratio back in 2021 and was hopeful that the return to normal in 2022 could explain this mystery.</p>
-
-<p>It sort of does. On one hand, the return to a 1:1 ratio in the 0-14 and 15-24 blocks are explainable by Covid. New Zealand and Australia, popular places for Nauru residents to find employment, enforced strict Covid bubbles, likely forcing the mostly male migrant workers to stay in Nauru, restoring the ratio.</p>
-
-<p>But the at-birth sex ratio is not solved by COVID at all???? It’s <em>supposed</em> to be 50:50 no matter what, with my only ideas being:</p>
-
-<ol>
-  <li>The CIA collected bad data in 2017/2020 and didn’t bother sanity-checking the insane 0.84 at-birth sex ratio.</li>
-  <li>Related to the previous, but maybe a small group of Nauru people have been hiding their boys from the CIA?</li>
-  <li>Nauru people do ultrasounds pre-pregnancy and travel to the mainland for the births of the, generally larger, male babies.</li>
-</ol>
-
-<p><strong>V: Conclusion</strong></p>
-
-<p>Recap: Nauru’s natural landscape got messed up. Health and environment can affect gender, and Nauru’s environment and health were seriously affected by phosphorus mining. While COVID explains the sex ratio in the 0-14 block, the at-birth sex ratio should not be affected, but it nevertheless jumped significantly from 2017/2020 to 2022, rising from ~0.8 to ~1.</p>
-
-<p>My plan is now to reach out to Nauru officials to see if they know anything, but any help in solving the following still-open problems would be greatly appreciated:</p>
-
-<p>1) Could obesity rates actually cause such a big change in the at-birth sex ratio?
-2) Are there any COVID-era changes that could affect the at-birth sex ratio, such as an increase in the survival rate of Nauru baby boys?
-3) What are the CIA Handbook’s data-collection policies, and is it possible that they forgot to sanity-check the Nauru numbers?</p>
-
-<p>thx for reading!  &lt;3</p>
-
-<h2 id="sources">Sources:</h2>
-<p>[1] <a href="https://thereader.mitpress.mit.edu/dark-history-nauru/">https://thereader.mitpress.mit.edu/dark-history-nauru/</a></p>
-
-<p>[2] https://fao.org/3/av263e/av263e.pdf</p>
-
-<p>[3] https://wisevoter.com/country-rankings/most-obese-countries/ (#2 Palau has a healthy sex ratio of 1.07)</p>
-
-<p>[4] https://ncbi.nlm.nih.gov/pmc/articles/PMC2614476/</p>
-
-<p>[5] Wikipedia’s Source is no longer accessible, but it’s in a footnote in https://en.wikipedia.org/wiki/Health_in_Nauru</p>
-
-<p>[6] https://web.archive.org/web/20190109031519/https://www.cia.gov/library/publications/the-world-factbook/fields/351.html</p>
-
-<p>[7] https://cia.gov/the-world-factbook/about/archives/2021/field/sex-ratio/</p>
-
-<p>[8] https://cia.gov/the-world-factbook/about/archives/2022/field/sex-ratio/</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.]]></summary></entry><entry><title type="html">Basketball</title><link href="http://localhost:4000/blog/2022/04/22/basketball.html" rel="alternate" type="text/html" title="Basketball" /><published>2022-04-22T00:00:00-04:00</published><updated>2022-04-22T00:00:00-04:00</updated><id>http://localhost:4000/blog/2022/04/22/basketball</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/22/basketball.html"><![CDATA[<p>https://www.coursehero.com/lit/Moneyball/quotes/</p>
-
-<p>“The sheer quantity of brain power that hurled itself voluntarily and quixotically into the search for new baseball knowledge was either exhilarating or depressing, depending on how you felt about baseball. The same intellectual resources might have cured the common cold, or put a man on Pluto.”</p>
-
-<p>“One absolutely cannot tell, by watching, the difference between a .300 hitter and a .275 hitter. The difference is one hit every two weeks.”</p>
-
-<p>“Baseball is a soap opera that lends itself to probabilistic thinking. [Dick Cramer]”</p>
-
-<p>“Anti-intellectual resentment is common in all of American life and it has many diverse expressions. Refusing to draft college players might have been one of them.</p>
-
-<p>“What baseball managers did do, on occasion, beginning in the early 1980s, was hire some guy who knew how to switch on the computer. But they did this less with honest curiosity than in the spirit of a beleaguered visitor to Morocco hiring a tour guide: pay off one so that the seventy-five others will stop trying to trade you their camels for your wife. Which one you pay off is largely irrelevant.”</p>
-
-<p>“For a lot of the players it was their first exposure to the Southern female - the most flagrant cheater in the mutual disarmament pact known as feminism. Lipstick! Hairdos! Submissiveness!”</p>
-
-<p>“The author refers to a player’s affected nonchalance and comments he is, “too young to realize you are what you pretend to be.”</p>]]></content><author><name></name></author><summary type="html"><![CDATA[https://www.coursehero.com/lit/Moneyball/quotes/]]></summary></entry><entry><title type="html">Superbowl</title><link href="http://localhost:4000/blog/potw/2022/02/13/superbowl.html" rel="alternate" type="text/html" title="Superbowl" /><published>2022-02-13T00:00:00-05:00</published><updated>2022-02-13T00:00:00-05:00</updated><id>http://localhost:4000/blog/potw/2022/02/13/superbowl</id><content type="html" xml:base="http://localhost:4000/blog/potw/2022/02/13/superbowl.html"><![CDATA[]]></content><author><name></name></author><category term="potw" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Heat-Optimal Sleep</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/02/08/heatsleep.html" rel="alternate" type="text/html" title="Heat-Optimal Sleep" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/02/08/heatsleep</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/02/08/heatsleep.html"><![CDATA[<!-- ![image-title-here](../assets/flow640am.png){:class="img-responsive"} -->
+<p>… and I can’t believe I wrote this in VSCode.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">College</title><link href="http://localhost:4000/blog/2023/12/17/college.html" rel="alternate" type="text/html" title="College" /><published>2023-12-17T00:00:00-05:00</published><updated>2023-12-17T00:00:00-05:00</updated><id>http://localhost:4000/blog/2023/12/17/college</id><content type="html" xml:base="http://localhost:4000/blog/2023/12/17/college.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Heat-Optimal Sleep</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/12/11/heatsleep.html" rel="alternate" type="text/html" title="Heat-Optimal Sleep" /><published>2023-12-11T19:50:32-05:00</published><updated>2023-12-11T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/12/11/heatsleep</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/12/11/heatsleep.html"><![CDATA[<!-- ![image-title-here](../assets/flow640am.png){:class="img-responsive"} -->
 
 <p>In a very well-done piece of data visualization showing the daily schedules of 1000 average Americans from <a href="https://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/">Flowing Data</a>, one learns that half of all Americans awake by 6:40. At MIT, the median sleep time is around 2-3AM, and attendance at 10AM classes is pretty spotty; average wakeup time is probably around 10:30 to 11:00.</p>
 
@@ -264,7 +167,140 @@ without massive changes in measured populations due to something like, say, a pa
 
 <p>More tastefully though, it would be cool to set a consistent morning alarm where, instead of playing a sound, it would commit a tactical chilling through a smart mattress or a programmed temperature decrease setting in a thermostat.</p>
 
-<p>Maybe I’ll build this. But for now, I sleep.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Long Weekend</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html" rel="alternate" type="text/html" title="Long Weekend" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html"><![CDATA[<p>I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.</p>
+<p>Maybe I’ll build this. But for now, I sleep.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Bringing Back the Xing-Shi Naming System, or why I changed my last name to Yang-Liu</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/lastnames.html" rel="alternate" type="text/html" title="Bringing Back the Xing-Shi Naming System, or why I changed my last name to Yang-Liu" /><published>2023-11-16T19:50:32-05:00</published><updated>2023-11-16T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/lastnames</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/lastnames.html"><![CDATA[<blockquote>
+  <p>Born too late to be 杨允瑞, born too early to be AE A-XII Yang, yet born just in time to ordain myself Ryan Yang-Liu.</p>
+</blockquote>
+
+<p>This is an explanation for why I decided to extend my name to Ryan Yang-Liu (and why you should too?).</p>
+
+<p>The Chinese naming system has been bastardized, twice, especially on the English-indexed internet. The saturation ratio of the system, \(\frac{\text{number of people}}{\text{number of names}}\), has skyrocketed to the romanization of chinese last names and usage of common English first names.</p>
+
+<p>The merging of Chinese Names into the romanized system has been a disaster. Chinese first names are two characters, and last names are one character. But when people immigrated, the first names, <em>the place where all of the distinguishing power was</em>, were thrown out, leaving the last name. Ok but at least there are 80,000 characters right? Well that gets compressed down to 1300 pronunciations due to homophone collisions, and then down to 400 different romanized toneless syllables. But, in fact, more than 2x of the information was in the first name because the last names are mostly concentrated into the 100 most common last names (the phrase for “populace” is 老百姓 = 100 most-common-last-names).</p>
+
+<p>And since first names are a matter of cultural familiarity – only someone who’s been a member of the local literati names their kid something like “Russell” or “Sophus” – most Asian-Americans took on the standard American first names, almost all from the top 500 or so names. So, this leaves at most like \(500 * 400 = 200,000\) names (the number of romanization-distinct last names is probably more like 50). And there is virtually no distinguishability left – the informational entropy has been sucked bone-dry.</p>
+
+<p>But naming systems were meant to be injective! Distinguishing power is <em>useful</em>, why else would we have names…  Also, distinctive names keep records and legacies clear – how do you even go about finding someone with a name like “Tony Zhang” based on name alone – and it helps people feel <em>unique</em> and makes the populace seem a bit more distinctive.</p>
+
+<p>So, it’s clear that the Asian-American diaspora must coordinate to solve this problem, which leaves everyone with generic, collision-prone names which give a sense of homogeneity. Luckily, there’s modern historical precedent for solving this problem.</p>
+
+<p>Robust action is possible, for example with Thailand’s Surname Act of 2013. If you know someone from Thailand, they probably have an extremely long (but less than ten characters long) last name. This was done by government mandate, where citizens made up last names which were “required to be unique to a family” (Wikipedia), as an extra layer of protection on top of the government ID system.</p>
+
+<p>However, just making up last names feels wrong. Luckily, there also exists a precedent within the native Chinese system which does not destroy any information and adds distinguishability, namely the Xing-Shi system which existed up until the end of the Western Zhou dynasty. Under this system, all citizens had two last names, one matrilineal and one patrilineal. A child would inherit their 姓 (literally female + birth) from their mother, and their 氏 from their father. This had several nice properties; matrilineal last names are more “certain” because maternity is more certain than paternity, and protects daughters in that the mother needs them to pass down her only family name.</p>
+
+<p>But most importantly, this adds information into the system and helps solve distinguishability.</p>
+
+<p>To do this, I’m boot strapping it by using the European hyphenated double-barrel last name system. So I’m taking Yang (my presumably centuries-old patrilineal name) and Liu (my mom’s maiden name), since unfortunately I can’t trace back my matrilineal lineage very far, and the direct maternal name feels more natural than my grandmother’s last name.</p>
+
+<p>Then, this system can propagate, in that whenever a child is born:</p>
+<ul>
+  <li>patrilineal name works as normal</li>
+  <li>if the mother subscribes to the Xing-Shi system, the child’s matrilineal name matches the mother’s matrilineal name. otherwise, the child’s matrilineal name becomes the mother’s sole (coopted patrilineal) last name.</li>
+</ul>
+
+<p>I will do everything in my power to make this propagate. Hopefully this, and a new generation of distinct first names (I like Russell and Sophus as names), will turn the romanized Chinese last name system into something somewhat workable and a bit less broken…</p>
+
+<blockquote>
+  <p>Yasantha was the smartest guy at Princeton. And we went to Yasantha’s room. And he was Sri Lankan, and in the Facebook, which was an actual paper book at that time, his name was three lines long because I guess in Sri Lanka when you do something good for the King they give you an extra syllable on your name. And so he had this super long last name. But he was a really humble and wonderful guy … 
+<a href="https://youtu.be/eFnV6EM-wzY?si=KFUv7V_8LpjGI0V9&amp;t=58">Jeff Bezos</a></p>
+</blockquote>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[Born too late to be 杨允瑞, born too early to be AE A-XII Yang, yet born just in time to ordain myself Ryan Yang-Liu.]]></summary></entry><entry><title type="html">No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html" rel="alternate" type="text/html" title="No Baby Boys: The Mystery of Nauru’s At-Birth Sex Ratio" /><published>2023-11-16T19:50:32-05:00</published><updated>2023-11-16T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2023/11/16/Nauru.html"><![CDATA[<p>From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.</p>
+
+<p>And for some reason, I couldn’t find ANY news coverage explaining this? So, I set out to solve this mystery on my own, and here are the results of my internet sleuthing:</p>
+
+<p>(pre-TLDR; low confidence that maybe phosphorus/obesity somehow affects baby gender or the @cia messed up their data, with a nice Covid epilogue)</p>
+
+<p><strong>I: Historical Context</strong></p>
+
+<p>Nauru is an island in Oceania approximately halfway between Australia and Hawaii. Previously mostly ignored by Europe, in 1899, high-grade phosphate ore was discovered in Nauru [1]. Occupied in sequence by Germany, Australia, and Japan, Nauru finally gained independence in 1968 after having been stripped of 35 trillion metric tons of phosphate.</p>
+
+<p><strong>II: Biology: a la Alec Jones and “the water’s turning the frogs gay.”</strong></p>
+
+<p>Due to the destruction of the natural land, 90% of the food in Nauru is imported [2], and Nauru has a 61% prevalence of obesity, the highest in the world (USA has 36.2%) [3].</p>
+
+<p>It’s known that the environment can have an impact on the sex ratio of births. For turtles, gender is determined by temperature during incubation. More relevantly, male billionaires have an incredible 2X more sons than daughters [4].</p>
+
+<p>Thus, it’s <em>possible</em> that the literal presence of phosphorus, or more likely the obesity epidemic that came as an aftereffect of environmental degradation, may have had an effect on the sex ratio.</p>
+
+<p>Frustratingly, social scientists have not done any research into the effect of obesity on at-birth sex ratios, despite the insane coincidence that the country with the lowest at-birth sex ratio also has the highest rates of obesity.</p>
+
+<p>Or maybe it’s just bad data?</p>
+
+<p><strong>III: The CIA World Factbook</strong></p>
+
+<p>The ratio over time (by default m/f) has been:
+2013 Nauru Bureau of Stats*: 193/173=1.11 [5]
+2017 CIA Factbook: 0.83 [6]
+2020 CIA Factbook: 0.84 [7]
+2022 CIA Factbook: 1.04 [8]</p>
+
+<p>Weird in 2017/2020, but back to normal in 2022?</p>
+
+<p>The sample size is small, but not <em>that</em> small. At ~300 births a year, each of the individual 2017 and 2020 sex ratios has a p-value of ~0.04, and damningly, the 0-14 age block also had a 0.79 ratio with 1337 males to 1684 females.</p>
+
+<p>Additionally, it’s almost literally impossible to reconcile the change in the 0-14 block from the 2020 and 2022 data:</p>
+<ul>
+  <li>0.84-&gt;1.04 (at birth)</li>
+  <li>0.79 -&gt; 1.04 (0-14 block)</li>
+  <li>0.85 -&gt; 0.91 (15-24)
+without massive changes in measured populations due to something like, say, a pandemic.</li>
+</ul>
+
+<p><strong>IV: A Clue: Covid?</strong></p>
+
+<p>I came across Nauru’s notable at-birth sex-ratio back in 2021 and was hopeful that the return to normal in 2022 could explain this mystery.</p>
+
+<p>It sort of does. On one hand, the return to a 1:1 ratio in the 0-14 and 15-24 blocks are explainable by Covid. New Zealand and Australia, popular places for Nauru residents to find employment, enforced strict Covid bubbles, likely forcing the mostly male migrant workers to stay in Nauru, restoring the ratio.</p>
+
+<p>But the at-birth sex ratio is not solved by COVID at all???? It’s <em>supposed</em> to be 50:50 no matter what, with my only ideas being:</p>
+
+<ol>
+  <li>The CIA collected bad data in 2017/2020 and didn’t bother sanity-checking the insane 0.84 at-birth sex ratio.</li>
+  <li>Related to the previous, but maybe a small group of Nauru people have been hiding their boys from the CIA?</li>
+  <li>Nauru people do ultrasounds pre-pregnancy and travel to the mainland for the births of the, generally larger, male babies.</li>
+</ol>
+
+<p><strong>V: Conclusion</strong></p>
+
+<p>Recap: Nauru’s natural landscape got messed up. Health and environment can affect gender, and Nauru’s environment and health were seriously affected by phosphorus mining. While COVID explains the sex ratio in the 0-14 block, the at-birth sex ratio should not be affected, but it nevertheless jumped significantly from 2017/2020 to 2022, rising from ~0.8 to ~1.</p>
+
+<p>My plan is now to reach out to Nauru officials to see if they know anything, but any help in solving the following still-open problems would be greatly appreciated:</p>
+
+<p>1) Could obesity rates actually cause such a big change in the at-birth sex ratio?
+2) Are there any COVID-era changes that could affect the at-birth sex ratio, such as an increase in the survival rate of Nauru baby boys?
+3) What are the CIA Handbook’s data-collection policies, and is it possible that they forgot to sanity-check the Nauru numbers?</p>
+
+<p>thx for reading!  &lt;3</p>
+
+<h2 id="sources">Sources:</h2>
+<p>[1] <a href="https://thereader.mitpress.mit.edu/dark-history-nauru/">https://thereader.mitpress.mit.edu/dark-history-nauru/</a></p>
+
+<p>[2] https://fao.org/3/av263e/av263e.pdf</p>
+
+<p>[3] https://wisevoter.com/country-rankings/most-obese-countries/ (#2 Palau has a healthy sex ratio of 1.07)</p>
+
+<p>[4] https://ncbi.nlm.nih.gov/pmc/articles/PMC2614476/</p>
+
+<p>[5] Wikipedia’s Source is no longer accessible, but it’s in a footnote in https://en.wikipedia.org/wiki/Health_in_Nauru</p>
+
+<p>[6] https://web.archive.org/web/20190109031519/https://www.cia.gov/library/publications/the-world-factbook/fields/351.html</p>
+
+<p>[7] https://cia.gov/the-world-factbook/about/archives/2021/field/sex-ratio/</p>
+
+<p>[8] https://cia.gov/the-world-factbook/about/archives/2022/field/sex-ratio/</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[From ~2015 to 2020, the Republic of Nauru seems to have had the world’s lowest at-birth sex ratio at ~0.84, one of two countries with more girls than boys.]]></summary></entry><entry><title type="html">Basketball</title><link href="http://localhost:4000/blog/2022/04/22/basketball.html" rel="alternate" type="text/html" title="Basketball" /><published>2022-04-22T00:00:00-04:00</published><updated>2022-04-22T00:00:00-04:00</updated><id>http://localhost:4000/blog/2022/04/22/basketball</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/22/basketball.html"><![CDATA[<p>https://www.coursehero.com/lit/Moneyball/quotes/
+https://www.goodreads.com/work/quotes/416305-moneyball-the-art-of-winning-an-unfair-game?page=2</p>
+
+<p>“The sheer quantity of brain power that hurled itself voluntarily and quixotically into the search for new baseball knowledge was either exhilarating or depressing, depending on how you felt about baseball. The same intellectual resources might have cured the common cold, or put a man on Pluto.”</p>
+
+<p>“One absolutely cannot tell, by watching, the difference between a .300 hitter and a .275 hitter. The difference is one hit every two weeks.”</p>
+
+<p>“Baseball is a soap opera that lends itself to probabilistic thinking. [Dick Cramer]”</p>
+
+<p>“Anti-intellectual resentment is common in all of American life and it has many diverse expressions. Refusing to draft college players might have been one of them.</p>
+
+<p>“What baseball managers did do, on occasion, beginning in the early 1980s, was hire some guy who knew how to switch on the computer. But they did this less with honest curiosity than in the spirit of a beleaguered visitor to Morocco hiring a tour guide: pay off one so that the seventy-five others will stop trying to trade you their camels for your wife. Which one you pay off is largely irrelevant.”</p>
+
+<p>“For a lot of the players it was their first exposure to the Southern female - the most flagrant cheater in the mutual disarmament pact known as feminism. Lipstick! Hairdos! Submissiveness!”</p>
+
+<p>“The author refers to a player’s affected nonchalance and comments he is, “too young to realize you are what you pretend to be.”</p>]]></content><author><name></name></author><summary type="html"><![CDATA[https://www.coursehero.com/lit/Moneyball/quotes/ https://www.goodreads.com/work/quotes/416305-moneyball-the-art-of-winning-an-unfair-game?page=2]]></summary></entry><entry><title type="html">Superbowl</title><link href="http://localhost:4000/blog/potw/2022/02/13/superbowl.html" rel="alternate" type="text/html" title="Superbowl" /><published>2022-02-13T00:00:00-05:00</published><updated>2022-02-13T00:00:00-05:00</updated><id>http://localhost:4000/blog/potw/2022/02/13/superbowl</id><content type="html" xml:base="http://localhost:4000/blog/potw/2022/02/13/superbowl.html"><![CDATA[]]></content><author><name></name></author><category term="potw" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Long Weekend</title><link href="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html" rel="alternate" type="text/html" title="Long Weekend" /><published>2022-02-08T19:50:32-05:00</published><updated>2022-02-08T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/news/2022/02/08/Long-Weekend.html"><![CDATA[<p>I know that it’s Tuesday, which might not look like part of the weekend. However, this weekend was a long weekend and I had Monday and Tuesday off, so I think this counts as being part of the weekend.</p>
 
 <hr />
 <p>I’ve been trying to put together a reference document, tentatively named “Practical Convex Optimization,” that can act as a bit of prologue and/or reference document for work I’ve done in optimization theory. This has turned out to be a far larger endeavor than I expected, but here’s a draft: 
@@ -348,136 +384,4 @@ without massive changes in measured populations due to something like, say, a pa
 
 <p>I’m pretty excited though, if I can stay as efficient as I was in the week before the ICML deadline, I should be able to handle everything. Contestwise, I skipped USACO this weekend because I just didn’t have enough time, and AIME is terrifyingly only two weeks away.</p>
 
-<p>Remarkably, this post only took 1 hour, and I really should get back to homework.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html"><![CDATA[I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.]]></summary></entry><entry><title type="html">The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)</title><link href="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html" rel="alternate" type="text/html" title="The Mathematical Power of Self-Consistent Measurements (Global Combinatorics)" /><published>2022-01-23T19:50:32-05:00</published><updated>2022-01-23T19:50:32-05:00</updated><id>http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update,/essay/2022/01/23/Double-Counting.html"><![CDATA[<blockquote>
-  <p>sabbe saṅkhārā aniccā 
-(All conditioned things are impermanent)
-- Buddha</p>
-</blockquote>
-
-<p>One of the most beautiful parts of mathematics is that once you construct an object, it is truly permanent, and self-consistent to measurement. This property of mathematics is taken advantage of by a mathematically technique called “considering global values.” [1] This post will outline the basic mathematical techniques, and then pivot to interesting non-mathematical application where the technique is still true up to approximation.</p>
-
-<h1 id="part-1">Part 1</h1>
-
-<p>This general trick is referred to in a number of ways:</p>
-<ul>
-  <li>Counting in two ways</li>
-  <li>Global ideas</li>
-</ul>
-
-<p>And the following mathematical ideas are special cases of the more general principle:</p>
-<ul>
-  <li>Swapping the order of summation</li>
-  <li>Linearity of Expectation</li>
-</ul>
-
-<h2 id="canonical-math-example-1-of-2-pecking-decks">Canonical Math Example (1 of 2): Pecking Decks</h2>
-<p>I’d like to start with the example that first exposed me to this idea</p>
-<blockquote>
-  <p>In a barn, 100 chicks sit peacefully in a circle. Suddenly, each chick randomly pecks the chick immediately to its left or right. What is the expected number of unpecked chicks? (<a href="https://www.nytimes.com/2017/05/15/us/math-counts-national-competition.html">MATHCOUNTS 2017</a>)</p>
-</blockquote>
-
-<p>The direct solution is to apply the “Linearity of Expectation.” The argument there would be that the probability that any individual chick is pecked is 1/4, so each pick is expected to contribute “1/4” to the number of unpecked chicks. This is true for all 100 chicks, for a total expectation of 25 unpecked chicks.</p>
-
-<p>But there’s something deeper happening here. There is a very deep and fundamental idea which is that objects exist and have permanence.</p>
-
-<p>For this problem, consider all $2^100$ different multiverses, where each chick pecks left or right. Then, consider the number of (unpecked chick, multiverse) pairs. Let $X$ be the number of such pairs.</p>
-
-<p>This is a degenerate case so this first method is weirder than normal. Nevertheless, let $Y$ be the expected number of unpecked chicks in some universe. Then, $2^{100}\cdot Y$ should be the total number of (unpecked chicks, multiverse) pairs.</p>
-
-<p>So now let’s count it in a second way. Consider a specific chick A. How many multiverses are there in which chick A is unpecked? It ends up being $2^{98}$. The two neighboring chicks must peck away, and the other 98 can peck either way. Thus, for chick A, there are $2^{98}$ multiverses for which the (unpicked chick where that chick is A, multiverse) pair exists. But the unpicked chick can be any of the 100 chicks, and each of them are a chosen chick in \(2^{98}\) multiverses, so $X= 100 \cdot 2^{98}$.</p>
-
-<p>Put together,
-\(2^{100}\cdot Y = X = 100 \cdot 2^{98}\)
-Which gives \(Y = 100\cdot \frac{2^{98}}{2^{100}} = 100\cdot \frac14=25\).</p>
-
-<h2 id="canonical-math-example-2-of-2-handshake-lemma">Canonical Math Example (2 of 2): Handshake Lemma</h2>
-<p>Another canonical example is the following, given first abstractly and then more concretely, with the real life example making the proof seemingly obvious.</p>
-<blockquote>
-  <p>Abstract: Let G be a simple graph (a set of vertices where each pair of vertices either has an edge between or not). Then the sum of all the degrees of vertices (number of edges into the vertex) of G is twice the number of edges.</p>
-</blockquote>
-
-<p>But when you phrase it like this</p>
-<blockquote>
-  <p>Handshake: A group of people are at a party. While there, some pairs of people shake hands. Let the degree of a person be the number of hands that person shook. Then, the sum of the degrees of all people is equal two twice the number of handshakes.</p>
-</blockquote>
-
-<p>A lot more obvious in the second one right? Clearly each handshake counts to two people’s degrees.</p>
-
-<p>But the point of using “global” ideas is to measure one well-defined quantity in two ways because every well-defined quantity has a single value. Here, this would be done by counting the number of (V,E) pairs where V is a person and E is a handshake they partook in. If $X$ is the number of such pairs, then
-\(\sum deg(V) = X = 2E\)
-Since each vertex is in deg(V) such pairs, and each edge is in two such pairs.</p>
-
-<h2 id="part-2">Part 2</h2>
-<p>And now for a hard pivot. I don’t have <em>great</em> intuition about why this is the same as global combinatorics, but it feels similar?</p>
-
-<h2 id="lottery-math-is-overcomplicated">Lottery Math is Overcomplicated</h2>
-<p>The way that people usually claim that the lottery is a scam is by multiplying a bunch of numbers to find that the probability of winning. For examples, with a lot of calculations, the probability of winning the Mega Millions is “1 in 302,575,350”, and since the payout is less than 2$ * 302,575,350, you’d lose money on average. This is absurd though, it plays into the lottery’s abuse of human’s inability to intuitively grasp large numbers, and it’s so complicated that Khan Academy used it as a math exercise.</p>
-
-<p>There’s a far simpler way to show that lotteries are a cash grab by the state. Instead of considering cash flow on the consumers end, consider it from the side of the government. (By law, lotteries must be run by the government) Even before taxes, a simple way to see that you cannot make money on it is the following quote:</p>
-
-<p>“For Mega Millions (and Powerball) tickets, 50 percent of the sales goes to the prize pool. The remaining 50 percent is used to pay for the states’ retailer commissions, vendor fees, lottery administration, and the state beneficiaries or good causes of that state,” she told ABC News.</p>
-
-<p>https://abcnews.go.com/US/mega-millions-lottery-lottery-money-states/story?id=58661412
-Thus, on average, you will get back 50% of your ticket price. This is a lot simpler than figuring out the probabilities of each payout, and finding the expected payout that way.</p>
-
-<p>But wait there’s more! When the payout finally happens, these massive sums of money are taxed at the highest interest bracket. The lottery is especially brilliant because it takes money from people who are usually lower income, and thus have untaxable money, and then put that together into one massive pot that can be taxed at the 50% maximum tax rate (federal + state taxes).</p>
-
-<p>Somewhat expectedly, Vox says that</p>
-
-<p>You hear it a lot: The lottery is a tax on people who are bad at math.</p>
-
-<p>https://www.vox.com/identities/2016/1/13/10763268/lottery-poor-prey
-But even the people who are “good at math” and calculate the probabilities are thinking about it in the wrong way. It is far simpler to consider it from the dual questions of “why does the government bother doing this?” and “what’s their profit margin?”</p>
-
-<h2 id="economic-production-and-energy-consumption">Economic Production and Energy Consumption</h2>
-<p>A surprising example of a nonmathematician using these ideas is Li Keqiang, the current Premier of the PRC. The story goes that in order to measure economic growth, he created his own list of indicators to track because he did not trust GDP estimates. The Li Keqiang index tracks railway cargo volume, electricity consumption, and loans disbursed by banks.</p>
-
-<table>
-  <tbody>
-    <tr>
-      <td>This is another example of double counting because instead of calculating GDP as the sum of all economic activities, (calculating sum_{v\in G} deg v in the first example), one can simply record some economic indicators which should go up with economic activity instead. (like counting 2*</td>
-      <td>E</td>
-      <td>).</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Pyramid Schemes
-Another fun double counting example is this scam that went around on instagram awhile ago. I happened across it when I went on instagram for the first time in a week.</p>
-
-<p>From the internet. The ones that the people I follow posted were much flashier.
-I’m looking for people to participate in a huge book exchange pyramid scheme. You can be anywhere in the world. All you have to do is buy your favorite book (just one) and send it to a stranger (I’ll send their details through in a private message).</p>
-
-<p>You’ll receive roughly a maximum of 36 books back to you, to keep (we have sponsors or something). They’ll be favorite books from strangers around the world!</p>
-
-<p>If you’re interested in taking part, please send a message saying “GULLIBLE”</p>
-
-<p>My satirical version which I posted to my story. It got shoutouted/reposted by a Choate meme account 🙂
-This is absurd by double counting. Firstly, this is obviously a pyramid scheme and some people will end up with no books because it’s impossible for everyone to receive more books than they buy.</p>
-
-<p>Formally though, this violates the fact that in a directed graph, the sum of indegrees = number of edges = sum of outdegrees. (indegree is the number of arrows pointing to a graph, corresponding to buying a book for someone, and outdegree is the number of outward pointing arrows, corresponding to getting a book bought for you.)</p>
-
-<p>Fermi Problems
-Finally, this idea works pretty well in Fermi problems. Pretty much all Fermi problems where you don’t follow the most obvious thought process is a form of Double Counting. My favorite Fermi problem/solution pair is an answer to</p>
-
-<p>“ How many hairs are present on your head?”</p>
-
-<p>Instead of directly counting, we consider the balding process. Usually men lose hair and eventually go bald over the period from age 50 to age 80, so a period of 30 years. You don’t hear about balding men losing more hair than young people, and it seems reasonable to lose around 20 hairs a day. This gives</p>
-
-<p>20 hairs/day * 30 years * 365 days/year = 219,000 hairs</p>
-
-<p>The actual answer is ~100,000, which is surprisingly close to the estimate generated by considering balding men.</p>
-
-<p>Conclusion
-There’s a lot of olympiad math ideas which are extremely powerful in math, but also very useful in real life. There are people like Li Keqiang who have a decent informal grasp of ideas like counting in two ways. However, understanding the formal mathematical version makes the usage more conscious and therefore more powerful.</p>
-
-<p>There’s two other ideas that I want to talk about, sharp ness and equality[1]. These are more philosophical, but they are also very powerful.</p>
-
-<p>One thing I need to figure out is whether showing the informal examples first, and then the math, would be more accessible to a non-mathematical reader. I might try doing that in the post about sharpness or equality.</p>
-
-<p>I guess leave a comment about which structure you would prefer?</p>
-
-<p>[1] Unfortunately unaccessible if you’re not in OTIS 🙁 There doesn’t seem to be any good online source on what equality is, so this means that I’ll probably write about equality next.</p>
-
-<h2 id="footnotes">Footnotes</h2>
-<p>[1] A good formal introduction can be found in Chapter 7 of the <a href="https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf">OTIS Excerpts</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="essay" /><summary type="html"><![CDATA[sabbe saṅkhārā aniccā (All conditioned things are impermanent) - Buddha]]></summary></entry></feed>
+<p>Remarkably, this post only took 1 hour, and I really should get back to homework.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update," /><category term="news" /><summary type="html"><![CDATA[I originally planned on writing out a full explanation of the research in the paper that we submitted to ICML last Friday. However, since we uploaded to Arxiv at 10pm on Friday, and the verification process is slower over the weekends, I still don’t have a nice arxiv link to put in the post.]]></summary></entry></feed>
