@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why Empathy Matters: How Newton Actually Came Up With Gravity, and Other Examples of Speculative Mind Reading"
+title:  "Missing Token Prediction isn't just for LLMs. Empathy and My Pet Theory for how Newton Actually Came Up With Gravity"
 date:   2022-01-08 23:50:32 -0400
 categories: jekyll update, essay
 ---
