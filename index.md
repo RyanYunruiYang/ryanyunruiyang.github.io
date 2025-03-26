@@ -7,7 +7,6 @@
 #
 layout: home
 ---
-Last Updated: March 26th, 2025.
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
@@ -26,3 +25,5 @@ Last Updated: March 26th, 2025.
     </p>
   </div>
 </div>
+
+*Last Updated: March 26th, 2025.*
