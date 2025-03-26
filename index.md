@@ -18,12 +18,15 @@ layout: home
       Welcome to my website! I'm Ryan Yang-Liu and I'm a undergraduate at MIT. This website largely serves as an artifact of, and archive for, my past lives.
     </p>
     <p>
-      I'm interested in (1) applied mathematics and theoretical physics, formerly competing in final round USA IMO Team Selection Tests, and (2) computer system building, mostly in optimization theory, ML, distributed systems and networks.
+      I'm interested in applied mathematics and theoretical physics, formerly competing in final round USA IMO Team Selection Tests; as well as computer system building, mostly in optimization theory, ML, distributed systems and networks.
     </p>
     <p>      
-      Beyond that, I adore book stores and libraries -- where I am particularly partial to history, sci-fi, linguistics, and theology ([See: goodreads.com/ryanyang](https://goodreads.com/ryanyang)); book and article recommendations are always appreciated. I start every morning with The Atlantic, [crossword fencing](https://downforaacross.com/fencing), and love jiu-jitsu, twitter, Buddhist and Islamic theology, baseball sabermetrics, skateboarding, ancient Greek and Roman history, venturing-beyond-Jane-Street-T-shirts-into-real-fashion, and Home Depot.
+       Beyond that, I adore book stores and libraries -- where I am particularly partial to history, sci-fi, linguistics, and theology (see: <a href="https://goodreads.com/ryanyang">goodreads.com/ryanyang</a>); book and article recommendations are always appreciated. Other things I'm a fan of include The Atlantic, aeon.co, <a href="https://downforaacross.com/fencing">crossword fencing</a>, jiu-jitsu, twitter, Buddhist and Islamic theology, baseball sabermetrics, skateboarding, ancient Greek and Roman history, venturing-beyond-Jane-Street-T-shirts-into-real-fashion, and Home Depot.
     </p>
   </div>
 </div>
+
+
+<br>
 
 *Last Updated: March 26th, 2025.*
