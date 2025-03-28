@@ -3,25 +3,26 @@ layout: page
 title: Scientific Writing
 permalink: /publications/
 ---
-## Publications
-R. Yang, H. Du, A. Wibisono, P. Baker, “Aggregation in the Mirror Space (AIMS): Fast, Accurate Distributed Machine Learning in Military Settings,” to appear in the Proceedings of IEEE MILCOM, November 28 – December 1, 2022, Maryland, USA.
-- [https://ieeexplore.ieee.org/document/10017636](https://ieeexplore.ieee.org/document/10017636)
+## Popular Writing
+January 2025: https://en.wikipedia.org/wiki/Willow_processor
 
-J. Dunefsky, M. Soleimani, R. Yang, et. al., “Transport Control Networking: Optimizing Efficiency and Control of Data Transport for Data-Intensive Networks,” in the Proceedings of ACM NAI@SIGCOMM’22, August 2022, Amsterdam, Netherlands.
-- [https://dl.acm.org/doi/pdf/10.1145/3538401.3548550](https://dl.acm.org/doi/pdf/10.1145/3538401.3548550)
+## Publications
+H. Du, Y. Chen,R. Yang, et al., “HyperPrism: An Adaptive Non-linear Aggregation Frameworkfor Distributed
+Machine Learning over Non-IID Data and Time-varying Communication Links,” in the Proceedings
+of NeurIPS 2024, December 9th, 2024, Vancouver, Canada, NeurIPS Press.
+
+R. Yang, H. Du, A. Wibisono, P. Baker, “Aggregation in the Mirror Space (AIMS): Fast, Accurate Distributed Machine Learning in Military Settings,” in the Proceedings of IEEE MILCOM, November 28 – December 1, 2022, Maryland, USA. [(PDF)](https://ieeexplore.ieee.org/document/10017636)
+
+J. Dunefsky, M. Soleimani, R. Yang, et. al., “Transport Control Networking: Optimizing Efficiency and Control of Data Transport for Data-Intensive Networks,” in the Proceedings of ACM NAI@SIGCOMM’22, August 2022, Amsterdam, Netherlands. [(PDF)](https://dl.acm.org/doi/pdf/10.1145/3538401.3548550)
 
 ## Projects
-Title: Update Scheduling on Polymatrix Games
-Authors: Ryan Yang, Prof. Andre Wibisono
-- [https://www.dropbox.com/s/mp07z1gvdir6leg/Update_Scheduling_on_Polymatrix_Games.pdf?dl=0](https://www.dropbox.com/s/mp07z1gvdir6leg/Update_Scheduling_on_Polymatrix_Games.pdf?dl=0)
+Update Scheduling on Polymatrix Games. Ryan Yang, Prof. Andre Wibisono.
+[(PDF)](https://www.dropbox.com/s/mp07z1gvdir6leg/Update_Scheduling_on_Polymatrix_Games.pdf?dl=0)
 
-Title: Analyzing Competitive Gerrymandering with Combinatorial Game Theory
-Authors: Ryan Yang, Ryan Kim (Seminars in Modern Mathematics Final Project)
-- [https://www.dropbox.com/s/wicelk3gtrgw407/CompetitiveGerrymandering%20%285%29.pdf?dl=0](https://www.dropbox.com/s/wicelk3gtrgw407/CompetitiveGerrymandering%20%285%29.pdf?dl=0)
+Analyzing Competitive Gerrymandering with Combinatorial Game Theory. Ryan Yang, Ryan Kim (Seminars in Modern Mathematics Final Project). [(PDF)](https://www.dropbox.com/s/wicelk3gtrgw407/CompetitiveGerrymandering%20%285%29.pdf?dl=0)
 
 TItle: A Review of Accelerated First-Order Methods in Distributed Convex Optimization
-Author: Ryan Yang (Choate Science Research Program Final Project)
-- [https://www.dropbox.com/s/2q7yz095y0jm7iv/SRP_Review_Article%20%285%29.pdf?dl=0](https://www.dropbox.com/s/2q7yz095y0jm7iv/SRP_Review_Article%20%285%29.pdf?dl=0)
+Author: Ryan Yang (Choate Science Research Program Final Project). [(PDF)](https://www.dropbox.com/s/2q7yz095y0jm7iv/SRP_Review_Article%20%285%29.pdf?dl=0)
 
 ## Problem Writing and Handout Creation
 Problem Writing:
